@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mealprep:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="mealprep.war">
+      <element id="artifact" artifact-name="mealprep:war exploded" />
+    </root>
+  </artifact>
+</component>
