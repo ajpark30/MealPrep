@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="477481c9-9ecd-4f0f-aa8c-67836071a9be" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/TimeLog.md" afterPath="$PROJECT_DIR$/TimeLog.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,48 +15,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-              <folding />
+      <file leaf-file-name="TimeLog.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TimeLog.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LogInScreens.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/LogInScreens.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePageMenuTabHighlight.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/HomePageMenuTabHighlight.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MonthlyCalendar.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/MonthlyCalendar.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeeklyCalendar.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/WeeklyCalendar.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePageMenuTabHighlight2.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/HomePageMenuTabHighlight2.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -74,10 +42,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/logHours.txt" />
-        <option value="$PROJECT_DIR$/TimeLog.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/DesignDocuments/userStories.md" />
         <option value="$PROJECT_DIR$/ProjectPlan.md" />
+        <option value="$PROJECT_DIR$/TimeLog.md" />
       </list>
     </option>
   </component>
@@ -127,12 +95,6 @@
               <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
               <item name="mealprep" type="462c0819:PsiDirectoryNode" />
               <item name="DesignDocuments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mealprep" type="462c0819:PsiDirectoryNode" />
-              <item name="DesignDocuments" type="462c0819:PsiDirectoryNode" />
-              <item name="wireframes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -267,12 +229,12 @@
       <option name="presentableId" value="Default" />
       <updated>1550353611785</updated>
       <workItem from="1550353613374" duration="6091000" />
-      <workItem from="1550375271161" duration="320000" />
+      <workItem from="1550375271161" duration="557000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6411000" />
+    <option name="totallyTimeSpent" value="6648000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1091" height="800" extended-state="0" />
@@ -393,16 +355,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logHours.txt" />
-    <entry file="file://$PROJECT_DIR$/TimeLog.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DesignDocuments/userStories.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -444,11 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/HomePageMenuTabHighlight2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/LogInScreens.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -467,6 +414,22 @@
     <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/WeeklyCalendar.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/HomePageMenuTabHighlight2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TimeLog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="61" lean-forward="false" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
       </provider>
     </entry>
   </component>
