@@ -9,7 +9,7 @@
 - [ ] List technologies, versions and how they will be used
 - [ ] Weekly journal entry
 - [ ] Write project plan
-- [ ] Document application flow in text and pictures - I'll use wireframes that have clickable links for the screen design. Use Balsamiq? 
+- [ ] Document application flow in text and pictures - Using Balsamiq for wireframes? 
 - [ ] Triple-check for Checkpoint 1: Problem statement, project plan, screen design and time log pushed to GitHub. 
 
 ### Week 4
