@@ -16,6 +16,10 @@
 |As a user I want to |	Use the app to check off my grocery list while at the store |
 |As a user I want to | 	Have my grocery list items increase with family size. |
 |As a user I want to | 	Customize meal plan. Remove all breakfasts for week, or add extra snack options. |
+|As a user I want to | 	Be able to share the same list with my partner and remove items at the same time.|
+|As a user I want to | 	Be able to see my spending monthly spending habits.|
+|As a user I want to | 	Choose which member of my family will cook.|
+|As a user I want to | 	Be able to add a member to my meal plan.|
 |As an Admin I want to | Be able to remove any data from the database. |
 |As an Admin I want to | Be able to remove user, update user information. |
 

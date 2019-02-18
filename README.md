@@ -23,7 +23,7 @@ Meals are then placed in a weekly calendar and assigned to a person to cook.
 * Web Services consumed using Java
   * TBD
 * CSS 
-  * Bootstrap potentially angular
+  * Bootstrap
 * Data Validation
   * Bootstrap Validator for front end
   * Explore Hibernate's validation
@@ -34,11 +34,12 @@ Meals are then placed in a weekly calendar and assigned to a person to cook.
 * Independent Research Topic/s
   * Continuous Integration tools in AWS
   * Materialize
-  * Google calander API
+  * Google calendar API
   * Apple calendar API
-  * Angular
+  * Optical Character Recognition
+  * Figure out how to read files of purchased amazon recipe books.
   * Hibernate Validation
-  * Hibernat Search
+  * Hibernate Search
 * Project Lombok to eliminate boilerplate code like getters/setters/equals
 * Unit Testing
   * JUnit tests to achieve 80%+ code coverage 
