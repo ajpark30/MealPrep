@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="477481c9-9ecd-4f0f-aa8c-67836071a9be" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/DesignDocuments/userStories.md" afterPath="$PROJECT_DIR$/DesignDocuments/userStories.md" />
-      <change beforePath="$PROJECT_DIR$/ProjectPlan.md" afterPath="$PROJECT_DIR$/ProjectPlan.md" />
-      <change beforePath="$PROJECT_DIR$/TimeLog.md" afterPath="$PROJECT_DIR$/TimeLog.md" />
+      <change beforePath="$PROJECT_DIR$/DesignDocuments/wireframes/HomePageMenuTabHighlight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DesignDocuments/wireframes/HomePageMenuTabHighlight2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DesignDocuments/wireframes/LogInScreens.png" afterPath="$PROJECT_DIR$/DesignDocuments/wireframes/HomePage.png" />
+      <change beforePath="$PROJECT_DIR$/DesignDocuments/wireframes/MonthlyCalendar.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/DesignDocuments/wireframes/WeeklyCalendar.png" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="userStories.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="userStories.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/DesignDocuments/userStories.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-19">
                 <caret line="12" column="116" lean-forward="false" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="116" />
                 <folding />
               </first_editor>
@@ -31,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectPlan.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProjectPlan.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ProjectPlan.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="918">
+              <first_editor relative-caret-position="793">
                 <caret line="80" column="56" lean-forward="false" selection-start-line="80" selection-start-column="56" selection-end-line="80" selection-end-column="56" />
                 <folding />
               </first_editor>
@@ -97,9 +99,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="150" />
+    <option name="y" value="5" />
+    <option name="width" value="874" />
+    <option name="height" value="762" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -129,6 +133,17 @@
             <path>
               <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
               <item name="mealprep" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mealprep" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignDocuments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mealprep" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignDocuments" type="462c0819:PsiDirectoryNode" />
+              <item name="wireframes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,16 +278,15 @@
       <workItem from="1550451966518" duration="2493000" />
       <workItem from="1550533718661" duration="1104000" />
       <workItem from="1550866808931" duration="136000" />
-      <workItem from="1550870454892" duration="3177000" />
+      <workItem from="1550870454892" duration="4074000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13603000" />
+    <option name="totallyTimeSpent" value="14500000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
-    <editor active="true" />
+    <frame x="150" y="5" width="874" height="762" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -284,10 +298,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3858156" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4077961" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18739903" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27884614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -470,31 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/LogInScreens.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/HomePageMenuTabHighlight.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/MonthlyCalendar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/WeeklyCalendar.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/HomePageMenuTabHighlight2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Journal.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -527,22 +516,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DesignDocuments/userStories.md">
+    <entry file="file://$PROJECT_DIR$/ProjectPlan.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="12" column="116" lean-forward="false" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="116" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="793">
+            <caret line="80" column="56" lean-forward="false" selection-start-line="80" selection-start-column="56" selection-end-line="80" selection-end-column="56" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectPlan.md">
+    <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/HomePageMenuTabHighlight.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/HomePageMenuTabHighlight2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/HomePage.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/MonthlyCalendar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignDocuments/wireframes/WeeklyCalendar.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignDocuments/userStories.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="918">
-            <caret line="80" column="56" lean-forward="false" selection-start-line="80" selection-start-column="56" selection-end-line="80" selection-end-column="56" />
+          <first_editor relative-caret-position="-19">
+            <caret line="12" column="116" lean-forward="false" selection-start-line="12" selection-start-column="116" selection-end-line="12" selection-end-column="116" />
             <folding />
           </first_editor>
           <second_editor />
