@@ -9,7 +9,7 @@
 - [ ] List technologies, versions and how they will be used
 - [ ] Weekly journal entry
 - [ ] Write project plan
-- [ ] Document application flow in text and pictures - Using Balsamiq for wireframes? 
+- [ ] Document application flow in text and pictures - Using Balsamiq for wireframes
 - [ ] Triple-check for Checkpoint 1: Problem statement, project plan, screen design and time log pushed to GitHub. 
 
 ### Week 4
@@ -29,54 +29,57 @@
 
 - [ ] Create the template for all jsps using bootstrap or materialize
 - [ ] Weekly journal entry
-- [ ] Add the role table
-- [ ] Add the role entity
-- [ ] Create the role dao
-- [ ] Create the role dao unit tests
-- [ ] Add a jsp to display user and role
+- [ ] Add the recipe table
+- [ ] Add the recipe entity
+- [ ] Create the recipe dao
+- [ ] Create the recipe dao unit tests
+- [ ] Add a jsp to display user information
 - [ ] Add jsp to add a user
+- [ ] Research AWS Rekognition
 
 ### Week 6
 
 - [ ] Create db on AWS
 - [ ] Deploy to AWS for first time
 - [ ] Weekly journal entry
-- [ ] Create trail table
-- [ ] Add the trail entity (test, dev and prod dbs)
-- [ ] Realize that these daos are repetitive. Refactor into a generic dao!
+- [ ] Create Grocery List tables
+- [ ] Add the Grocery List entity (test, dev and prod dbs)
+- [ ] Add jsp to add a grocery list
 - [ ] Add update and delete functionality in jsp for user and role
-- [ ] Build the trail search jsp
-- [ ] Build the trail add/update/delete jsp
-- [ ] Prepare for Checkpoint 2: Database designed and created, at least one DAO implemented with Hibernate, DAO is unit tested, Log4J is implemented (no System.out.printlns), class design and any other diagrams you plan to use have been created. 
+- [ ] Build the recipe search jsp
+- [ ] Build the recipe add/update/delete jsp
+- [ ] Prepare for Checkpoint 2: Database designed and created, at least one DAO implemented with Hibernate, DAO is unit tested, Log4J is implemented (no System.out.printlns), class design and any other diagrams you plan to use have been created.
+- [ ] Research AWS Rekognition 
 
 
 ### Week 7
 
 - [ ] Weekly journal entry
+- [ ] Add jsp to print grocery list
 - [ ] Set up authentication locally
 - [ ] Set up authentication on AWS
-- [ ] Add the Trail Type and Grooming Tables, populate with data, (test, dev and prod dbs)
-- [ ] Create the Trail Type and Grooming entities
-- [ ] Update Trail and Trail report to use trail type and grooming
-- [ ] Update Trail and Trail report tests to be sure they work with the new relationships
+- [ ] Populate database with data, (test, dev and prod dbs)
 - [ ] Review and incorporate any feedback from Checkpoint 2.
+- [ ] Research AWS Rekognition and start to plan implementation into application
 
 
 ### Week 8
 
 - [ ] Weekly journal entry
-- [ ] Integration with google maps api
-- [ ] Create trail report table (test, dev and prod dbs)
-- [ ] Add the trail report entity
-- [ ] Create the trail report dao
-- [ ] Create the trail report dao unit tests
+- [ ] Integration with google calendar api
+- [ ] Create database tables (test, dev and prod dbs)
+- [ ] Add the Meal Prep entity
+- [ ] Create the Meal prep daos
+- [ ] Create the Meal Prep report dao unit tests
 - [ ] Build the trail report search jsp
 - [ ] Build the trail report crud jsps
 - [ ] Prepare for Checkpoint 3: Deployed to AWS, at least one JSP that displays data from the database is implemented. 
+- [ ] Research AWS Rekognition and start to plan implementation into application
 
 ### Week 9
 - [ ] Weekly journal entry
-- [ ] Integration with weather service and/or snow depth data
+- [ ] Add jsp to be able to schedule cooking times/dates
+- [ ] Integration with recipes service or potentially AWS Rekognition
 - [ ] Review and incorporate feedback from Checkpoint 3.
 - [ ] Carefully review code for standards and best practices - use a code quality tool? 
 
