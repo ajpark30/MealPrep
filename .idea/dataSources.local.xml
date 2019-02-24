@@ -7,9 +7,11 @@
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
-      <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
       <introspection-schemas>*:mealprep</introspection-schemas>
+      <ssl-config>
+        <enabled>true</enabled>
+      </ssl-config>
     </data-source>
   </component>
 </project>

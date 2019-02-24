@@ -29,6 +29,7 @@ public class UserDao {
         List<User> users = session.createQuery(query).getResultList();
 
         session.close();
+        logger.error("users in the dao: " + users);
         return users;
     }
 }

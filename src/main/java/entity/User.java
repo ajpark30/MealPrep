@@ -14,8 +14,8 @@ import javax.persistence.*;
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
-    @GenericGenerator(name = "native", strategy = "native")
+    @Column(name="user_id")
+    @GeneratedValue
     private int userId;
 
     @Column(name = "firstname")
@@ -26,8 +26,6 @@ public class User {
 
     @Column(name = "user_name")
     private String userName;
-
-
 
 
     /**
@@ -127,7 +125,7 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "User ID='" + userId + '\'' +
+                "userId='" + userId + '\'' +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 ", userName='" + userName + '\'' +

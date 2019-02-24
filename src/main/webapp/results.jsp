@@ -14,20 +14,22 @@
 <div class="container-fluid">
 
     <h2>Results for all Users</h2>
-    <c:forEach items="${users}" var="user">
+    <c:forEach items="${User}" var="user">
     <table border = "1" width = "100%">
         <tr>
-            <th>User ID: ${user.userId}</th>
+            <th>User ID: ${users.userId}</th>
         </tr>
         <tr>
-            <td>User Name: ${user.userName}<br />
-                First Name: ${user.firstName} <br />
-                Last Name: ${user.lastName}<br />
+            <td>User Name: ${users.userName}<br />
+                First Name: ${users.firstName} <br />
+                Last Name: ${users.lastName}<br />
             </td>
             <br />
         </tr>
     </table>
     </c:forEach>
+    <p>User Name: ${User.userName}</p>
+    <p>User Name 2: ${userName}</p>
 
 </body>
 </html>
