@@ -1,1 +1,6 @@
-edu/matc/entity/User.class
+persistence/SessionFactoryProvider.class
+controller/SearchUser.class
+persistence/Database.class
+persistence/UserData.class
+entity/User.class
+persistence/UserDao.class
