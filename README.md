@@ -34,6 +34,7 @@ Meals are then placed in a weekly calendar and assigned to a person to cook.
 * Independent Research Topic/s
   * Continuous Integration tools in AWS
   * Materialize
+  * Amazon Rekognition
   * Google calendar API
   * Apple calendar API
   * Optical Character Recognition
