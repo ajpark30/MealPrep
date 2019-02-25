@@ -60,29 +60,41 @@ public class UserDao {
     }
 
     /**
-     * Add new user into the mealprep database
-     * @param firstName
-     * @param lastName
-     * @param userName
-     * @param userPassword
+     * update user
+     * @param user  User to be inserted or updated
      */
-    public Integer addNewUser(String firstName, String lastName, String userName, String userPassword) {
-
+    public void saveOrUpdate(User user) {
         Session session = sessionFactory.openSession();
-        Transaction tx = null;
-        Integer userId = null;
+        Transaction transaction = session.beginTransaction();
+        session.saveOrUpdate(user);
+        transaction.commit();
+        session.close();
+    }
 
-        try {
-            tx = session.beginTransaction();
-            User user = new User(firstName, lastName, userName, userPassword);
-            userId = (Integer) session.save(user);
-            tx.commit();
-        } catch (HibernateException e) {
-            if (tx!=null) tx.rollback();
-            logger.error("HibernateException: " + e);
-        } finally {
-            session.close();
-        }
-        return userId;
+    /**
+     * update user
+     * @param user  User to be inserted or updated
+     * @return id of the inserted user
+     */
+    public int insert(User user) {
+        int id = 0;
+        Session session = sessionFactory.openSession();
+        Transaction transaction = session.beginTransaction();
+        id = (int)session.save(user);
+        transaction.commit();
+        session.close();
+        return id;
+    }
+
+    /**
+     * Delete a user
+     * @param user User to be deleted
+     */
+    public void delete(User user) {
+        Session session = sessionFactory.openSession();
+        Transaction transaction = session.beginTransaction();
+        session.delete(user);
+        transaction.commit();
+        session.close();
     }
 }
