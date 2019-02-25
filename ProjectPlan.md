@@ -15,7 +15,7 @@
 ### Week 4
 - [ ] Complete database design
 - [ ] Create the database and user table
-- [ ] Create the user entity class and annotate for hibernate
+- [ ] Create the user edu.matc.entity class and annotate for hibernate
 - [ ] Create user dao
 - [ ] Create the test database
 - [ ] Create user dao unit tests
@@ -30,7 +30,7 @@
 - [ ] Create the template for all jsps using bootstrap or materialize
 - [ ] Weekly journal entry
 - [ ] Add the recipe table
-- [ ] Add the recipe entity
+- [ ] Add the recipe edu.matc.entity
 - [ ] Create the recipe dao
 - [ ] Create the recipe dao unit tests
 - [ ] Add a jsp to display user information
@@ -43,7 +43,7 @@
 - [ ] Deploy to AWS for first time
 - [ ] Weekly journal entry
 - [ ] Create Grocery List tables
-- [ ] Add the Grocery List entity (test, dev and prod dbs)
+- [ ] Add the Grocery List edu.matc.entity (test, dev and prod dbs)
 - [ ] Add jsp to add a grocery list
 - [ ] Add update and delete functionality in jsp for user and role
 - [ ] Build the recipe search jsp
@@ -68,7 +68,7 @@
 - [ ] Weekly journal entry
 - [ ] Integration with google calendar api
 - [ ] Create database tables (test, dev and prod dbs)
-- [ ] Add the Meal Prep entity
+- [ ] Add the Meal Prep edu.matc.entity
 - [ ] Create the Meal prep daos
 - [ ] Create the Meal Prep report dao unit tests
 - [ ] Build the trail report search jsp

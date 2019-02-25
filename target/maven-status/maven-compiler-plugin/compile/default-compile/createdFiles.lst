@@ -1,6 +1,6 @@
-persistence/SessionFactoryProvider.class
-controller/SearchUser.class
-persistence/Database.class
-persistence/UserData.class
-entity/User.class
-persistence/UserDao.class
+edu/matc/entity/User.class
+edu/matc/persistence/UserDao.class
+edu/matc/controller/SearchUser.class
+edu/matc/persistence/SessionFactoryProvider.class
+edu/matc/persistence/UserData.class
+edu/matc/persistence/Database.class

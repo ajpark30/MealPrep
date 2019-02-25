@@ -40,3 +40,9 @@ Tasks Completed:
 ### Week 4
 
 2/18 - 2/25
+Tasks Completed:
+ * Added log4j, hibernate, and user table to indie project.
+ * Added ability to search for users by last name.
+ 
+ I spent alot of time trying to get jstl to work.  I ran into an interested problem with web.xml not being right and the browser no responding to the tags.
+ I need to spend a little more time reading about hibernate.
