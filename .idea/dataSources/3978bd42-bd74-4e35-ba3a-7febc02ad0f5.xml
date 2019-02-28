@@ -1107,50 +1107,96 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="279" parent="3" name="users">
+    <table id="279" parent="3" name="test_mealprep">
       <Engine>InnoDB</Engine>
     </table>
-    <column id="280" parent="279" name="user_id">
+    <table id="280" parent="3" name="users">
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="281" parent="279" name="user_id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="279" name="user_name">
+    <column id="282" parent="279" name="user_name">
       <Position>2</Position>
       <DataType>varchar(30)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="279" name="user_password">
+    <column id="283" parent="279" name="user_password">
       <Position>3</Position>
       <DataType>varchar(100)|0</DataType>
-      <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="283" parent="279" name="firstname">
+    <column id="284" parent="279" name="firstname">
       <Position>4</Position>
       <DataType>varchar(30)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="284" parent="279" name="lastname">
+    <column id="285" parent="279" name="lastname">
       <Position>5</Position>
       <DataType>varchar(30)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="285" parent="279" name="user_name">
+    <index id="286" parent="279" name="user_name">
       <ColNames>user_name</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="286" parent="279" name="PRIMARY">
+    <key id="287" parent="279" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>user_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="287" parent="279" name="user_name">
+    <key id="288" parent="279" name="user_name">
+      <ColNames>user_name</ColNames>
+      <UnderlyingIndexName>user_name</UnderlyingIndexName>
+    </key>
+    <column id="289" parent="280" name="user_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="290" parent="280" name="user_name">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="291" parent="280" name="user_password">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="292" parent="280" name="firstname">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="293" parent="280" name="lastname">
+      <Position>5</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="294" parent="280" name="user_name">
+      <ColNames>user_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="295" parent="280" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="296" parent="280" name="user_name">
       <ColNames>user_name</ColNames>
       <UnderlyingIndexName>user_name</UnderlyingIndexName>
     </key>
