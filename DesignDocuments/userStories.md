@@ -2,9 +2,9 @@
 
 | User Type  | Deliverable |
 |--------|--------|
-|As a user I want to | 	Make a grocery list. |
+|As a user I want to | 	Make a grocery list based off of recipe selection. |
 |As a user I want to | 	Print out my grocery list. |
-|As a user I want to | 	Save recipes to my profile |
+|As a user I want to | 	Save recipes to my profile, preferably through taking a picture|
 |As a user I want to | 	Save grocery lists to my profile |
 |As a user I want to |	Choose recipes from my saved recipe list. |
 |As a user I want to |	Be able to log in/out. |
