@@ -63,12 +63,13 @@ public class UserDao {
      * update user
      * @param user  User to be inserted or updated
      */
-    public void saveOrUpdate(User user) {
+    public String saveOrUpdate(User user) {
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
         session.saveOrUpdate(user);
         transaction.commit();
         session.close();
+        return user.getUserName();
     }
 
     /**

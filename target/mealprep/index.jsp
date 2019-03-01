@@ -11,9 +11,11 @@
 <html>
 <body>
   <h1>Meal Prep Home Page</h1>
-  <h2><a href="searchUser"/>Go to Search User Page</h2>
-  <h2><a href="addUser"/>Go to Add New User Page</h2>
-  <h2><a href="deleteUser"/>Go to Delete User Page</h2>
+  <br />
+  <br />
+  <h2 id="searchUser"><a href="searchUser.jsp"/>Go to Search User Page</h2>
+  <h2 id="addUser"> <a href="addUser.jsp"/>Go to Add New User Page</h2>
+  <h2 id="deleteUser"><a href="deleteUser.jsp"/>Go to Delete User Page</h2>
 
 </body>
 </html>

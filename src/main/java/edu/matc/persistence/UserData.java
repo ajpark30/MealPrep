@@ -82,9 +82,9 @@ public class UserData {
             }
             database.disconnect();
         } catch (SQLException e) {
-            System.out.println("SearchUser.getAllUsers()...SQL Exception: " + e);
+            System.out.println("SearchUserPage.getAllUsers()...SQL Exception: " + e);
         } catch (Exception e) {
-            System.out.println("SearchUser.getAllUsers()...Exception: " + e);
+            System.out.println("SearchUserPage.getAllUsers()...Exception: " + e);
         }
 
         return users;
