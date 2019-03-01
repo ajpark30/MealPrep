@@ -1,6 +1,8 @@
 edu/matc/entity/User.class
+edu/matc/controller/DeleteUser.class
 edu/matc/persistence/UserDao.class
 edu/matc/controller/SearchUser.class
 edu/matc/persistence/SessionFactoryProvider.class
+edu/matc/controller/AddUser.class
 edu/matc/persistence/UserData.class
 edu/matc/persistence/Database.class

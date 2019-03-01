@@ -13,11 +13,12 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 
 /**
- * A simple servlet to welcome the user.
- * @author pwaite
+ * Add docs here
+ * @author Andrew Park
  */
 
 @WebServlet(
+        name = "SearchUser",
         urlPatterns = {"/searchUser"}
 )
 
@@ -27,15 +28,15 @@ public class SearchUser extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
-        UserDao userDao = new UserDao();
-        if (req.getParameter("submit").equals("search")) {
-            req.setAttribute("userInfo", userDao.getUserByLastName(req.getParameter("searchTerm")));
-        }
-        if (req.getParameter("submit").equals("viewAll")) {
-            req.setAttribute("userInfo", userDao.getAllUsers());
-        }
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+//
+//        UserDao userDao = new UserDao();
+//        if (req.getParameter("submit").equals("search")) {
+//            req.setAttribute("userInfo", userDao.getUserByLastName(req.getParameter("searchTerm")));
+//        }
+//        if (req.getParameter("submit").equals("viewAll")) {
+//            req.setAttribute("userInfo", userDao.getAllUsers());
+//        }
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/searchUser.jsp");
         dispatcher.forward(req, resp);
     }
 }
