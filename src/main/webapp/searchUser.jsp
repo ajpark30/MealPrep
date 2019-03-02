@@ -11,9 +11,9 @@
 <html>
 <head>
     <div class="container col-md-8 col-md-offset-2">
+        <h1>Search User by Last Name</h1>
         <div class="row">
             <div class="well" id="userWell">
-                <h1>User Search</h1>
                 <form class="form-horizontal" action="searchUser">
                     <div class="form-group">
                       <label class="control-label col-sm-5" for="searchTerm">Search User by Last Name</label>
@@ -24,7 +24,20 @@
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-6">
                             <button type="submit" name="submit" value="search" class="btn btn-primary">Search</button>
-                            <button type="submit" name="submit" value="viewAll" class="btn btn-default">View All Users</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container col-md-8 col-md-offset-2">
+        <h1>Search for all Users in Database</h1>
+        <div class="row">
+            <div class="well" id="userWell">
+                <form class="form-horizontal" action="searchUser">
+                    <div class="form-group">
+                        <div class="col-sm-offset-5 col-sm-6">
+                            <button type="submit" name="submit" value="viewAll" class="btn btn-primary">View All Users</button>
                         </div>
                     </div>
                 </form>

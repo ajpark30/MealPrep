@@ -16,7 +16,7 @@
         <div class="container col-md-8 col-md-offset-2">
             <div class="row">
                 <div class="well" id="userWell">
-                    <h2>${addedUserName}</h2>
+                    <h2>${addedUserName.getUserName()} With User Id: ${addedUserName.getUserId()}</h2>
                 </div>
             </div>
         </div>

@@ -1,32 +1,119 @@
-[INFO ] 2019-02-24 20:09:03.140 [http-nio-8080-exec-1] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@1887e988
-[INFO ] 2019-02-24 20:09:03.144 [http-nio-8080-exec-1] UserDao - Found: [User{userId='2', firstName='John', lastName='Wayne', userName='testuser2'}]
-[INFO ] 2019-02-24 20:09:19.649 [http-nio-8080-exec-2] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@471c59ed
-[INFO ] 2019-02-24 20:09:19.650 [http-nio-8080-exec-2] UserDao - Found: [User{userId='1', firstName='Tester', lastName='McTester', userName='testuser'}, User{userId='2', firstName='John', lastName='Wayne', userName='testuser2'}, User{userId='3', firstName='Wyatt', lastName='Earp', userName='testuser3'}, User{userId='4', firstName='Doc', lastName='Holliday', userName='testuser4'}]
-[INFO ] 2019-02-24 21:21:15.693 [http-nio-8080-exec-2] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@70bdbeff
-[INFO ] 2019-02-24 21:21:15.698 [http-nio-8080-exec-2] UserDao - Found: [User{userId='1', firstName='Tester', lastName='McTester', userName='testuser', userPassword='test'}, User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}, User{userId='3', firstName='Wyatt', lastName='Earp', userName='testuser3', userPassword='test'}, User{userId='4', firstName='Doc', lastName='Holliday', userName='testuser4', userPassword='test'}]
-[INFO ] 2019-02-25 12:11:20.992 [http-nio-8080-exec-2] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@2cb6c28
-[INFO ] 2019-02-25 12:11:20.998 [http-nio-8080-exec-2] UserDao - Found: [User{userId='1', firstName='Tester', lastName='McTester', userName='testuser', userPassword='test'}, User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}, User{userId='3', firstName='Wyatt', lastName='Earp', userName='testuser3', userPassword='test'}, User{userId='4', firstName='Doc', lastName='Holliday', userName='testuser4', userPassword='test'}]
-[INFO ] 2019-02-27 19:41:17.490 [http-nio-8080-exec-4] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@102e9018
-[INFO ] 2019-02-27 19:41:17.494 [http-nio-8080-exec-4] UserDao - Found: [User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}]
-[INFO ] 2019-02-27 19:41:23.635 [http-nio-8080-exec-6] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@13575cd6
-[INFO ] 2019-02-27 19:41:23.636 [http-nio-8080-exec-6] UserDao - Found: [User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}, User{userId='3', firstName='Wyatt', lastName='Earp', userName='testuser3', userPassword='test'}, User{userId='4', firstName='Doc', lastName='Holliday', userName='testuser4', userPassword='test'}]
-[INFO ] 2019-02-27 19:41:40.017 [http-nio-8080-exec-7] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@787ac559
-[INFO ] 2019-02-27 19:41:40.018 [http-nio-8080-exec-7] UserDao - Found: []
-[INFO ] 2019-02-27 19:41:45.698 [http-nio-8080-exec-8] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@909aa1b
-[INFO ] 2019-02-27 19:41:45.699 [http-nio-8080-exec-8] UserDao - Found: [User{userId='1', firstName='Tester', lastName='McTester', userName='testuser', userPassword='test'}, User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}, User{userId='3', firstName='Wyatt', lastName='Earp', userName='testuser3', userPassword='test'}, User{userId='4', firstName='Doc', lastName='Holliday', userName='testuser4', userPassword='test'}]
-[INFO ] 2019-03-01 17:16:36.369 [http-nio-8080-exec-1] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@63160cf1
-[INFO ] 2019-03-01 17:16:36.372 [http-nio-8080-exec-1] UserDao - Found: [User{userId='1', firstName='Tester', lastName='McTester', userName='testuser', userPassword='test'}, User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}, User{userId='3', firstName='Wyatt', lastName='Earp', userName='testuser3', userPassword='test'}, User{userId='4', firstName='Doc', lastName='Holliday', userName='testuser4', userPassword='test'}, User{userId='6', firstName='Dirty', lastName='Harry', userName='testuser5', userPassword='Test'}, User{userId='7', firstName='Virgil', lastName='Earp', userName='testuser6', userPassword='Test'}]
-[INFO ] 2019-03-01 17:16:50.029 [http-nio-8080-exec-2] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@5eb0015f
-[INFO ] 2019-03-01 17:16:50.030 [http-nio-8080-exec-2] UserDao - Found: [User{userId='1', firstName='Tester', lastName='McTester', userName='testuser', userPassword='test'}, User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}, User{userId='3', firstName='Wyatt', lastName='Earp', userName='testuser3', userPassword='test'}, User{userId='4', firstName='Doc', lastName='Holliday', userName='testuser4', userPassword='test'}, User{userId='6', firstName='Dirty', lastName='Harry', userName='testuser5', userPassword='Test'}, User{userId='7', firstName='Virgil', lastName='Earp', userName='testuser6', userPassword='Test'}]
-[INFO ] 2019-03-01 17:16:53.823 [http-nio-8080-exec-5] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@2801200d
-[INFO ] 2019-03-01 17:16:53.823 [http-nio-8080-exec-5] UserDao - Found: [User{userId='1', firstName='Tester', lastName='McTester', userName='testuser', userPassword='test'}, User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}, User{userId='3', firstName='Wyatt', lastName='Earp', userName='testuser3', userPassword='test'}, User{userId='4', firstName='Doc', lastName='Holliday', userName='testuser4', userPassword='test'}, User{userId='6', firstName='Dirty', lastName='Harry', userName='testuser5', userPassword='Test'}, User{userId='7', firstName='Virgil', lastName='Earp', userName='testuser6', userPassword='Test'}]
-[INFO ] 2019-03-01 17:16:57.026 [http-nio-8080-exec-7] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@28d6c9ef
-[INFO ] 2019-03-01 17:16:57.026 [http-nio-8080-exec-7] UserDao - Found: [User{userId='1', firstName='Tester', lastName='McTester', userName='testuser', userPassword='test'}, User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}, User{userId='3', firstName='Wyatt', lastName='Earp', userName='testuser3', userPassword='test'}, User{userId='4', firstName='Doc', lastName='Holliday', userName='testuser4', userPassword='test'}, User{userId='6', firstName='Dirty', lastName='Harry', userName='testuser5', userPassword='Test'}, User{userId='7', firstName='Virgil', lastName='Earp', userName='testuser6', userPassword='Test'}]
-[INFO ] 2019-03-01 17:17:02.568 [http-nio-8080-exec-8] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@1931ef76
-[INFO ] 2019-03-01 17:17:02.568 [http-nio-8080-exec-8] UserDao - Found: [User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}]
-[INFO ] 2019-03-01 17:17:20.153 [http-nio-8080-exec-1] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@6f31da08
-[INFO ] 2019-03-01 17:17:20.154 [http-nio-8080-exec-1] UserDao - Found: [User{userId='1', firstName='Tester', lastName='McTester', userName='testuser', userPassword='test'}, User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}, User{userId='3', firstName='Wyatt', lastName='Earp', userName='testuser3', userPassword='test'}, User{userId='4', firstName='Doc', lastName='Holliday', userName='testuser4', userPassword='test'}, User{userId='6', firstName='Dirty', lastName='Harry', userName='testuser5', userPassword='Test'}, User{userId='7', firstName='Virgil', lastName='Earp', userName='testuser6', userPassword='Test'}]
-[INFO ] 2019-03-01 17:18:47.304 [http-nio-8080-exec-3] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@317ad1d2
-[INFO ] 2019-03-01 17:18:47.307 [http-nio-8080-exec-3] UserDao - Found: [User{userId='1', firstName='Tester', lastName='McTester', userName='testuser', userPassword='test'}, User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}, User{userId='3', firstName='Wyatt', lastName='Earp', userName='testuser3', userPassword='test'}, User{userId='4', firstName='Doc', lastName='Holliday', userName='testuser4', userPassword='test'}, User{userId='6', firstName='Dirty', lastName='Harry', userName='testuser5', userPassword='Test'}, User{userId='7', firstName='Virgil', lastName='Earp', userName='testuser6', userPassword='Test'}]
-[INFO ] 2019-03-01 17:21:13.795 [http-nio-8080-exec-10] UserDao - Querying: org.hibernate.query.criteria.internal.CriteriaQueryImpl@2645d244
-[INFO ] 2019-03-01 17:21:13.798 [http-nio-8080-exec-10] UserDao - Found: [User{userId='1', firstName='Tester', lastName='McTester', userName='testuser', userPassword='test'}, User{userId='2', firstName='John', lastName='Wayne', userName='testuser2', userPassword='test'}, User{userId='3', firstName='Wyatt', lastName='Earp', userName='testuser3', userPassword='test'}, User{userId='4', firstName='Doc', lastName='Holliday', userName='testuser4', userPassword='test'}, User{userId='6', firstName='Dirty', lastName='Harry', userName='testuser5', userPassword='Test'}, User{userId='7', firstName='Virgil', lastName='Earp', userName='testuser6', userPassword='Test'}]
+[INFO ] 2019-03-02 15:37:39.676 [http-nio-8080-exec-4] UserDao - **********Querying all Users.
+[INFO ] 2019-03-02 15:37:40.310 [http-nio-8080-exec-4] UserDao - **********Query Found Users: [User{userId='8', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='9', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='10', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='11', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, User{userId='12', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='13', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, User{userId='14', firstName='Thor', lastName='Odinson', userName='Thor33', userPassword='test'}, User{userId='15', firstName='Iron', lastName='Man', userName='Iman33', userPassword='test'}, User{userId='16', firstName='Star', lastName='Lord', userName='LordOfStars', userPassword='test'}]
+[INFO ] 2019-03-02 15:43:49.186 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-02 15:43:49.517 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-02 15:43:49.520 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-02 15:43:49.526 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-02 15:43:49.527 [main] UserDao - **********Attempting to delete user from database: Tester4 with ID: 4
+[INFO ] 2019-03-02 15:43:49.659 [main] UserDao - **********Successfully deleted user: Tester4 with ID: 4
+[INFO ] 2019-03-02 15:43:49.660 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-02 15:43:49.666 [main] UserDao - **********Query Found ID : 4
+[ERROR] 2019-03-02 15:43:49.724 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 15:43:49.725 [main] UserDao - **********Querying all Users.
+[INFO ] 2019-03-02 15:43:50.006 [main] UserDao - **********Query Found Users: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-02 15:43:50.038 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 15:43:50.038 [main] UserDao - **********Querying User by ID: 3
+[INFO ] 2019-03-02 15:43:50.050 [main] UserDao - **********Query Found ID : 3
+[ERROR] 2019-03-02 15:43:50.086 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 15:43:50.086 [main] UserDao - **********Querying User by Last Name: hulk
+[INFO ] 2019-03-02 15:43:50.122 [main] UserDao - **********Querying Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-02 15:43:50.122 [main] UserDao - **********Querying User by Last Name: ma
+[INFO ] 2019-03-02 15:43:50.130 [main] UserDao - **********Querying Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-02 15:43:50.150 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 15:43:50.151 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-02 15:43:50.199 [main] UserDao - **********User inserted: Tester7 with user ID: 33
+[INFO ] 2019-03-02 15:43:50.199 [main] UserDao - **********Querying User by ID: 33
+[INFO ] 2019-03-02 15:43:50.208 [main] UserDao - **********Query Found ID : 33
+[INFO ] 2019-03-02 15:56:01.061 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-02 15:56:01.374 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-02 15:56:01.378 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-02 15:56:01.386 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-02 15:56:01.387 [main] UserDao - **********Attempting to delete user from database: Tester4 with ID: 4
+[INFO ] 2019-03-02 15:56:01.475 [main] UserDao - **********Successfully deleted user: Tester4 with ID: 4
+[INFO ] 2019-03-02 15:56:01.476 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-02 15:56:01.482 [main] UserDao - **********Query Found ID : 4
+[ERROR] 2019-03-02 15:56:01.540 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 15:56:01.541 [main] UserDao - **********Querying all Users.
+[INFO ] 2019-03-02 15:56:01.820 [main] UserDao - **********Query Found Users: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-02 15:56:01.856 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 15:56:01.857 [main] UserDao - **********Querying User by ID: 3
+[INFO ] 2019-03-02 15:56:01.866 [main] UserDao - **********Query Found ID : 3
+[ERROR] 2019-03-02 15:56:01.891 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 15:56:01.891 [main] UserDao - **********Querying User by Last Name: hulk
+[INFO ] 2019-03-02 15:56:01.941 [main] UserDao - **********Querying Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-02 15:56:01.941 [main] UserDao - **********Querying User by Last Name: ma
+[INFO ] 2019-03-02 15:56:01.949 [main] UserDao - **********Querying Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-02 15:56:01.973 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 15:56:01.974 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-02 15:56:02.006 [main] UserDao - **********User inserted: Tester7 with user ID: 34
+[INFO ] 2019-03-02 15:56:02.007 [main] UserDao - **********Querying User by ID: 34
+[INFO ] 2019-03-02 15:56:02.012 [main] UserDao - **********Query Found ID : 34
+[INFO ] 2019-03-02 15:57:11.334 [http-nio-8080-exec-2] UserDao - **********Querying User by ID: 12
+[INFO ] 2019-03-02 15:57:11.628 [http-nio-8080-exec-2] UserDao - **********Query Found ID : 12
+[INFO ] 2019-03-02 15:57:11.633 [http-nio-8080-exec-2] DeleteUserPage - User ID requested to delete: User{userId='12', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
+[INFO ] 2019-03-02 15:57:11.633 [http-nio-8080-exec-2] UserDao - **********Querying User by ID: 12
+[INFO ] 2019-03-02 15:57:11.638 [http-nio-8080-exec-2] UserDao - **********Query Found ID : 12
+[INFO ] 2019-03-02 15:57:11.638 [http-nio-8080-exec-2] UserDao - **********Attempting to delete user from database: Tester5 with ID: 12
+[INFO ] 2019-03-02 15:57:11.787 [http-nio-8080-exec-2] UserDao - **********Successfully deleted user: Tester5 with ID: 12
+[INFO ] 2019-03-02 16:00:21.750 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-02 16:00:22.085 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-02 16:00:22.088 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-02 16:00:22.094 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-02 16:00:22.094 [main] UserDao - **********Attempting to delete user from database: Tester4 with ID: 4
+[INFO ] 2019-03-02 16:00:22.188 [main] UserDao - **********Successfully deleted user: Tester4 with ID: 4
+[INFO ] 2019-03-02 16:00:22.188 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-02 16:00:22.193 [main] UserDao - **********Query Found ID : 4
+[ERROR] 2019-03-02 16:00:22.229 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 16:00:22.230 [main] UserDao - **********Querying all Users.
+[INFO ] 2019-03-02 16:00:22.521 [main] UserDao - **********Query Found Users: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-02 16:00:22.551 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 16:00:22.552 [main] UserDao - **********Querying User by ID: 3
+[INFO ] 2019-03-02 16:00:22.560 [main] UserDao - **********Query Found ID : 3
+[ERROR] 2019-03-02 16:00:22.589 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 16:00:22.589 [main] UserDao - **********Querying User by Last Name: hulk
+[INFO ] 2019-03-02 16:00:22.642 [main] UserDao - **********Querying Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-02 16:00:22.643 [main] UserDao - **********Querying User by Last Name: ma
+[INFO ] 2019-03-02 16:00:22.652 [main] UserDao - **********Querying Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-02 16:00:22.672 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 16:00:22.672 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-02 16:00:22.750 [main] UserDao - **********User inserted: Tester7 with user ID: 35
+[INFO ] 2019-03-02 16:00:22.750 [main] UserDao - **********Querying User by ID: 35
+[INFO ] 2019-03-02 16:00:22.758 [main] UserDao - **********Query Found ID : 35
+[INFO ] 2019-03-02 16:01:02.808 [http-nio-8080-exec-1] AddUserPage - User requested to add: User{userId='0', firstName='Ant', lastName='Man', userName='antman33', userPassword='test'}
+[INFO ] 2019-03-02 16:01:02.810 [http-nio-8080-exec-1] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Ant', lastName='Man', userName='antman33', userPassword='test'}
+[INFO ] 2019-03-02 16:01:03.291 [http-nio-8080-exec-1] UserDao - **********User inserted: antman33 with user ID: 17
+[INFO ] 2019-03-02 16:01:11.712 [http-nio-8080-exec-3] UserDao - **********Querying all Users.
+[INFO ] 2019-03-02 16:01:12.143 [http-nio-8080-exec-3] UserDao - **********Query Found Users: [User{userId='8', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='9', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='10', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='11', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, User{userId='13', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, User{userId='14', firstName='Thor', lastName='Odinson', userName='Thor33', userPassword='test'}, User{userId='15', firstName='Iron', lastName='Man', userName='Iman33', userPassword='test'}, User{userId='16', firstName='Star', lastName='Lord', userName='LordOfStars', userPassword='test'}, User{userId='17', firstName='Ant', lastName='Man', userName='antman33', userPassword='test'}]
+[INFO ] 2019-03-02 16:01:23.122 [http-nio-8080-exec-4] UserDao - **********Querying User by ID: 17
+[INFO ] 2019-03-02 16:01:23.139 [http-nio-8080-exec-4] UserDao - **********Query Found ID : 17
+[INFO ] 2019-03-02 16:01:23.139 [http-nio-8080-exec-4] DeleteUserPage - User ID requested to delete: User{userId='17', firstName='Ant', lastName='Man', userName='antman33', userPassword='test'}
+[INFO ] 2019-03-02 16:01:23.139 [http-nio-8080-exec-4] UserDao - **********Querying User by ID: 17
+[INFO ] 2019-03-02 16:01:23.149 [http-nio-8080-exec-4] UserDao - **********Query Found ID : 17
+[INFO ] 2019-03-02 16:01:23.149 [http-nio-8080-exec-4] UserDao - **********Attempting to delete user from database: antman33 with ID: 17
+[INFO ] 2019-03-02 16:01:23.289 [http-nio-8080-exec-4] UserDao - **********Successfully deleted user: antman33 with ID: 17
+[INFO ] 2019-03-02 16:01:31.919 [http-nio-8080-exec-7] UserDao - **********Querying all Users.
+[INFO ] 2019-03-02 16:01:31.933 [http-nio-8080-exec-7] UserDao - **********Query Found Users: [User{userId='8', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='9', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='10', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='11', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, User{userId='13', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, User{userId='14', firstName='Thor', lastName='Odinson', userName='Thor33', userPassword='test'}, User{userId='15', firstName='Iron', lastName='Man', userName='Iman33', userPassword='test'}, User{userId='16', firstName='Star', lastName='Lord', userName='LordOfStars', userPassword='test'}]
+[INFO ] 2019-03-02 16:04:43.590 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-02 16:04:43.932 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-02 16:04:43.935 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-02 16:04:43.941 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-02 16:04:43.941 [main] UserDao - **********Attempting to delete user from database: Tester4 with ID: 4
+[INFO ] 2019-03-02 16:04:44.082 [main] UserDao - **********Successfully deleted user: Tester4 with ID: 4
+[INFO ] 2019-03-02 16:04:44.083 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-02 16:04:44.087 [main] UserDao - **********Query Found ID : 4
+[ERROR] 2019-03-02 16:04:44.127 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 16:04:44.128 [main] UserDao - **********Querying all Users.
+[INFO ] 2019-03-02 16:04:44.417 [main] UserDao - **********Query Found Users: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-02 16:04:44.446 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 16:04:44.447 [main] UserDao - **********Querying User by ID: 3
+[INFO ] 2019-03-02 16:04:44.460 [main] UserDao - **********Query Found ID : 3
+[ERROR] 2019-03-02 16:04:44.488 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 16:04:44.488 [main] UserDao - **********Querying User by Last Name: hulk
+[INFO ] 2019-03-02 16:04:44.533 [main] UserDao - **********Querying Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-02 16:04:44.533 [main] UserDao - **********Querying User by Last Name: ma
+[INFO ] 2019-03-02 16:04:44.544 [main] UserDao - **********Querying Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-02 16:04:44.565 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-02 16:04:44.565 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-02 16:04:44.633 [main] UserDao - **********User inserted: Tester7 with user ID: 36
+[INFO ] 2019-03-02 16:04:44.634 [main] UserDao - **********Querying User by ID: 36
+[INFO ] 2019-03-02 16:04:44.642 [main] UserDao - **********Query Found ID : 36

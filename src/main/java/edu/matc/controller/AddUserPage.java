@@ -14,7 +14,7 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 
 /**
- * Add docs here
+ * Bean to request form data to add a new user to the database
  * @author Andrew Park
  */
 
@@ -30,6 +30,7 @@ public class AddUserPage extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
         UserDao userDao = new UserDao();
+
         if (req.getParameter("submit").equals("submit")) {
 
             User user = new User();
@@ -38,8 +39,8 @@ public class AddUserPage extends HttpServlet {
             user.setLastName(req.getParameter("lastName"));
             user.setUserName(req.getParameter("userName"));
             user.setUserPassword(req.getParameter("password"));
-
-            req.setAttribute("addedUserName", userDao.saveOrUpdate(user));
+            logger.info("User requested to add: " + user);
+            req.setAttribute("addedUserName", userDao.insertUser(user));
         }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/addedUserResult.jsp");

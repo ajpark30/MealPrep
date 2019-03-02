@@ -6,7 +6,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@include file="taglib.jsp"%>
-<c:set var="title" value = "Home Page"/>
+<c:set var="title" value = "Delete User Page"/>
 <%@include file="header.jsp"%>
 <html>
 <head>
@@ -17,20 +17,14 @@
             <div class="well" id="userWell">
                 <form class="form-horizontal" action="deleteUser">
                     <div class="form-group">
-                        <label class="control-label col-sm-2" for="firstName">First Name:</label>
+                        <label class="control-label col-sm-5" for="userId">Enter User ID to Delete User</label>
                         <div class="col-sm-6">
-                            <input type="text" class="form-control" id="firstName" placeholder="Enter First Name" required>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="control-label col-sm-2" for="lastName">Last Name:</label>
-                        <div class="col-sm-6">
-                            <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name" required>
+                            <input type="text" class="form-control" id="userId" name="userId" placeholder="Enter a User ID" required>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="col-sm-offset-2 col-sm-6">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" name="submitDelete" value="submitDelete" class="btn btn-primary">Submit</button>
                         </div>
                     </div>
                 </form>

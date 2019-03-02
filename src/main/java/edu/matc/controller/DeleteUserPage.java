@@ -1,5 +1,6 @@
 package edu.matc.controller;
 
+import edu.matc.entity.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import edu.matc.persistence.UserDao;
@@ -13,7 +14,7 @@ import javax.servlet.annotation.*;
 import java.io.IOException;
 
 /**
- * Add docs here
+ * Bean to request form data for a user delete from the database
  * @author Andrew Park
  */
 
@@ -28,16 +29,17 @@ public class DeleteUserPage extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        UserDao userDao = new UserDao();
+        if (req.getParameter("submitDelete").equals("submitDelete")) {
 
-        if (req.getParameter("submit").equals("search")) {
-            req.setAttribute("userInfo", userDao.getUserByLastName(req.getParameter("searchTerm")));
-        }
-        if (req.getParameter("submit").equals("viewAll")) {
-            req.setAttribute("userInfo", userDao.getAllUsers());
+            UserDao userDao = new UserDao();
+
+            User userToDelete = userDao.getUserById(Integer.parseInt(req.getParameter("userId")));
+
+            logger.info("User ID requested to delete: " + userToDelete);
+            req.setAttribute("deletedUserName", userDao.delete(userToDelete));
         }
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/deleteUser.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/deletedUserResult.jsp");
         dispatcher.forward(req, resp);
     }
 }

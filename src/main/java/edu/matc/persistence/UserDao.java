@@ -26,16 +26,38 @@ public class UserDao {
      */
     public List<User> getAllUsers() {
 
+        logger.info("**********Querying all Users." );
+
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<User> query = builder.createQuery(User.class);
         Root<User> root = query.from(User.class);
         List<User> users = session.createQuery(query).getResultList();
 
+        logger.info("**********Query Found Users: " + users);
+
         session.close();
-        logger.info("Querying: " + query.toString());
-        logger.info("Found: " + users);
+
         return users;
+    }
+
+    /**
+     * Gets users by user ID from the mealprep database
+     * @param userId
+     * @return user with the matching user id argument
+     */
+    public User getUserById(int userId) {
+
+        logger.info("**********Querying User by ID: " + userId);
+
+        Session session = sessionFactory.openSession();
+        User user = session.get(User.class, userId);
+
+        logger.info("**********Query Found ID : " + userId);
+
+        session.close();
+
+        return user;
     }
 
     /**
@@ -45,6 +67,8 @@ public class UserDao {
      */
     public List<User> getUserByLastName(String lastName) {
 
+        logger.info("**********Querying User by Last Name: " + lastName);
+
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<User> query = builder.createQuery(User.class);
@@ -53,9 +77,10 @@ public class UserDao {
         query.where(builder.like(propertyPath, "%" + lastName + "%"));
         List<User> users = session.createQuery(query).getResultList();
 
+        logger.info("**********Querying Found: " + users);
+
         session.close();
-        logger.info("Querying: " + query.toString());
-        logger.info("Found: " + users);
+
         return users;
     }
 
@@ -64,11 +89,16 @@ public class UserDao {
      * @param user  User to be inserted or updated
      */
     public String saveOrUpdate(User user) {
+
+        logger.info("**********Attempting to save or update user into the database: " + user);
+
         Session session = sessionFactory.openSession();
-        Transaction transaction = session.beginTransaction();
         session.saveOrUpdate(user);
-        transaction.commit();
+
+        logger.info("**********Added user: " + user.getUserName() + " With ID: " + user.getUserId());
+
         session.close();
+
         return user.getUserName();
     }
 
@@ -77,25 +107,41 @@ public class UserDao {
      * @param user  User to be inserted or updated
      * @return id of the inserted user
      */
-    public int insert(User user) {
-        int id = 0;
+    public User insertUser(User user) {
+
+        logger.info("**********Attempting to insert a user into the database: " + user);
+
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        id = (int)session.save(user);
+        session.save(user);
         transaction.commit();
+
+        logger.info("**********User inserted: " + user.getUserName() + " with user ID: " + user.getUserId());
+
         session.close();
-        return id;
+
+        return user;
     }
 
     /**
      * Delete a user
      * @param user User to be deleted
      */
-    public void delete(User user) {
+    public String delete(User user) {
+
+        User userToDelete = getUserById(user.getUserId());
+
+        logger.info("**********Attempting to delete user from database: " + userToDelete.getUserName() + " with ID: " + userToDelete.getUserId());
+
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
-        session.delete(user);
+        session.delete(userToDelete);
         transaction.commit();
+
+        logger.info("**********Successfully deleted user: " + userToDelete.getUserName() + " with ID: " + userToDelete.getUserId());
+
         session.close();
+
+        return userToDelete.getUserName();
     }
 }

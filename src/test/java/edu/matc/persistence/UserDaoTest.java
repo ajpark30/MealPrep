@@ -28,66 +28,61 @@ class UserDaoTest {
     }
 
     /**
+     * Verify successful delete of user
+     */
+    @Test
+    void deleteSuccess() {
+        dao.delete(dao.getUserById(4));
+        assertNull(dao.getUserById(4));
+    }
+
+    /**
+     * Verify successful retrieval of all users
+     */
+    @Test
+    void getAllSuccess() {
+        List<User> users = dao.getAllUsers();
+        assertEquals(5, users.size());
+    }
+
+    /**
      * Verify successful retrieval of a user
      */
-//    @Test
-//    void getByIdSuccess() {
-//        User retrievedUser = dao.getById(3);
-//        assertEquals("Barney", retrievedUser.getFirstName());
-//        assertEquals("Curry", retrievedUser.getLastName());
-//        assertEquals("bcurry", retrievedUser.getUserName());
-//    }
-//
-//    /**
-//     * Verify successful insert of a user
-//     */
-//    @Test
-//    void insertSuccess() {
-//
-//        User newUser = new User("Fred", "Flintstone", "fflintstone", LocalDate.parse("1968-01-01"));
-//        int id = dao.insert(newUser);
-//        assertNotEquals(0,id);
-//        User insertedUser = dao.getById(id);
-//        assertEquals("Fred", insertedUser.getFirstName());
-//        // Could continue comparing all values, but
-//        // it may make sense to use .equals()
-//        // TODO review .equals recommendations http://docs.jboss.org/hibernate/orm/5.2/userguide/html_single/Hibernate_User_Guide.html#mapping-model-pojo-equalshashcode
-//    }
-//
-//    /**
-//     * Verify successful delete of user
-//     */
-//    @Test
-//    void deleteSuccess() {
-//        dao.delete(dao.getById(3));
-//        assertNull(dao.getById(3));
-//    }
-//
-//    /**
-//     * Verify successful retrieval of all users
-//     */
-//    @Test
-//    void getAllSuccess() {
-//        List<User> users = dao.getAll();
-//        assertEquals(6, users.size());
-//    }
-//
-//    /**
-//     * Verify successful get by property (equal match)
-//     */
-//    @Test
-//    void getByPropertyEqualSuccess() {
-//        List<User> users = dao.getByPropertyLike("lastName", "Curry");
-//        assertEquals(1, users.size());
-//        assertEquals(3, users.get(0).getId());
-//    }
-//
-//    /**
-//     * Verify successful get by property (like match)
-//     */
-//    @Test
-//    void getByPropertyLikeSuccess() {
-//        List<User> users = dao.getByPropertyLike("lastName", "c");
-//        assertEquals(3, users.size());
-//    }
+    @Test
+    void getUserByLastName() {
+        List<User> retrievedUser = dao.getUserByLastName("hulk");
+        assertEquals("Hulk", retrievedUser.get(0).getLastName());
+
+        List<User> retrievedUser2 = dao.getUserByLastName("ma");
+        assertEquals(2, retrievedUser2.size());
+        assertEquals("Man", retrievedUser2.get(0).getLastName());
+        assertEquals("Marvel", retrievedUser2.get(1).getLastName());
+    }
+
+    /**
+     * Verify successful retrieval of a user
+     */
+    @Test
+    void getByIdSuccess() {
+        User retrievedUser = dao.getUserById(3);
+        assertEquals("Captain", retrievedUser.getFirstName());
+        assertEquals("America", retrievedUser.getLastName());
+        assertEquals("Tester3", retrievedUser.getUserName());
+
+    }
+
+    /**
+     * Verify successful insert of a user
+     * I'm concerned about the auto_increment being set here... Will it get too big?
+     */
+    @Test
+    void insertSuccess() {
+
+        User newUser = new User("Thor", "Odinson", "Tester7", "test");
+        dao.insertUser(newUser);
+        int userId = newUser.getUserId();
+        User insertedUser = dao.getUserById(userId);
+        assertEquals("Thor", insertedUser.getFirstName());
+    }
+
 }

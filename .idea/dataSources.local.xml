@@ -8,7 +8,7 @@
       </database-info>
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
       <user-name>root</user-name>
-      <introspection-schemas>*:mealprep</introspection-schemas>
+      <introspection-schemas>*:mealprep,test_mealprep</introspection-schemas>
       <ssl-config>
         <enabled>true</enabled>
       </ssl-config>

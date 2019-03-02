@@ -1,5 +1,7 @@
 package edu.matc.entity;
 
+import org.hibernate.annotations.GenericGenerator;
+
 import javax.persistence.*;
 
 
@@ -14,7 +16,7 @@ public class User {
 
     @Id
     @Column(name="user_id")
-    @GeneratedValue
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private int userId;
 
     @Column(name = "firstname")
@@ -50,7 +52,6 @@ public class User {
         this.userName = userName;
         this.userPassword = userPassword;
     }
-
 
     /**
      * Gets user id.
