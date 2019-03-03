@@ -1,7 +1,7 @@
 package edu.matc.entity;
 
 import javax.persistence.*;
-import java.util.Calendar; //Consider using Joda time when you have free time to look into it.
+import java.util.Date; //Consider using Joda time when you have free time to look into it.
 
 @Entity(name = "UserRecipes")
 @Table(name = "userRecipes")
@@ -13,13 +13,14 @@ public class UserRecipes {
     private int recipeId;
 
     @ManyToOne
+    @JoinColumn(name="user_id")
     private User user;
 
     @Column(name="recipe_title")
     private String recipeTitle;
 
     @Column(name="date_created")
-    private Calendar dateTimeCreated;
+    private Date dateTimeCreated;
 
 
     public UserRecipes() {
@@ -31,7 +32,7 @@ public class UserRecipes {
      * @param recipeTitle
      * @param dateTimeCreated
      */
-    public UserRecipes(User user, String recipeTitle, Calendar dateTimeCreated) {
+    public UserRecipes(User user, String recipeTitle, Date dateTimeCreated) {
         this.user = user;
         this.recipeTitle = recipeTitle;
         this.dateTimeCreated = dateTimeCreated;
@@ -85,7 +86,7 @@ public class UserRecipes {
      *
      * @return
      */
-    public Calendar getDateTimeCreated() {
+    public Date getDateTimeCreated() {
         return dateTimeCreated;
     }
 
@@ -93,7 +94,7 @@ public class UserRecipes {
      *
      * @param dateTimeCreated
      */
-    public void setDateTimeCreated(Calendar dateTimeCreated) {
+    public void setDateTimeCreated(Date dateTimeCreated) {
         this.dateTimeCreated = dateTimeCreated;
     }
 

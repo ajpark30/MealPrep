@@ -14,35 +14,35 @@ import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
-public class UserRecipesRecipesDao {
+public class UserRecipesDao {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
 
     /**
-     * Gets all userRecipess from mealprep database
+     * Gets all userRecipes from mealprep database
      *
-     * @return all userRecipess in database
+     * @return all userRecipes in database
      */
-    public List<UserRecipes> getAllUserRecipess() {
+    public List<UserRecipes> getAllUserRecipes() {
 
-        logger.info("**********Querying all UserRecipess." );
+        logger.info("**********Querying all UserRecipes." );
 
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<UserRecipes> query = builder.createQuery(UserRecipes.class);
         Root<UserRecipes> root = query.from(UserRecipes.class);
-        List<UserRecipes> userRecipess = session.createQuery(query).getResultList();
+        List<UserRecipes> userRecipes = session.createQuery(query).getResultList();
 
-        logger.info("**********Query Found UserRecipess: " + userRecipess);
+        logger.info("**********Query Found UserRecipes: " + userRecipes);
 
         session.close();
 
-        return userRecipess;
+        return userRecipes;
     }
 
     /**
-     * Gets userRecipess by userRecipes ID from the mealprep database
+     * Gets userRecipes by userRecipes ID from the mealprep database
      * @param userRecipesId
      * @return userRecipes with the matching userRecipes id argument
      */
@@ -61,9 +61,9 @@ public class UserRecipesRecipesDao {
     }
 
     /**
-     * Gets userRecipess by last name from the mealprep database
+     * Gets userRecipes by last name from the mealprep database
      * @param lastName
-     * @return all userRecipess with the last name
+     * @return all userRecipes with the last name
      */
     public List<UserRecipes> getUserRecipesByLastName(String lastName) {
 

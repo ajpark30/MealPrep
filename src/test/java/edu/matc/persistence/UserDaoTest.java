@@ -1,12 +1,14 @@
 package edu.matc.persistence;
 
 import edu.matc.entity.User;
+import edu.matc.entity.UserRecipes;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDate;
+import java.util.Date;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -45,7 +47,7 @@ class UserDaoTest {
     @Test
     void getAllSuccess() {
         List<User> users = dao.getAllUsers();
-        assertEquals(5, users.size());
+        assertEquals(6, users.size());
     }
 
     /**
@@ -86,6 +88,30 @@ class UserDaoTest {
         int userId = newUser.getUserId();
         User insertedUser = dao.getUserById(userId);
         assertEquals("Thor", insertedUser.getFirstName());
+    }
+
+    /**
+     * Verify successful insert of a user
+     * I'm concerned about the auto_increment being set here... Will it get too big?
+     */
+    @Test
+    void insertWithUserRecipesSuccess() {
+
+        User newUser = new User("Ham", "Burgler", "CHzPlz", "test");
+
+        logger.info("^^^^^^^^^^Starting test to check if a user recipe set is added to a user object.");
+
+        String userRecipeTitle = "Cheese Burger";
+        Date recipeOriginDate = new Date();
+
+        UserRecipes newUserRecipes = new UserRecipes(newUser, userRecipeTitle, recipeOriginDate);
+        newUser.addUserRecipes(newUserRecipes);
+
+        dao.insertUser(newUser);
+        int userId = newUser.getUserId();
+
+        User insertedUser = dao.getUserById(userId);
+        assertEquals("Ham", insertedUser.getFirstName());
     }
 
     /**

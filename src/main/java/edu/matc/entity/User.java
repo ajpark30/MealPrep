@@ -1,7 +1,5 @@
 package edu.matc.entity;
 
-import org.hibernate.annotations.GenericGenerator;
-
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -161,6 +159,24 @@ public class User {
         this.userRecipesSet = userRecipesSet;
     }
 
+    /**
+     * Add user recipes
+     * @param userRecipes
+     */
+    public void addUserRecipes(UserRecipes userRecipes) {
+        userRecipesSet.add(userRecipes);
+        userRecipes.setUser(this);
+    }
+
+    /**
+     * Remove user Recipes
+     * @param userRecipes
+     */
+    public void removeUserRecipes(UserRecipes userRecipes) {
+        userRecipesSet.add(userRecipes);
+        userRecipes.setUser(null);
+    }
+
     @Override
     public String toString() {
         return "User{" +
@@ -171,6 +187,5 @@ public class User {
                 ", userPassword='" + userPassword + '\'' +
                 '}';
     }
-
 
 }
