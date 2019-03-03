@@ -3,6 +3,8 @@ package edu.matc.entity;
 import org.hibernate.annotations.GenericGenerator;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 
 /**
@@ -31,10 +33,10 @@ public class User {
     @Column(name = "user_password")
     private String userPassword;
 
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    private Set<UserRecipes> userRecipesSet = new HashSet<>();
 
-    /**
-     * Instantiates a new User.
-     */
+
     public User() {
     }
 
@@ -141,6 +143,22 @@ public class User {
      */
     public void setUserPassword(String userPassword) {
         this.userPassword = userPassword;
+    }
+
+    /**
+     * Gets Set of Recipes
+     * @return
+     */
+    public Set<UserRecipes> getUserRecipesSet() {
+        return userRecipesSet;
+    }
+
+    /**
+     * Sets Users set of recipes
+     * @param userRecipesSet
+     */
+    public void setUserRecipesSet(Set<UserRecipes> userRecipesSet) {
+        this.userRecipesSet = userRecipesSet;
     }
 
     @Override
