@@ -33,7 +33,7 @@ public class User {
     @Column(name = "user_password")
     private String userPassword;
 
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER) //You'll prob want to use LAZY later on
     private Set<UserRecipes> userRecipesSet = new HashSet<>();
 
 

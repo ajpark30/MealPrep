@@ -90,14 +90,14 @@ public class UserDao {
      */
     public String saveOrUpdate(User user) {
 
-        logger.info("**********Attempting to save or update user into the database: " + user);
+        logger.info("**********Attempting to save|update user into the database: " + user);
 
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
         session.saveOrUpdate(user);
         transaction.commit();
 
-        logger.info("**********Added user: " + user.getUserName() + " With ID: " + user.getUserId());
+        logger.info("**********Saved|Updated user: " + user.getUserName() + " With ID: " + user.getUserId());
 
         session.close();
 
