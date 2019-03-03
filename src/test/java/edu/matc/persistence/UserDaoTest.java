@@ -1,6 +1,8 @@
 package edu.matc.persistence;
 
 import edu.matc.entity.User;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -11,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class UserDaoTest {
 
+    private final Logger logger = LogManager.getLogger(this.getClass());
     UserDao dao;
 
     /**
@@ -83,6 +86,34 @@ class UserDaoTest {
         int userId = newUser.getUserId();
         User insertedUser = dao.getUserById(userId);
         assertEquals("Thor", insertedUser.getFirstName());
+    }
+
+    /**
+     * Verify successful save or update of a user
+     */
+    @Test
+    void saveOrUpdate() {
+        User saveUser = new User("Thor1", "Odinson1", "HammerTime33", "test1");
+        logger.info("^^^^^^^^^^Starting Test That Saves a new User");
+        dao.saveOrUpdate(saveUser);
+        int saveUserId = saveUser.getUserId();
+        User insertedUser = dao.getUserById(saveUserId);
+        assertEquals("Thor1", insertedUser.getFirstName());
+        assertEquals("Odinson1", insertedUser.getLastName());
+        assertEquals("HammerTime33", insertedUser.getUserName());
+        assertEquals("test1", insertedUser.getUserPassword());
+
+        User updateUser = dao.getUserById(6);
+        updateUser.setUserName("CaptMarv33");
+        logger.info("^^^^^^^^^^Starting Test That Updates an existing User");
+        dao.saveOrUpdate(updateUser);
+        int updateUserId = updateUser.getUserId();
+        User updatedUser = dao.getUserById(updateUserId);
+        assertEquals("Captain", updatedUser.getFirstName());
+        assertEquals("Marvel", updatedUser.getLastName());
+        assertEquals("CaptMarv33", updatedUser.getUserName());
+        assertEquals("Test6", updatedUser.getUserPassword());
+
     }
 
 }

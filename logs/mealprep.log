@@ -117,3 +117,212 @@
 [INFO ] 2019-03-02 16:04:44.633 [main] UserDao - **********User inserted: Tester7 with user ID: 36
 [INFO ] 2019-03-02 16:04:44.634 [main] UserDao - **********Querying User by ID: 36
 [INFO ] 2019-03-02 16:04:44.642 [main] UserDao - **********Query Found ID : 36
+[INFO ] 2019-03-03 09:44:16.421 [main] UserDaoTest - ^^^^^^^^^^Starting Test for saveUpdate
+[INFO ] 2019-03-03 09:44:16.424 [main] UserDao - **********Attempting to save or update user into the database: User{userId='0', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-03 09:44:16.811 [main] UserDao - **********Added user: HammerTime33 With ID: 37
+[INFO ] 2019-03-03 09:44:16.820 [main] UserDao - **********Querying User by ID: 37
+[INFO ] 2019-03-03 09:44:16.846 [main] UserDao - **********Query Found ID : 37
+[INFO ] 2019-03-03 09:47:43.729 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 09:47:44.234 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-03 09:47:44.237 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 09:47:44.245 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-03 09:47:44.246 [main] UserDao - **********Attempting to delete user from database: Tester4 with ID: 4
+[INFO ] 2019-03-03 09:47:44.321 [main] UserDao - **********Successfully deleted user: Tester4 with ID: 4
+[INFO ] 2019-03-03 09:47:44.322 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 09:47:44.326 [main] UserDao - **********Query Found ID : 4
+[ERROR] 2019-03-03 09:47:44.367 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 09:47:44.368 [main] UserDao - **********Querying all Users.
+[INFO ] 2019-03-03 09:47:44.797 [main] UserDao - **********Query Found Users: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-03 09:47:44.834 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 09:47:44.835 [main] UserDao - **********Querying User by ID: 3
+[INFO ] 2019-03-03 09:47:44.842 [main] UserDao - **********Query Found ID : 3
+[ERROR] 2019-03-03 09:47:44.872 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 09:47:44.872 [main] UserDaoTest - ^^^^^^^^^^Starting Test for saveUpdate
+[INFO ] 2019-03-03 09:47:44.872 [main] UserDao - **********Attempting to save or update user into the database: User{userId='0', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-03 09:47:44.969 [main] UserDao - **********Added user: HammerTime33 With ID: 38
+[INFO ] 2019-03-03 09:47:44.973 [main] UserDao - **********Querying User by ID: 38
+[INFO ] 2019-03-03 09:47:44.979 [main] UserDao - **********Query Found ID : 38
+[ERROR] 2019-03-03 09:47:45.031 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 09:47:45.031 [main] UserDao - **********Querying User by Last Name: hulk
+[INFO ] 2019-03-03 09:47:45.065 [main] UserDao - **********Querying Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-03 09:47:45.065 [main] UserDao - **********Querying User by Last Name: ma
+[INFO ] 2019-03-03 09:47:45.082 [main] UserDao - **********Querying Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-03 09:47:45.113 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 09:47:45.114 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-03 09:47:45.137 [main] UserDao - **********User inserted: Tester7 with user ID: 39
+[INFO ] 2019-03-03 09:47:45.137 [main] UserDao - **********Querying User by ID: 39
+[INFO ] 2019-03-03 09:47:45.142 [main] UserDao - **********Query Found ID : 39
+[INFO ] 2019-03-03 09:48:51.114 [main] UserDaoTest - ^^^^^^^^^^Starting Test for saveUpdate
+[INFO ] 2019-03-03 09:48:51.122 [main] UserDao - **********Attempting to save or update user into the database: User{userId='0', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-03 09:48:51.510 [main] UserDao - **********Added user: HammerTime33 With ID: 40
+[INFO ] 2019-03-03 09:48:51.588 [main] UserDao - **********Querying User by ID: 40
+[INFO ] 2019-03-03 09:48:51.609 [main] UserDao - **********Query Found ID : 40
+[INFO ] 2019-03-03 09:55:25.496 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 09:55:25.887 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-03 09:55:25.891 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 09:55:25.903 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-03 09:55:25.903 [main] UserDao - **********Attempting to delete user from database: Tester4 with ID: 4
+[INFO ] 2019-03-03 09:55:25.950 [main] UserDao - **********Successfully deleted user: Tester4 with ID: 4
+[INFO ] 2019-03-03 09:55:25.950 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 09:55:25.954 [main] UserDao - **********Query Found ID : 4
+[ERROR] 2019-03-03 09:55:25.990 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 09:55:25.990 [main] UserDao - **********Querying all Users.
+[INFO ] 2019-03-03 09:55:26.244 [main] UserDao - **********Query Found Users: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-03 09:55:26.277 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 09:55:26.278 [main] UserDao - **********Querying User by ID: 3
+[INFO ] 2019-03-03 09:55:26.293 [main] UserDao - **********Query Found ID : 3
+[ERROR] 2019-03-03 09:55:26.331 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 09:55:26.334 [main] UserDaoTest - ^^^^^^^^^^Starting Test for saveUpdate
+[INFO ] 2019-03-03 09:55:26.334 [main] UserDao - **********Attempting to save or update user into the database: User{userId='0', firstName='Captain', lastName='Marvel', userName='CaptMarv', userPassword='test'}
+[INFO ] 2019-03-03 09:55:26.374 [main] UserDao - **********Added user: CaptMarv With ID: 41
+[INFO ] 2019-03-03 09:55:26.403 [main] UserDao - **********Querying User by ID: 41
+[INFO ] 2019-03-03 09:55:26.411 [main] UserDao - **********Query Found ID : 41
+[ERROR] 2019-03-03 09:55:26.451 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 09:55:26.452 [main] UserDao - **********Querying User by Last Name: hulk
+[INFO ] 2019-03-03 09:55:26.497 [main] UserDao - **********Querying Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-03 09:55:26.497 [main] UserDao - **********Querying User by Last Name: ma
+[INFO ] 2019-03-03 09:55:26.504 [main] UserDao - **********Querying Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-03 09:55:26.534 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 09:55:26.535 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-03 09:55:26.548 [main] UserDao - **********User inserted: Tester7 with user ID: 42
+[INFO ] 2019-03-03 09:55:26.548 [main] UserDao - **********Querying User by ID: 42
+[INFO ] 2019-03-03 09:55:26.557 [main] UserDao - **********Query Found ID : 42
+[INFO ] 2019-03-03 10:02:39.797 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 10:02:40.199 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-03 10:02:40.202 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 10:02:40.207 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-03 10:02:40.208 [main] UserDao - **********Attempting to delete user from database: Tester4 with ID: 4
+[INFO ] 2019-03-03 10:02:40.300 [main] UserDao - **********Successfully deleted user: Tester4 with ID: 4
+[INFO ] 2019-03-03 10:02:40.300 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 10:02:40.309 [main] UserDao - **********Query Found ID : 4
+[ERROR] 2019-03-03 10:02:40.358 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:02:40.358 [main] UserDao - **********Querying all Users.
+[INFO ] 2019-03-03 10:02:40.630 [main] UserDao - **********Query Found Users: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-03 10:02:40.675 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:02:40.676 [main] UserDao - **********Querying User by ID: 3
+[INFO ] 2019-03-03 10:02:40.688 [main] UserDao - **********Query Found ID : 3
+[ERROR] 2019-03-03 10:02:40.734 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:02:40.734 [main] UserDaoTest - ^^^^^^^^^^Starting Test for saveUpdate
+[INFO ] 2019-03-03 10:02:40.734 [main] UserDao - **********Attempting to save or update user into the database: User{userId='0', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-03 10:02:40.774 [main] UserDao - **********Added user: HammerTime33 With ID: 43
+[INFO ] 2019-03-03 10:02:40.775 [main] UserDao - **********Querying User by ID: 43
+[INFO ] 2019-03-03 10:02:40.782 [main] UserDao - **********Query Found ID : 43
+[ERROR] 2019-03-03 10:02:40.808 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:02:40.808 [main] UserDao - **********Querying User by Last Name: hulk
+[INFO ] 2019-03-03 10:02:40.839 [main] UserDao - **********Querying Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-03 10:02:40.839 [main] UserDao - **********Querying User by Last Name: ma
+[INFO ] 2019-03-03 10:02:40.846 [main] UserDao - **********Querying Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-03 10:02:40.873 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:02:40.874 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-03 10:02:40.895 [main] UserDao - **********User inserted: Tester7 with user ID: 44
+[INFO ] 2019-03-03 10:02:40.896 [main] UserDao - **********Querying User by ID: 44
+[INFO ] 2019-03-03 10:02:40.905 [main] UserDao - **********Query Found ID : 44
+[INFO ] 2019-03-03 10:07:06.170 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 10:07:06.521 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-03 10:07:06.527 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 10:07:06.536 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-03 10:07:06.537 [main] UserDao - **********Attempting to delete user from database: Tester4 with ID: 4
+[INFO ] 2019-03-03 10:07:06.669 [main] UserDao - **********Successfully deleted user: Tester4 with ID: 4
+[INFO ] 2019-03-03 10:07:06.670 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 10:07:06.675 [main] UserDao - **********Query Found ID : 4
+[ERROR] 2019-03-03 10:07:06.739 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:07:06.740 [main] UserDao - **********Querying all Users.
+[INFO ] 2019-03-03 10:07:07.159 [main] UserDao - **********Query Found Users: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-03 10:07:07.189 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:07:07.189 [main] UserDao - **********Querying User by ID: 3
+[INFO ] 2019-03-03 10:07:07.196 [main] UserDao - **********Query Found ID : 3
+[ERROR] 2019-03-03 10:07:07.228 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:07:07.229 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Saves a new User
+[INFO ] 2019-03-03 10:07:07.229 [main] UserDao - **********Attempting to save or update user into the database: User{userId='0', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-03 10:07:07.310 [main] UserDao - **********Added user: HammerTime33 With ID: 45
+[INFO ] 2019-03-03 10:07:07.311 [main] UserDao - **********Querying User by ID: 45
+[INFO ] 2019-03-03 10:07:07.321 [main] UserDao - **********Query Found ID : 45
+[INFO ] 2019-03-03 10:07:07.321 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Saves a new User
+[INFO ] 2019-03-03 10:07:07.321 [main] UserDao - **********Attempting to save or update user into the database: User{userId='0', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='test1'}
+[INFO ] 2019-03-03 10:07:07.332 [main] UserDao - **********Added user: CaptMarv33 With ID: 46
+[INFO ] 2019-03-03 10:07:07.332 [main] UserDao - **********Querying User by ID: 46
+[INFO ] 2019-03-03 10:07:07.337 [main] UserDao - **********Query Found ID : 46
+[ERROR] 2019-03-03 10:07:07.363 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:07:07.364 [main] UserDao - **********Querying User by Last Name: hulk
+[INFO ] 2019-03-03 10:07:07.402 [main] UserDao - **********Querying Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-03 10:07:07.402 [main] UserDao - **********Querying User by Last Name: ma
+[INFO ] 2019-03-03 10:07:07.411 [main] UserDao - **********Querying Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, User{userId='46', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='test1'}]
+[ERROR] 2019-03-03 10:07:07.458 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:07:07.459 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-03 10:07:07.472 [main] UserDao - **********User inserted: Tester7 with user ID: 47
+[INFO ] 2019-03-03 10:07:07.472 [main] UserDao - **********Querying User by ID: 47
+[INFO ] 2019-03-03 10:07:07.478 [main] UserDao - **********Query Found ID : 47
+[INFO ] 2019-03-03 10:21:22.813 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 10:21:23.234 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-03 10:21:23.238 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 10:21:23.246 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-03 10:21:23.247 [main] UserDao - **********Attempting to delete user from database: Tester4 with ID: 4
+[INFO ] 2019-03-03 10:21:23.353 [main] UserDao - **********Successfully deleted user: Tester4 with ID: 4
+[INFO ] 2019-03-03 10:21:23.353 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 10:21:23.358 [main] UserDao - **********Query Found ID : 4
+[ERROR] 2019-03-03 10:21:23.395 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:21:23.396 [main] UserDao - **********Querying all Users.
+[INFO ] 2019-03-03 10:21:23.699 [main] UserDao - **********Query Found Users: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-03 10:21:23.745 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:21:23.746 [main] UserDao - **********Querying User by ID: 3
+[INFO ] 2019-03-03 10:21:23.757 [main] UserDao - **********Query Found ID : 3
+[ERROR] 2019-03-03 10:21:23.792 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:21:23.793 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Saves a new User
+[INFO ] 2019-03-03 10:21:23.793 [main] UserDao - **********Attempting to save or update user into the database: User{userId='0', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-03 10:21:23.891 [main] UserDao - **********Added user: HammerTime33 With ID: 48
+[INFO ] 2019-03-03 10:21:23.892 [main] UserDao - **********Querying User by ID: 48
+[INFO ] 2019-03-03 10:21:23.897 [main] UserDao - **********Query Found ID : 48
+[INFO ] 2019-03-03 10:21:23.897 [main] UserDao - **********Querying User by ID: 6
+[INFO ] 2019-03-03 10:21:23.902 [main] UserDao - **********Query Found ID : 6
+[INFO ] 2019-03-03 10:21:23.902 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Updates an existing User
+[INFO ] 2019-03-03 10:21:23.902 [main] UserDao - **********Attempting to save or update user into the database: User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}
+[INFO ] 2019-03-03 10:21:23.914 [main] UserDao - **********Added user: CaptMarv33 With ID: 6
+[INFO ] 2019-03-03 10:21:23.914 [main] UserDao - **********Querying User by ID: 6
+[INFO ] 2019-03-03 10:21:23.919 [main] UserDao - **********Query Found ID : 6
+[ERROR] 2019-03-03 10:21:23.960 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:21:23.960 [main] UserDao - **********Querying User by Last Name: hulk
+[INFO ] 2019-03-03 10:21:23.997 [main] UserDao - **********Querying Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-03 10:21:23.997 [main] UserDao - **********Querying User by Last Name: ma
+[INFO ] 2019-03-03 10:21:24.002 [main] UserDao - **********Querying Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}]
+[ERROR] 2019-03-03 10:21:24.028 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_user_connections' resource (current value: 5)
+[INFO ] 2019-03-03 10:21:24.030 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-03 10:21:24.056 [main] UserDao - **********User inserted: Tester7 with user ID: 49
+[INFO ] 2019-03-03 10:21:24.056 [main] UserDao - **********Querying User by ID: 49
+[INFO ] 2019-03-03 10:21:24.065 [main] UserDao - **********Query Found ID : 49
+[INFO ] 2019-03-03 10:23:27.752 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 10:23:28.167 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-03 10:23:28.171 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 10:23:28.178 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-03 10:23:28.178 [main] UserDao - **********Attempting to delete user from database: Tester4 with ID: 4
+[INFO ] 2019-03-03 10:23:28.248 [main] UserDao - **********Successfully deleted user: Tester4 with ID: 4
+[INFO ] 2019-03-03 10:23:28.249 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-03 10:23:28.254 [main] UserDao - **********Query Found ID : 4
+[ERROR] 2019-03-03 10:23:28.296 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-03 10:23:28.296 [main] UserDao - **********Querying all Users.
+[INFO ] 2019-03-03 10:23:28.560 [main] UserDao - **********Query Found Users: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[ERROR] 2019-03-03 10:23:28.592 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-03 10:23:28.592 [main] UserDao - **********Querying User by ID: 3
+[INFO ] 2019-03-03 10:23:28.602 [main] UserDao - **********Query Found ID : 3
+[ERROR] 2019-03-03 10:23:28.654 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-03 10:23:28.654 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Saves a new User
+[INFO ] 2019-03-03 10:23:28.654 [main] UserDao - **********Attempting to save or update user into the database: User{userId='0', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-03 10:23:28.702 [main] UserDao - **********Added user: HammerTime33 With ID: 50
+[INFO ] 2019-03-03 10:23:28.703 [main] UserDao - **********Querying User by ID: 50
+[INFO ] 2019-03-03 10:23:28.708 [main] UserDao - **********Query Found ID : 50
+[INFO ] 2019-03-03 10:23:28.709 [main] UserDao - **********Querying User by ID: 6
+[INFO ] 2019-03-03 10:23:28.713 [main] UserDao - **********Query Found ID : 6
+[INFO ] 2019-03-03 10:23:28.714 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Updates an existing User
+[INFO ] 2019-03-03 10:23:28.714 [main] UserDao - **********Attempting to save or update user into the database: User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}
+[INFO ] 2019-03-03 10:23:28.726 [main] UserDao - **********Added user: CaptMarv33 With ID: 6
+[INFO ] 2019-03-03 10:23:28.726 [main] UserDao - **********Querying User by ID: 6
+[INFO ] 2019-03-03 10:23:28.734 [main] UserDao - **********Query Found ID : 6
+[ERROR] 2019-03-03 10:23:28.766 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-03 10:23:28.766 [main] UserDao - **********Querying User by Last Name: hulk
+[INFO ] 2019-03-03 10:23:28.797 [main] UserDao - **********Querying Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-03 10:23:28.797 [main] UserDao - **********Querying User by Last Name: ma
+[INFO ] 2019-03-03 10:23:28.803 [main] UserDao - **********Querying Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}]
+[ERROR] 2019-03-03 10:23:28.833 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-03 10:23:28.833 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-03 10:23:28.852 [main] UserDao - **********User inserted: Tester7 with user ID: 51
+[INFO ] 2019-03-03 10:23:28.852 [main] UserDao - **********Querying User by ID: 51
+[INFO ] 2019-03-03 10:23:28.857 [main] UserDao - **********Query Found ID : 51
