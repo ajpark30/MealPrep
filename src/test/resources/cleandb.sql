@@ -1,3 +1,4 @@
 DELETE FROM userRecipes;
 DELETE FROM users;
 INSERT INTO users VALUES ('Tester1','Test1','Incredible','Hulk', '1'),('Tester2','Test2','Peter','Parker', '2'),('Tester3','Test3','Captain','America', '3'),('Tester4','Test4','Black','Widow', '4'),('Tester5','Test5','Ant','Man', '5'),('Tester6','Test6','Captain','Marvel', '6');
+INSERT INTO userRecipes VALUES ('1','1', 'Tacos', '2019-03-03 19:53'),('2','1', 'Shrimp Larb', '2019-03-03 19:53'),('3','2', 'Nachos', '2019-03-03 19:53'),('4','2', 'Swedish Meatballs', '2019-03-03 19:53'),('6','3', 'Lamb Shank', '2019-03-03 19:53'),('7','3', 'Braised Pork Belly', '2019-03-03 19:53'),('8','5', 'Beef Wellington', '2019-03-03 19:53'),('9','5', 'Pad Thai', '2019-03-03 19:53'),('10','6', 'Bibimbap', '2019-03-03 19:53'),('11','6', 'Fried Chicken', '2019-03-03 19:53');

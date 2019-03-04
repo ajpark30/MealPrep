@@ -46,12 +46,15 @@ public class UserRecipesDao {
      * @param userRecipesId
      * @return userRecipes with the matching userRecipes id argument
      */
-    public UserRecipes getUserRecipesById(int userRecipesId) {
+    public List<UserRecipes> getUserRecipesById(int userRecipesId) {
 
         logger.info("**********Querying user recipes by ID: " + userRecipesId);
 
         Session session = sessionFactory.openSession();
-        UserRecipes userRecipes = session.get(UserRecipes.class, userRecipesId);
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<UserRecipes> query = builder.createQuery(UserRecipes.class);
+        Root<UserRecipes> root = query.from(UserRecipes.class);
+        List<UserRecipes> userRecipes = session.createQuery(query).getResultList();
 
         logger.info("**********Query found ID : " + userRecipesId);
 
@@ -131,19 +134,19 @@ public class UserRecipesDao {
      */
     public String delete(UserRecipes userRecipes) {
 
-        UserRecipes userRecipesToDelete = getUserRecipesById(userRecipes.getRecipeId());
+        List<UserRecipes> userRecipesToDelete = getUserRecipesById(userRecipes.getRecipeId());
 
-        logger.info("**********Attempting to delete a user recipe from database: " + userRecipesToDelete.getRecipeTitle() + " with ID: " + userRecipesToDelete.getRecipeId());
+        logger.info("**********Attempting to delete a user recipe from database: " + userRecipesToDelete + " with ID: " + userRecipesToDelete);
 
         Session session = sessionFactory.openSession();
         Transaction transaction = session.beginTransaction();
         session.delete(userRecipesToDelete);
         transaction.commit();
 
-        logger.info("**********Successfully deleted a user recipe: " + userRecipesToDelete.getRecipeTitle() + " with ID: " + userRecipesToDelete.getRecipeId());
+        logger.info("**********Successfully deleted a user recipe: " + userRecipesToDelete + " with ID: " + userRecipesToDelete);
 
         session.close();
 
-        return userRecipesToDelete.getRecipeTitle();
+        return userRecipesToDelete.toString();
     }
 }
