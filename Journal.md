@@ -46,3 +46,14 @@ Tasks Completed:
  
  I spent alot of time trying to get jstl to work.  I ran into an interested problem with web.xml not being right and the browser no responding to the tags.
  I need to spend a little more time reading about hibernate.
+ 
+### Week 5 
+
+2/25 - 3/4
+Tasks Completed:
+ *Added new table to database
+ *Added one to many relations using hibernate annotations 
+ *Adding new doa for recipe table
+ *Added tests for that dao.
+ 
+ Great week, Took a lot of time to get used to the Hibernate errors in testing.  I feel confident about using Hibernate.

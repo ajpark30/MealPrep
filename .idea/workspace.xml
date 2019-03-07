@@ -7,67 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="477481c9-9ecd-4f0f-aa8c-67836071a9be" name="Default" comment="Updating time logs">
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.UserRecipesDaoTest.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.matc.persistence.UserRecipesDaoTest.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TimeLog.md" afterPath="$PROJECT_DIR$/TimeLog.md" />
-      <change beforePath="$PROJECT_DIR$/logs/mealprep.log" afterPath="$PROJECT_DIR$/logs/mealprep.log" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserRecipesDao.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserRecipesDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserDaoTest.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserRecipesDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserRecipesDaoTest.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/edu/matc/persistence/UserRecipesDao.class" afterPath="$PROJECT_DIR$/target/classes/edu/matc/persistence/UserRecipesDao.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep.war" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/META-INF/MANIFEST.MF" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/Main.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/classes/database.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/classes/edu/matc/controller/AddUserPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/classes/edu/matc/controller/DeleteUserPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/classes/edu/matc/controller/SearchUserPage.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/classes/edu/matc/entity/User.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/classes/edu/matc/persistence/Database.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/classes/edu/matc/persistence/SessionFactoryProvider.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/classes/edu/matc/persistence/UserDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/classes/edu/matc/persistence/UserData.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/classes/hibernate.cfg.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/classes/log4j2.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/c3p0-0.9.5.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/classmate-1.3.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/hibernate-c3p0-5.2.12.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/hibernate-core-5.2.12.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/jandex-2.0.3.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/javaee-web-api-7.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/log4j-api-2.10.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/log4j-core-2.10.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/mysql-connector-java-8.0.12.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/lib/protobuf-java-2.6.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/WEB-INF/web.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/addUser.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/addedUserResult.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/deleteUser.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/deletedUserResult.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/header.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/index.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/results.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/searchUser.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/mealprep/taglib.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.UserDaoTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.UserDaoTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.matc.persistence.UserDaoTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.matc.persistence.UserDaoTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/matc/persistence/UserDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/matc/persistence/UserDaoTest.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/edu/matc/persistence/UserRecipesDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/edu/matc/persistence/UserRecipesDaoTest.class" />
+      <change beforePath="$PROJECT_DIR$/Journal.md" afterPath="$PROJECT_DIR$/Journal.md" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -126,12 +67,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TimeLog.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TimeLog.md">
+      <file leaf-file-name="Journal.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Journal.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="240">
-                <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="659">
+                <caret line="58" column="112" lean-forward="false" selection-start-line="58" selection-start-column="112" selection-end-line="58" selection-end-column="112" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -249,7 +190,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/results.jsp" />
         <option value="$PROJECT_DIR$/logs/mealprep.log" />
-        <option value="$PROJECT_DIR$/Journal.md" />
         <option value="$PROJECT_DIR$/src/main/webapp/Main.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/header.jsp" />
         <option value="$PROJECT_DIR$/src/test/java/edu.matc/test/util/Database.java" />
@@ -290,6 +230,7 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserRecipesDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserRecipesDaoTest.java" />
         <option value="$PROJECT_DIR$/TimeLog.md" />
+        <option value="$PROJECT_DIR$/Journal.md" />
       </list>
     </option>
   </component>
@@ -336,10 +277,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="6" />
-    <option name="width" value="1169" />
-    <option name="height" value="735" />
+    <option name="x" value="1999" />
+    <option name="y" value="9" />
+    <option name="width" value="1188" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -378,7 +319,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -518,9 +458,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -905,7 +846,8 @@
       <workItem from="1551747612249" duration="1463000" />
       <workItem from="1551749297474" duration="363000" />
       <workItem from="1551918154833" duration="6558000" />
-      <workItem from="1551924762564" duration="111000" />
+      <workItem from="1551924762564" duration="200000" />
+      <workItem from="1551998065585" duration="368000" />
     </task>
     <servers />
   </component>
@@ -942,7 +884,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124279000" />
+    <option name="totallyTimeSpent" value="124736000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -954,7 +896,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="6" width="1169" height="735" extended-state="0" />
+    <frame x="1999" y="9" width="1188" height="1017" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -964,7 +906,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20053239" sideWeight="0.46938777" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16753927" sideWeight="0.46938777" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924925" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -975,10 +917,10 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4671875" sideWeight="0.49535602" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32520324" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1859375" sideWeight="0.49535602" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31588286" sideWeight="0.49333334" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4671875" sideWeight="0.49535602" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12906724" sideWeight="0.49535602" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2574171" sideWeight="0.49333334" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19274808" sideWeight="0.50666666" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1071,7 +1013,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserDaoTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/edu.matc/test/util/Database.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/edu.matc/entity/UserTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserDataTest.java" />
@@ -1402,6 +1343,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TimeLog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="240">
+            <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserRecipesDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1410,11 +1362,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TimeLog.md">
+    <entry file="file://$PROJECT_DIR$/Journal.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="659">
+            <caret line="58" column="112" lean-forward="false" selection-start-line="58" selection-start-column="112" selection-end-line="58" selection-end-column="112" />
             <folding />
           </first_editor>
           <second_editor />
