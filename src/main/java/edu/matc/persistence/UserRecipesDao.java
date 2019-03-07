@@ -1,5 +1,6 @@
 package edu.matc.persistence;
 
+import edu.matc.entity.User;
 import edu.matc.entity.UserRecipes;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -18,6 +19,8 @@ public class UserRecipesDao {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     SessionFactory sessionFactory = SessionFactoryProvider.getSessionFactory();
+
+    UserDao userDao;
 
     /**
      * Gets all userRecipes from mealprep database
@@ -46,7 +49,7 @@ public class UserRecipesDao {
      * @param userRecipesId
      * @return userRecipes with the matching userRecipes id argument
      */
-    public List<UserRecipes> getUserRecipesById(int userRecipesId) {
+    public List<UserRecipes> getUserRecipesById(Integer userRecipesId) {
 
         logger.info("**********Querying user recipes by ID: " + userRecipesId);
 
@@ -54,9 +57,11 @@ public class UserRecipesDao {
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<UserRecipes> query = builder.createQuery(UserRecipes.class);
         Root<UserRecipes> root = query.from(UserRecipes.class);
+        Expression<Integer> propertyPath = root.get("user");
+        query.where(builder.equal(propertyPath, userRecipesId));
         List<UserRecipes> userRecipes = session.createQuery(query).getResultList();
 
-        logger.info("**********Query found ID : " + userRecipesId);
+        logger.info("**********Query found recipes by ID : " + userRecipes);
 
         session.close();
 
@@ -70,21 +75,23 @@ public class UserRecipesDao {
      */
     public List<UserRecipes> getUserRecipesByLastName(String lastName) {
 
-        logger.info("**********Querying user recipes by Last Name: " + lastName);
-
+        List<UserRecipes> list = getAllUserRecipes();
+        logger.info("**********Recieved lastname for recipe search: " + lastName);
         Session session = sessionFactory.openSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
-        CriteriaQuery<UserRecipes> query = builder.createQuery(UserRecipes.class);
-        Root<UserRecipes> root = query.from(UserRecipes.class);
+        CriteriaQuery<User> query = builder.createQuery(User.class);
+        Root<User> root = query.from(User.class);
         Expression<String> propertyPath = root.get("lastName");
         query.where(builder.like(propertyPath, "%" + lastName + "%"));
-        List<UserRecipes> userRecipes = session.createQuery(query).getResultList();
+        List<User> users = session.createQuery(query).getResultList();
 
-        logger.info("**********Querying Found: " + userRecipes);
+        logger.info("**********User Found by lastname: " + users);
+        logger.info("**********Grabbing user ID to find users recipes in database: " + users.get(0).getUserId());
+        List<UserRecipes> recipesByLastName = getUserRecipesById(users.get(0).getUserId());
 
         session.close();
 
-        return userRecipes;
+        return recipesByLastName;
     }
 
     /**

@@ -1,6 +1,7 @@
+/Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/persistence/UserRecipesDao.java
 /Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/persistence/SessionFactoryProvider.java
 /Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/controller/AddUserPage.java
-/Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/persistence/UserData.java
+/Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/entity/UserRecipes.java
 /Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/controller/SearchUserPage.java
 /Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/persistence/UserDao.java
 /Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/persistence/Database.java

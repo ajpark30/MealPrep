@@ -28,7 +28,7 @@ class UserRecipesDaoTest {
 
         edu.matc.test.util.Database database = edu.matc.test.util.Database.getInstance();
         database.runSQL("cleandb.sql");
-
+        logger.info("----------Cleaning Database with sql script----------");
         userRecipesDao = new UserRecipesDao();
     }
 
@@ -42,28 +42,37 @@ class UserRecipesDaoTest {
     }
 
     /**
-     * Verify successful request for a recipe by its ID.
-     */
-    @Test
-    void getUserRecipesById() {
-        UserRecipes userRecipes = userRecipesDao.getUserRecipesById(1);
-        assertEquals(1, userRecipes.getUser().getUserId());
-        assertEquals("Tacos", userRecipes.getRecipeTitle());
-        assertEquals("2019-03-03 19:53:00.0", userRecipes.getDateTimeCreated().toString());
-        //Look for a way to test the current time without hard coding it.
-    }
-
-    /**
      * Verify successful request for recipe/recipes by last name.
      */
     @Test
     void getUserRecipesByLastName() {
-        List<User> userList = userDao.getUserByLastName("hulk");
-        int userId = userList.get(0).getUserId();
+        logger.info("^^^^^^^^^^Starting test to get user recipes by last name.");
+        List<UserRecipes> userRecipes = userRecipesDao.getUserRecipesByLastName("Hulk");
+        logger.info("^^^^^^^^^^Test found last name: " + userRecipes);
+        assertEquals(2, userRecipes.size());
+        assertEquals("Tacos", userRecipes.get(0).getRecipeTitle());
+        assertEquals("Shrimp Larb", userRecipes.get(1).getRecipeTitle());
 
-        List<UserRecipes> recipesByLastName = userRecipesDao.getUserRecipesById(userId);
-        assertEquals(2, recipesByLastName.size());
+    }
 
+    /**
+     * Verify successful request for a recipe by its ID.
+     */
+    @Test
+    void getUserRecipesById() {
+        List<UserRecipes> userRecipes = userRecipesDao.getUserRecipesById(1);
+        int count = 0;
+        for (int i = 0; i < userRecipes.size(); i++ ){
+            count++;
+        }
+
+        assertEquals(2, count);
+        assertEquals("Tacos", userRecipes.get(0).getRecipeTitle());
+        assertEquals("2019-03-03 19:53:00.0", userRecipes.get(0).getDateTimeCreated().toString());
+        assertEquals("Shrimp Larb", userRecipes.get(1).getRecipeTitle());
+        assertEquals("2019-03-03 19:53:00.0", userRecipes.get(1).getDateTimeCreated().toString());
+
+        //Look for a way to test the current time without hard coding it.
     }
 
     /**

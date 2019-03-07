@@ -55,7 +55,7 @@ class UserDaoTest {
      */
     @Test
     void getUserByLastName() {
-        List<User> retrievedUser = dao.getUserByLastName("hulk");
+        List<User> retrievedUser = dao.getUserByLastName("Hulk");
         assertEquals("Hulk", retrievedUser.get(0).getLastName());
 
         List<User> retrievedUser2 = dao.getUserByLastName("ma");

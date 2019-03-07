@@ -1,8 +1,9 @@
+edu/matc/entity/UserRecipes.class
 edu/matc/entity/User.class
 edu/matc/controller/DeleteUserPage.class
 edu/matc/controller/AddUserPage.class
 edu/matc/persistence/UserDao.class
+edu/matc/persistence/UserRecipesDao.class
 edu/matc/persistence/SessionFactoryProvider.class
 edu/matc/controller/SearchUserPage.class
-edu/matc/persistence/UserData.class
 edu/matc/persistence/Database.class

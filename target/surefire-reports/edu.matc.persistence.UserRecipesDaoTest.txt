@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: edu.matc.persistence.UserRecipesDaoTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.281 sec <<< FAILURE! - in edu.matc.persistence.UserRecipesDaoTest
+getUserRecipesByLastName()  Time elapsed: 0.044 sec  <<< ERROR!
+java.lang.NullPointerException
+	at edu.matc.persistence.UserRecipesDaoTest.getUserRecipesByLastName(UserRecipesDaoTest.java:70)
+

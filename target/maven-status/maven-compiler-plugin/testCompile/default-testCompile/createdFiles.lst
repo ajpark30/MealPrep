@@ -1,2 +1,3 @@
-edu/matc/test/util/Database.class
+edu/matc/persistence/UserRecipesDaoTest.class
 edu/matc/persistence/UserDaoTest.class
+edu/matc/test/util/Database.class
