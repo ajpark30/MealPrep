@@ -1111,184 +1111,361 @@
       <Charset>utf8mb4</Charset>
       <DefaultForCharset>0</DefaultForCharset>
     </collation>
-    <table id="280" parent="3" name="userRecipes">
+    <table id="280" parent="3" name="groceryList">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="281" parent="3" name="users">
+    <table id="281" parent="3" name="ingredients">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="282" parent="8" name="userRecipes">
+    <table id="282" parent="3" name="userRecipes">
       <Engine>InnoDB</Engine>
     </table>
-    <table id="283" parent="8" name="users">
+    <table id="283" parent="3" name="users">
       <Engine>InnoDB</Engine>
     </table>
-    <column id="284" parent="280" name="recipe_id">
+    <table id="284" parent="3" name="weeklyMealPlan">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="285" parent="8" name="userRecipes">
+      <Engine>InnoDB</Engine>
+    </table>
+    <table id="286" parent="8" name="users">
+      <Engine>InnoDB</Engine>
+    </table>
+    <column id="287" parent="280" name="groceryListId">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="285" parent="280" name="user_id">
+    <column id="288" parent="280" name="groceryListName">
       <Position>2</Position>
+      <DataType>varchar(75)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="289" parent="280" name="ingredientId">
+      <Position>3</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="280" name="recipe_title">
-      <Position>3</Position>
-      <DataType>varchar(30)|0</DataType>
-      <NotNull>1</NotNull>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="287" parent="280" name="date_created">
+    <column id="290" parent="280" name="recipe_id">
       <Position>4</Position>
-      <DataType>datetime|0</DataType>
+      <DataType>int(11)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="291" parent="280" name="user_id">
+      <Position>5</Position>
+      <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="288" parent="280" name="recipe_title">
-      <ColNames>recipe_title</ColNames>
+    <index id="292" parent="280" name="groceryListName">
+      <ColNames>groceryListName</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="289" parent="280" name="user_id">
+    <index id="293" parent="280" name="ingredientId">
+      <ColNames>ingredientId</ColNames>
+    </index>
+    <index id="294" parent="280" name="recipe_id">
+      <ColNames>recipe_id</ColNames>
+    </index>
+    <index id="295" parent="280" name="user_id">
       <ColNames>user_id</ColNames>
     </index>
-    <key id="290" parent="280" name="PRIMARY">
+    <key id="296" parent="280" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>recipe_id</ColNames>
+      <ColNames>groceryListId</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="291" parent="280" name="recipe_title">
-      <ColNames>recipe_title</ColNames>
-      <UnderlyingIndexName>recipe_title</UnderlyingIndexName>
+    <key id="297" parent="280" name="groceryListName">
+      <ColNames>groceryListName</ColNames>
+      <UnderlyingIndexName>groceryListName</UnderlyingIndexName>
     </key>
-    <foreign-key id="292" parent="280" name="userrecipes_ibfk_1">
+    <foreign-key id="298" parent="280" name="grocerylist_ibfk_2">
+      <ColNames>recipe_id</ColNames>
+      <RefSchemaName>mealprep</RefSchemaName>
+      <RefTableName>userRecipes</RefTableName>
+      <RefColNames>recipe_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="299" parent="280" name="grocerylist_ibfk_3">
       <ColNames>user_id</ColNames>
       <RefSchemaName>mealprep</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>user_id</RefColNames>
     </foreign-key>
-    <column id="293" parent="281" name="user_id">
+    <column id="300" parent="281" name="ingredientId">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="294" parent="281" name="user_name">
+    <column id="301" parent="281" name="ingredientName">
       <Position>2</Position>
       <DataType>varchar(30)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="295" parent="281" name="user_password">
+    <column id="302" parent="281" name="ingredientCategory">
       <Position>3</Position>
-      <DataType>varchar(100)|0</DataType>
+      <DataType>varchar(30)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="296" parent="281" name="firstname">
+    <column id="303" parent="281" name="price">
       <Position>4</Position>
-      <DataType>varchar(30)|0</DataType>
-      <NotNull>1</NotNull>
+      <DataType>decimal(5,2)|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="297" parent="281" name="lastname">
+    <column id="304" parent="281" name="priceMeasurementUnit">
       <Position>5</Position>
-      <DataType>varchar(30)|0</DataType>
+      <DataType>varchar(20)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="298" parent="281" name="user_name">
-      <ColNames>user_name</ColNames>
+    <column id="305" parent="281" name="brand">
+      <Position>6</Position>
+      <DataType>varchar(30)|0</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="306" parent="281" name="ingredientName">
+      <ColNames>ingredientName</ColNames>
       <Unique>1</Unique>
     </index>
-    <key id="299" parent="281" name="PRIMARY">
+    <key id="307" parent="281" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
-      <ColNames>user_id</ColNames>
+      <ColNames>ingredientId</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="300" parent="281" name="user_name">
-      <ColNames>user_name</ColNames>
-      <UnderlyingIndexName>user_name</UnderlyingIndexName>
+    <key id="308" parent="281" name="ingredientName">
+      <ColNames>ingredientName</ColNames>
+      <UnderlyingIndexName>ingredientName</UnderlyingIndexName>
     </key>
-    <column id="301" parent="282" name="recipe_id">
+    <column id="309" parent="282" name="recipe_id">
       <Position>1</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="302" parent="282" name="user_id">
+    <column id="310" parent="282" name="user_id">
       <Position>2</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="303" parent="282" name="recipe_title">
+    <column id="311" parent="282" name="recipe_title">
       <Position>3</Position>
       <DataType>varchar(30)|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="304" parent="282" name="date_created">
+    <column id="312" parent="282" name="date_created">
       <Position>4</Position>
       <DataType>datetime|0</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="305" parent="282" name="recipe_title">
+    <index id="313" parent="282" name="recipe_title">
       <ColNames>recipe_title</ColNames>
       <Unique>1</Unique>
     </index>
-    <index id="306" parent="282" name="user_id">
+    <index id="314" parent="282" name="user_id">
       <ColNames>user_id</ColNames>
     </index>
-    <key id="307" parent="282" name="PRIMARY">
+    <key id="315" parent="282" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>recipe_id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="308" parent="282" name="recipe_title">
+    <key id="316" parent="282" name="recipe_title">
       <ColNames>recipe_title</ColNames>
       <UnderlyingIndexName>recipe_title</UnderlyingIndexName>
     </key>
-    <foreign-key id="309" parent="282" name="userrecipes_ibfk_1">
+    <foreign-key id="317" parent="282" name="userrecipes_ibfk_1">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>mealprep</RefSchemaName>
+      <RefTableName>users</RefTableName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <column id="318" parent="283" name="user_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="319" parent="283" name="user_name">
+      <Position>2</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="320" parent="283" name="user_password">
+      <Position>3</Position>
+      <DataType>varchar(100)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="321" parent="283" name="firstname">
+      <Position>4</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="322" parent="283" name="lastname">
+      <Position>5</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="323" parent="283" name="user_name">
+      <ColNames>user_name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="324" parent="283" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>user_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="325" parent="283" name="user_name">
+      <ColNames>user_name</ColNames>
+      <UnderlyingIndexName>user_name</UnderlyingIndexName>
+    </key>
+    <column id="326" parent="284" name="weeklyMealPlanId">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="327" parent="284" name="weeklyMealPlanName">
+      <Position>2</Position>
+      <DataType>varchar(75)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="328" parent="284" name="recipe_id">
+      <Position>3</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="329" parent="284" name="user_id">
+      <Position>4</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="330" parent="284" name="weeklyMealPlanName">
+      <ColNames>weeklyMealPlanName</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="331" parent="284" name="recipe_id">
+      <ColNames>recipe_id</ColNames>
+    </index>
+    <index id="332" parent="284" name="user_id">
+      <ColNames>user_id</ColNames>
+    </index>
+    <key id="333" parent="284" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>weeklyMealPlanId</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="334" parent="284" name="weeklyMealPlanName">
+      <ColNames>weeklyMealPlanName</ColNames>
+      <UnderlyingIndexName>weeklyMealPlanName</UnderlyingIndexName>
+    </key>
+    <foreign-key id="335" parent="284" name="weeklymealplan_ibfk_1">
+      <ColNames>recipe_id</ColNames>
+      <RefSchemaName>mealprep</RefSchemaName>
+      <RefTableName>userRecipes</RefTableName>
+      <RefColNames>recipe_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="336" parent="284" name="weeklymealplan_ibfk_2">
+      <ColNames>user_id</ColNames>
+      <RefSchemaName>mealprep</RefSchemaName>
+      <RefTableName>users</RefTableName>
+      <RefColNames>user_id</RefColNames>
+    </foreign-key>
+    <column id="337" parent="285" name="recipe_id">
+      <Position>1</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="338" parent="285" name="user_id">
+      <Position>2</Position>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="339" parent="285" name="recipe_title">
+      <Position>3</Position>
+      <DataType>varchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="340" parent="285" name="date_created">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <index id="341" parent="285" name="recipe_title">
+      <ColNames>recipe_title</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="342" parent="285" name="user_id">
+      <ColNames>user_id</ColNames>
+    </index>
+    <key id="343" parent="285" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>recipe_id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <key id="344" parent="285" name="recipe_title">
+      <ColNames>recipe_title</ColNames>
+      <UnderlyingIndexName>recipe_title</UnderlyingIndexName>
+    </key>
+    <foreign-key id="345" parent="285" name="userrecipes_ibfk_1">
       <ColNames>user_id</ColNames>
       <RefSchemaName>test_mealprep</RefSchemaName>
       <RefTableName>users</RefTableName>
       <RefColNames>user_id</RefColNames>
     </foreign-key>
-    <column id="310" parent="283" name="user_name">
+    <column id="346" parent="286" name="user_name">
       <Position>1</Position>
       <DataType>tinytext|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="311" parent="283" name="user_password">
+    <column id="347" parent="286" name="user_password">
       <Position>2</Position>
       <DataType>tinytext|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="312" parent="283" name="firstname">
+    <column id="348" parent="286" name="firstname">
       <Position>3</Position>
       <DataType>tinytext|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="313" parent="283" name="lastname">
+    <column id="349" parent="286" name="lastname">
       <Position>4</Position>
       <DataType>tinytext|0</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="314" parent="283" name="user_id">
+    <column id="350" parent="286" name="user_id">
       <Position>5</Position>
       <DataType>int(11)|0</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="315" parent="283" name="PRIMARY">
+    <key id="351" parent="286" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>user_id</ColNames>
       <Primary>1</Primary>

@@ -12,6 +12,10 @@
 |2/26/19|Read up on Google calendar API| .5 | I'll need to use Gradle too |
 |2/27/19|Added test directories, files, and property files.  I also created a test database| 1.5| Bad junit maven plugins caused funky test file placement.  Figured out it was maven within 30 minutes... Getting quicker with maven|
 |2/28/19|Taking the time to understand jsp, model view and beans...| 2 | No notes |
-|3/2/19| Working on finishing up adding CRUD into Indie Project. | 3 | No notes |
-|3/3/19| Working on adding one to many relations to indie project.  Created a database along with a test database.  Updated cleandb.sql.  Added UserRecipes.java and the dao.  Working on unit tests, I ran out of time for the day.  I need to have add method returns to recieve lists since there will be many recipes. | 5.5 | No notes|
-|3/6/19| Working on getting the User Recipe Dao test that looks for a users recipe list using the lastname| 1.5 | No notes | 
+|3/2/19|Worked on finishing up adding CRUD into Indie Project. | 3 | No notes |
+|3/3/19|Worked on adding one to many relations to indie project.  Created a database along with a test database.  Updated cleandb.sql.  Added UserRecipes.java and the dao.  Worked on unit tests, I ran out of time for the day.  I need to have add method returns to recieve lists since there will be many recipes. | 5.5 | No notes|
+|3/6/19|Worked on getting the User Recipe Dao test that looks for a users recipe list using the lastname| 1.5 | No notes |
+|3/7/19|Worked on finishing the userRecipeDaoTest methods.  All working but the delete | 1.5 | Noo notes|
+|3/8/19|Worked on database structure, skimmed the week 6 docs and videos | 1.5 | No notes|
+|3/9/19|Set up AWS account, finished the delete method in userRecipeDaoTest, and created new tables for database.| 1.5 | About 30% complete|
+|3/10/19|Worked on getting deployed to AWS.  Forgot I blew up my week 1 with hibernate but I was able to get it deployed but didnt check DB| 3 | I'll need to use Gradle too |

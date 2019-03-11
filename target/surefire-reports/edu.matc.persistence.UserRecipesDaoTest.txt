@@ -1,8 +1,34 @@
 -------------------------------------------------------------------------------
 Test set: edu.matc.persistence.UserRecipesDaoTest
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.281 sec <<< FAILURE! - in edu.matc.persistence.UserRecipesDaoTest
-getUserRecipesByLastName()  Time elapsed: 0.044 sec  <<< ERROR!
-java.lang.NullPointerException
-	at edu.matc.persistence.UserRecipesDaoTest.getUserRecipesByLastName(UserRecipesDaoTest.java:70)
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 152.674 sec <<< FAILURE! - in edu.matc.persistence.UserRecipesDaoTest
+insertUserRecipes()  Time elapsed: 30.556 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+
+getUserRecipesByLastName()  Time elapsed: 30.52 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+
+getUserRecipesById()  Time elapsed: 30.521 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+
+getAllUserRecipes()  Time elapsed: 30.554 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+
+saveOrUpdate()  Time elapsed: 30.519 sec  <<< ERROR!
+org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
 

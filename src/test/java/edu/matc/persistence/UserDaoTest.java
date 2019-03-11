@@ -92,7 +92,6 @@ class UserDaoTest {
 
     /**
      * Verify successful insert of a user
-     * I'm concerned about the auto_increment being set here... Will it get too big?
      */
     @Test
     void insertWithUserRecipesSuccess() {
@@ -116,6 +115,7 @@ class UserDaoTest {
 
     /**
      * Verify successful save or update of a user
+     * I'm concerned about the auto_increment being set here... Will it get too big?
      */
     @Test
     void saveOrUpdate() {

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.matc.persistence.UserRecipesDaoTest" time="0.281" tests="6" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.matc.persistence.UserRecipesDaoTest" time="152.674" tests="5" errors="5" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2017.3.6"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -40,11 +40,11 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="user.name" value="andrewpark"/>
-    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.5.2.jar:/Applications/IntelliJ IDEA.app/Contents/lib/idea_rt.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.3.6 install"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2017.3.6 package"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -62,14 +62,39 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="delete" classname="edu.matc.persistence.UserRecipesDaoTest" time="0.049"/>
-  <testcase name="insertUserRecipes" classname="edu.matc.persistence.UserRecipesDaoTest" time="0.029"/>
-  <testcase name="getUserRecipesByLastName" classname="edu.matc.persistence.UserRecipesDaoTest" time="0.044">
-    <error type="java.lang.NullPointerException">java.lang.NullPointerException
-	at edu.matc.persistence.UserRecipesDaoTest.getUserRecipesByLastName(UserRecipesDaoTest.java:70)
+  <testcase name="insertUserRecipes" classname="edu.matc.persistence.UserRecipesDaoTest" time="30.556">
+    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
 </error>
   </testcase>
-  <testcase name="getUserRecipesById" classname="edu.matc.persistence.UserRecipesDaoTest" time="0.057"/>
-  <testcase name="getAllUserRecipes" classname="edu.matc.persistence.UserRecipesDaoTest" time="0.069"/>
-  <testcase name="saveOrUpdate" classname="edu.matc.persistence.UserRecipesDaoTest" time="0.032"/>
+  <testcase name="getUserRecipesByLastName" classname="edu.matc.persistence.UserRecipesDaoTest" time="30.52">
+    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+</error>
+  </testcase>
+  <testcase name="getUserRecipesById" classname="edu.matc.persistence.UserRecipesDaoTest" time="30.521">
+    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+</error>
+  </testcase>
+  <testcase name="getAllUserRecipes" classname="edu.matc.persistence.UserRecipesDaoTest" time="30.554">
+    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+</error>
+  </testcase>
+  <testcase name="saveOrUpdate" classname="edu.matc.persistence.UserRecipesDaoTest" time="30.519">
+    <error message="Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]" type="org.hibernate.service.spi.ServiceException">org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at edu.matc.persistence.UserRecipesDaoTest.setUp(UserRecipesDaoTest.java:31)
+</error>
+  </testcase>
 </testsuite>
