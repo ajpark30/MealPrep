@@ -57,3 +57,11 @@ Tasks Completed:
  *Added tests for that dao.
  
  Great week, Took a lot of time to get used to the Hibernate errors in testing.  I feel confident about using Hibernate.
+ 
+### Week 6
+
+3/4 - 3/11
+Tasks Completed:
+ *Was able to get week one launched to AWS.
+ 
+ I ran into a problem and tried deploying my indie project which also ran into errors.  Side note, why cant I ssh when i'm not at home?

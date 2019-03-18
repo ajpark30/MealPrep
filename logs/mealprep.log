@@ -309,3 +309,312 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 [INFO ] 2019-03-11 16:10:59.061 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
 [ERROR] 2019-03-11 16:11:29.613 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
 [INFO ] 2019-03-11 16:11:29.613 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-11 18:32:56.942 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-11 18:33:28.363 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-11 18:33:58.718 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-11 18:34:29.184 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-11 18:34:59.438 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-11 18:35:29.708 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-11 18:35:59.963 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-11 18:36:30.215 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ] 2019-03-11 18:36:30.216 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-11 18:37:00.494 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ] 2019-03-11 18:37:00.496 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-11 18:37:30.737 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ] 2019-03-11 18:37:30.740 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-11 18:38:00.967 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ] 2019-03-11 18:38:00.967 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-11 18:38:31.204 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ] 2019-03-11 18:38:31.204 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-11 19:48:55.999 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-11 19:48:56.008 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-11 19:52:11.373 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-11 19:52:11.383 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-11 19:53:16.434 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-11 19:53:16.446 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-11 19:54:41.983 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-11 19:54:42.003 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 13:36:44.574 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-17 13:37:15.970 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-17 13:37:46.334 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-17 13:38:16.670 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-17 13:38:46.988 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-17 13:39:17.299 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-17 13:41:47.272 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-17 13:42:18.420 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-17 13:42:48.760 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-17 15:05:06.954 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[ERROR] 2019-03-17 15:05:39.327 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:06:24.427 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:15:07.992 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2019-03-17 15:15:39.998 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:16:11.055 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:16:41.735 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:17:12.360 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:17:42.983 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:18:13.684 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:18:44.810 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-17 15:18:44.811 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 15:19:15.436 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-17 15:19:15.439 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 15:19:46.051 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-17 15:19:46.053 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 15:20:16.685 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-17 15:20:16.686 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 15:20:24.868 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:20:56.826 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:21:27.833 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:22:28.558 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2019-03-17 15:23:00.318 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:23:31.070 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:24:01.864 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:24:32.487 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:25:03.102 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:25:33.695 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 15:26:04.347 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-17 15:26:04.349 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 15:26:35.138 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-17 15:26:35.140 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 15:27:05.697 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-17 15:27:05.699 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 15:27:36.334 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-17 15:27:36.337 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 15:28:06.944 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-17 15:28:06.946 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 16:46:42.993 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2019-03-17 16:47:15.126 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 16:47:46.121 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 16:48:16.846 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 16:48:47.520 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 16:49:18.157 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 16:49:48.775 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[ERROR] 2019-03-17 16:50:19.392 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-17 16:50:19.393 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 16:50:50.031 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-17 16:50:50.031 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 16:51:20.635 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
+[INFO ] 2019-03-17 16:51:20.637 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 17:46:28.737 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2019-03-17 17:47:00.609 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[ERROR] 2019-03-17 17:47:31.704 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 200)
+[ERROR] 2019-03-17 17:48:02.433 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 200)
+[ERROR] 2019-03-17 17:48:33.148 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 200)
+[ERROR] 2019-03-17 17:49:03.734 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 200)
+[ERROR] 2019-03-17 17:49:34.322 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 200)
+[ERROR] 2019-03-17 17:50:04.925 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 200)
+[INFO ] 2019-03-17 17:50:04.927 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-17 18:04:53.874 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:04:57.465 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-17 18:04:57.895 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-17 18:04:57.899 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-17 18:04:57.906 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-17 18:04:57.907 [main] UserDao - **********Attempting to delete user from database: Tester4 with ID: 4
+[INFO ] 2019-03-17 18:04:58.045 [main] UserDao - **********Successfully deleted user: Tester4 with ID: 4
+[INFO ] 2019-03-17 18:04:58.046 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-17 18:04:58.055 [main] UserDao - **********Query Found ID : 4
+[ERROR] 2019-03-17 18:04:58.094 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:04:58.095 [main] UserDaoTest - ^^^^^^^^^^Starting test to check if a user recipe set is added to a user object.
+[INFO ] 2019-03-17 18:04:58.095 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}
+[INFO ] 2019-03-17 18:04:58.145 [main] UserDao - **********User inserted: CHzPlz with user ID: 94
+[INFO ] 2019-03-17 18:04:58.149 [main] UserDao - **********Querying User by ID: 94
+[INFO ] 2019-03-17 18:04:58.171 [main] UserDao - **********Query Found ID : 94
+[ERROR] 2019-03-17 18:04:58.206 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:04:58.207 [main] UserDao - **********Querying all Users.
+[INFO ] 2019-03-17 18:04:58.526 [main] UserDao - **********Query Found Users: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}]
+[ERROR] 2019-03-17 18:04:58.548 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:04:58.548 [main] UserDao - **********Querying User by ID: 3
+[INFO ] 2019-03-17 18:04:58.559 [main] UserDao - **********Query Found ID : 3
+[ERROR] 2019-03-17 18:04:58.582 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:04:58.582 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Saves a new User
+[INFO ] 2019-03-17 18:04:58.582 [main] UserDao - **********Attempting to save|update user into the database: User{userId='0', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-17 18:04:58.669 [main] UserDao - **********Saved|Updated user: HammerTime33 With ID: 95
+[INFO ] 2019-03-17 18:04:58.669 [main] UserDao - **********Querying User by ID: 95
+[INFO ] 2019-03-17 18:04:58.676 [main] UserDao - **********Query Found ID : 95
+[INFO ] 2019-03-17 18:04:58.677 [main] UserDao - **********Querying User by ID: 6
+[INFO ] 2019-03-17 18:04:58.688 [main] UserDao - **********Query Found ID : 6
+[INFO ] 2019-03-17 18:04:58.689 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Updates an existing User
+[INFO ] 2019-03-17 18:04:58.689 [main] UserDao - **********Attempting to save|update user into the database: User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}
+[INFO ] 2019-03-17 18:04:58.716 [main] UserDao - **********Saved|Updated user: CaptMarv33 With ID: 6
+[INFO ] 2019-03-17 18:04:58.716 [main] UserDao - **********Querying User by ID: 6
+[INFO ] 2019-03-17 18:04:58.730 [main] UserDao - **********Query Found ID : 6
+[ERROR] 2019-03-17 18:04:58.749 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:04:58.750 [main] UserDao - **********Querying User by Last Name: Hulk
+[INFO ] 2019-03-17 18:04:58.798 [main] UserDao - **********Querying Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-17 18:04:58.798 [main] UserDao - **********Querying User by Last Name: ma
+[INFO ] 2019-03-17 18:04:58.822 [main] UserDao - **********Querying Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}]
+[ERROR] 2019-03-17 18:04:58.845 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:04:58.846 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-17 18:04:58.859 [main] UserDao - **********User inserted: Tester7 with user ID: 96
+[INFO ] 2019-03-17 18:04:58.859 [main] UserDao - **********Querying User by ID: 96
+[INFO ] 2019-03-17 18:04:58.865 [main] UserDao - **********Query Found ID : 96
+[ERROR] 2019-03-17 18:04:58.965 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:04:58.965 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-17 18:04:58.968 [main] UserDao - **********Querying User by ID: 5
+[INFO ] 2019-03-17 18:04:58.983 [main] UserDao - **********Query Found ID : 5
+[INFO ] 2019-03-17 18:04:58.983 [main] UserDao - **********Querying User by ID: 5
+[INFO ] 2019-03-17 18:04:58.999 [main] UserDao - **********Query Found ID : 5
+[INFO ] 2019-03-17 18:04:59.000 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
+[INFO ] 2019-03-17 18:04:59.000 [main] UserDao - **********Querying User by ID: 5
+[INFO ] 2019-03-17 18:04:59.016 [main] UserDao - **********Query Found ID : 5
+[INFO ] 2019-03-17 18:04:59.016 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Sun Mar 17 18:04:58 CDT 2019}
+[ERROR] 2019-03-17 18:04:59.250 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:04:59.250 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-17 18:04:59.251 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-17 18:04:59.251 [main] UserRecipesDao - **********Querying all UserRecipes.
+[INFO ] 2019-03-17 18:04:59.339 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-07 14:53:30.0}, UserRecipes{recipeId=40, user=User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, recipeTitle='Cheese Burger', dateTimeCreated=2019-03-17 18:04:58.0}]
+[INFO ] 2019-03-17 18:04:59.339 [main] UserRecipesDao - **********Recieved lastname for recipe search: Hulk
+[INFO ] 2019-03-17 18:04:59.349 [main] UserRecipesDao - **********User Found by lastname: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-17 18:04:59.349 [main] UserRecipesDao - **********Grabbing user ID to find users recipes in database: 1
+[INFO ] 2019-03-17 18:04:59.349 [main] UserRecipesDao - **********Querying user recipes by ID: 1
+[INFO ] 2019-03-17 18:04:59.379 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
+[INFO ] 2019-03-17 18:04:59.380 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
+[ERROR] 2019-03-17 18:04:59.499 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:04:59.499 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-17 18:04:59.499 [main] UserRecipesDao - **********Querying user recipes by ID: 1
+[INFO ] 2019-03-17 18:04:59.531 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
+[ERROR] 2019-03-17 18:04:59.555 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:04:59.555 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-17 18:04:59.556 [main] UserRecipesDao - **********Querying all UserRecipes.
+[INFO ] 2019-03-17 18:04:59.590 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-07 14:53:30.0}, UserRecipes{recipeId=40, user=User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, recipeTitle='Cheese Burger', dateTimeCreated=2019-03-17 18:04:58.0}]
+[ERROR] 2019-03-17 18:04:59.611 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:04:59.611 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-17 18:04:59.611 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
+[INFO ] 2019-03-17 18:04:59.611 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-17 18:04:59.617 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-17 18:04:59.617 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-17 18:04:59.621 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-17 18:04:59.622 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: null
+[INFO ] 2019-03-17 18:04:59.622 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-17 18:04:59.630 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-17 18:04:59.630 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=null, recipeTitle='Rib Eye Steak', dateTimeCreated=Sun Mar 17 18:04:59 CDT 2019}
+[INFO ] 2019-03-17 18:04:59.630 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=null, recipeTitle='Rib Eye Steak', dateTimeCreated=Sun Mar 17 18:04:59 CDT 2019}
+[ERROR] 2019-03-17 18:06:27.146 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:06:27.159 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-17 18:06:31.300 [main] UserDao - **********Querying User by ID: 5
+[INFO ] 2019-03-17 18:06:31.782 [main] UserDao - **********Query Found ID : 5
+[INFO ] 2019-03-17 18:06:31.787 [main] UserDao - **********Querying User by ID: 5
+[INFO ] 2019-03-17 18:06:31.797 [main] UserDao - **********Query Found ID : 5
+[INFO ] 2019-03-17 18:06:31.797 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
+[INFO ] 2019-03-17 18:06:31.797 [main] UserDao - **********Querying User by ID: 5
+[INFO ] 2019-03-17 18:06:31.808 [main] UserDao - **********Query Found ID : 5
+[INFO ] 2019-03-17 18:06:31.809 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Sun Mar 17 18:06:31 CDT 2019}
+[ERROR] 2019-03-17 18:06:31.942 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:06:31.942 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-17 18:06:31.942 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-17 18:06:31.942 [main] UserRecipesDao - **********Querying all UserRecipes.
+[INFO ] 2019-03-17 18:06:32.430 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-07 14:53:30.0}, UserRecipes{recipeId=40, user=User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, recipeTitle='Cheese Burger', dateTimeCreated=2019-03-17 18:04:58.0}]
+[INFO ] 2019-03-17 18:06:32.431 [main] UserRecipesDao - **********Recieved lastname for recipe search: Hulk
+[INFO ] 2019-03-17 18:06:32.516 [main] UserRecipesDao - **********User Found by lastname: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-17 18:06:32.516 [main] UserRecipesDao - **********Grabbing user ID to find users recipes in database: 1
+[INFO ] 2019-03-17 18:06:32.516 [main] UserRecipesDao - **********Querying user recipes by ID: 1
+[INFO ] 2019-03-17 18:06:32.590 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
+[INFO ] 2019-03-17 18:06:32.592 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
+[ERROR] 2019-03-17 18:06:32.637 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:06:32.638 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-17 18:06:32.638 [main] UserRecipesDao - **********Querying user recipes by ID: 1
+[INFO ] 2019-03-17 18:06:32.649 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
+[ERROR] 2019-03-17 18:06:32.691 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:06:32.691 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-17 18:06:32.692 [main] UserRecipesDao - **********Querying all UserRecipes.
+[INFO ] 2019-03-17 18:06:32.747 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-07 14:53:30.0}, UserRecipes{recipeId=40, user=User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, recipeTitle='Cheese Burger', dateTimeCreated=2019-03-17 18:04:58.0}]
+[ERROR] 2019-03-17 18:06:32.779 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-17 18:06:32.780 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-17 18:06:32.780 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
+[INFO ] 2019-03-17 18:06:32.780 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-17 18:06:32.786 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-17 18:06:32.786 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-17 18:06:32.790 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-17 18:06:32.791 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: null
+[INFO ] 2019-03-17 18:06:32.791 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-17 18:06:32.801 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-17 18:06:32.801 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=null, recipeTitle='Rib Eye Steak', dateTimeCreated=Sun Mar 17 18:06:32 CDT 2019}
+[INFO ] 2019-03-17 18:06:32.801 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=null, recipeTitle='Rib Eye Steak', dateTimeCreated=Sun Mar 17 18:06:32 CDT 2019}
+[ERROR] 2019-03-18 17:32:38.673 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+[INFO ] 2019-03-18 17:32:38.711 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[ERROR] 2019-03-18 17:33:29.329 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-18 17:33:29.341 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-18 17:33:32.902 [main] UserDao - **********Querying User by ID: 5
+[INFO ] 2019-03-18 17:33:33.391 [main] UserDao - **********Query Found ID : 5
+[INFO ] 2019-03-18 17:33:33.396 [main] UserDao - **********Querying User by ID: 5
+[INFO ] 2019-03-18 17:33:33.410 [main] UserDao - **********Query Found ID : 5
+[INFO ] 2019-03-18 17:33:33.410 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
+[INFO ] 2019-03-18 17:33:33.410 [main] UserDao - **********Querying User by ID: 5
+[INFO ] 2019-03-18 17:33:33.422 [main] UserDao - **********Query Found ID : 5
+[INFO ] 2019-03-18 17:33:33.423 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Mon Mar 18 17:33:32 CDT 2019}
+[ERROR] 2019-03-18 17:33:33.604 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-18 17:33:33.604 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-18 17:33:33.604 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-18 17:33:33.604 [main] UserRecipesDao - **********Querying all UserRecipes.
+[INFO ] 2019-03-18 17:33:34.078 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-07 14:53:30.0}, UserRecipes{recipeId=40, user=User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, recipeTitle='Cheese Burger', dateTimeCreated=2019-03-17 18:04:58.0}]
+[INFO ] 2019-03-18 17:33:34.078 [main] UserRecipesDao - **********Recieved lastname for recipe search: Hulk
+[INFO ] 2019-03-18 17:33:34.128 [main] UserRecipesDao - **********User Found by lastname: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-18 17:33:34.128 [main] UserRecipesDao - **********Grabbing user ID to find users recipes in database: 1
+[INFO ] 2019-03-18 17:33:34.128 [main] UserRecipesDao - **********Querying user recipes by ID: 1
+[INFO ] 2019-03-18 17:33:34.154 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
+[INFO ] 2019-03-18 17:33:34.155 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
+[ERROR] 2019-03-18 17:33:34.245 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-18 17:33:34.245 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-18 17:33:34.245 [main] UserRecipesDao - **********Querying user recipes by ID: 1
+[INFO ] 2019-03-18 17:33:34.275 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
+[ERROR] 2019-03-18 17:33:34.319 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-18 17:33:34.320 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-18 17:33:34.321 [main] UserRecipesDao - **********Querying all UserRecipes.
+[INFO ] 2019-03-18 17:33:34.384 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-07 14:53:30.0}, UserRecipes{recipeId=40, user=User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, recipeTitle='Cheese Burger', dateTimeCreated=2019-03-17 18:04:58.0}]
+[ERROR] 2019-03-18 17:33:34.411 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-18 17:33:34.411 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
+[INFO ] 2019-03-18 17:33:34.411 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
+[INFO ] 2019-03-18 17:33:34.411 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-18 17:33:34.417 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-18 17:33:34.418 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-18 17:33:34.423 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-18 17:33:34.423 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: null
+[INFO ] 2019-03-18 17:33:34.423 [main] UserDao - **********Querying User by ID: 4
+[INFO ] 2019-03-18 17:33:34.456 [main] UserDao - **********Query Found ID : 4
+[INFO ] 2019-03-18 17:33:34.456 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=null, recipeTitle='Rib Eye Steak', dateTimeCreated=Mon Mar 18 17:33:34 CDT 2019}
+[INFO ] 2019-03-18 17:33:34.457 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=null, recipeTitle='Rib Eye Steak', dateTimeCreated=Mon Mar 18 17:33:34 CDT 2019}
