@@ -7,23 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="477481c9-9ecd-4f0f-aa8c-67836071a9be" name="Default" comment="Updating time logs">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3978bd42-bd74-4e35-ba3a-7febc02ad0f5.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/3978bd42-bd74-4e35-ba3a-7febc02ad0f5.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Journal.md" afterPath="$PROJECT_DIR$/Journal.md" />
-      <change beforePath="$PROJECT_DIR$/logs/mealprep.log" afterPath="$PROJECT_DIR$/logs/mealprep.log" />
-      <change beforePath="$PROJECT_DIR$/mealprep.iml" afterPath="$PROJECT_DIR$/mealprep.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/database.properties" afterPath="$PROJECT_DIR$/src/main/resources/database.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/database.properties" afterPath="$PROJECT_DIR$/src/test/resources/database.properties" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database.properties" afterPath="$PROJECT_DIR$/target/classes/database.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.UserDaoTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.UserDaoTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.UserRecipesDaoTest.xml" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-edu.matc.persistence.UserRecipesDaoTest.xml" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.matc.persistence.UserDaoTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.matc.persistence.UserDaoTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/edu.matc.persistence.UserRecipesDaoTest.txt" afterPath="$PROJECT_DIR$/target/surefire-reports/edu.matc.persistence.UserRecipesDaoTest.txt" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/database.properties" afterPath="$PROJECT_DIR$/target/test-classes/database.properties" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/hibernate.cfg.xml" afterPath="$PROJECT_DIR$/target/test-classes/hibernate.cfg.xml" />
+      <change beforePath="$PROJECT_DIR$/TimeLog.md" afterPath="$PROJECT_DIR$/TimeLog.md" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/entity/UserRecipes.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/entity/UserRecipes.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/matc/persistence/GenericDao.java" afterPath="$PROJECT_DIR$/src/main/java/edu/matc/persistence/GenericDao.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,6 +61,47 @@
         <item name="mealprep@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mealprep@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mealprep: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mealprep@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mealprep: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="groceryList: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mealprep@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mealprep: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="ingredients: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mealprep@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mealprep: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="userRecipes: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mealprep@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mealprep: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="users: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mealprep@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mealprep: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="weeklyMealPlan: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
     </expand>
     <select />
   </component>
@@ -79,45 +109,226 @@
     <favorites_list name="mealprep" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GenericDao.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/GenericDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="7" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRecipesDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserRecipesDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1590">
-              <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="vertical" split-proportion="0.49787235">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SessionFactoryProvider.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/SessionFactoryProvider.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/User.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="540">
+                  <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GroceryList.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/GroceryList.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="56" selection-end-column="7" />
+                  <folding>
+                    <element signature="method#GroceryList#0;class#GroceryList#0" expanded="false" />
+                    <element signature="e#1197#1198#0" expanded="true" />
+                    <element signature="e#1233#1234#0" expanded="true" />
+                    <element signature="e#1332#1333#0" expanded="true" />
+                    <element signature="e#1382#1383#0" expanded="true" />
+                    <element signature="e#1455#1456#0" expanded="true" />
+                    <element signature="e#1493#1494#0" expanded="true" />
+                    <element signature="e#1601#1602#0" expanded="true" />
+                    <element signature="e#1655#1656#0" expanded="true" />
+                    <element signature="e#1722#1723#0" expanded="true" />
+                    <element signature="e#1757#1758#0" expanded="true" />
+                    <element signature="e#1853#1854#0" expanded="true" />
+                    <element signature="e#1901#1902#0" expanded="true" />
+                    <element signature="e#1975#1976#0" expanded="true" />
+                    <element signature="e#2009#2010#0" expanded="true" />
+                    <element signature="e#2110#2111#0" expanded="true" />
+                    <element signature="e#2156#2157#0" expanded="true" />
+                    <element signature="e#2216#2217#0" expanded="true" />
+                    <element signature="e#2243#2244#0" expanded="true" />
+                    <element signature="e#2316#2317#0" expanded="true" />
+                    <element signature="e#2348#2349#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Journal.md" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Journal.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="109">
+                    <caret line="71" column="7" lean-forward="false" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TimeLog.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/TimeLog.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="FIRST">
+                  <first_editor relative-caret-position="103">
+                    <caret line="25" column="57" lean-forward="false" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="120" column="49" lean-forward="false" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="49" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserRecipesDao.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserRecipesDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#getAllUserRecipes#0;class#UserRecipesDao#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GenericDao.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/GenericDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="540">
+                  <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#701#702#0" expanded="true" />
+                    <element signature="e#733#734#0" expanded="true" />
+                    <element signature="method#getAll#0;class#GenericDao#0" expanded="false" />
+                    <element signature="method#getUserByLastName#0;class#GenericDao#0" expanded="false" />
+                    <element signature="method#saveOrUpdate#0;class#GenericDao#0" expanded="false" />
+                    <element signature="method#insert#0;class#GenericDao#0" expanded="false" />
+                    <element signature="method#delete#0;class#GenericDao#0" expanded="false" />
+                    <element signature="e#4220#4221#0" expanded="true" />
+                    <element signature="e#4299#4300#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserRecipes.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/UserRecipes.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="276">
+                  <caret line="107" column="17" lean-forward="false" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Ingredients.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/Ingredients.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2070">
+                  <caret line="138" column="25" lean-forward="false" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
+                  <folding>
+                    <element signature="e#1292#1293#0" expanded="true" />
+                    <element signature="e#1327#1328#0" expanded="true" />
+                    <element signature="e#1423#1424#0" expanded="true" />
+                    <element signature="e#1471#1472#0" expanded="true" />
+                    <element signature="e#1543#1544#0" expanded="true" />
+                    <element signature="e#1580#1581#0" expanded="true" />
+                    <element signature="e#1685#1686#0" expanded="true" />
+                    <element signature="e#1737#1738#0" expanded="true" />
+                    <element signature="e#1813#1814#0" expanded="true" />
+                    <element signature="e#1854#1855#0" expanded="true" />
+                    <element signature="e#1971#1972#0" expanded="true" />
+                    <element signature="e#2031#2032#0" expanded="true" />
+                    <element signature="e#2091#2092#0" expanded="true" />
+                    <element signature="e#2119#2120#0" expanded="true" />
+                    <element signature="e#2194#2195#0" expanded="true" />
+                    <element signature="e#2228#2229#0" expanded="true" />
+                    <element signature="e#2306#2307#0" expanded="true" />
+                    <element signature="e#2349#2350#0" expanded="true" />
+                    <element signature="e#2599#2600#0" expanded="true" />
+                    <element signature="e#2627#2628#0" expanded="true" />
+                    <element signature="e#2705#2706#0" expanded="true" />
+                    <element signature="e#2739#2740#0" expanded="true" />
+                    <element signature="e#2813#2814#0" expanded="true" />
+                    <element signature="e#2847#2848#0" expanded="true" />
+                    <element signature="e#2948#2949#0" expanded="true" />
+                    <element signature="e#2994#2995#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="WeeklyMealPlan.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/WeeklyMealPlan.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1098">
+                  <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+                  <folding>
+                    <element signature="e#917#918#0" expanded="true" />
+                    <element signature="e#956#957#0" expanded="true" />
+                    <element signature="e#1064#1065#0" expanded="true" />
+                    <element signature="e#1120#1121#0" expanded="true" />
+                    <element signature="e#1196#1197#0" expanded="true" />
+                    <element signature="e#1237#1238#0" expanded="true" />
+                    <element signature="e#1354#1355#0" expanded="true" />
+                    <element signature="e#1414#1415#0" expanded="true" />
+                    <element signature="e#1488#1489#0" expanded="true" />
+                    <element signature="e#1522#1523#0" expanded="true" />
+                    <element signature="e#1623#1624#0" expanded="true" />
+                    <element signature="e#1669#1670#0" expanded="true" />
+                    <element signature="e#1729#1730#0" expanded="true" />
+                    <element signature="e#1756#1757#0" expanded="true" />
+                    <element signature="e#1829#1830#0" expanded="true" />
+                    <element signature="e#1861#1862#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -131,7 +342,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>maven-compiler</find>
       <find>/</find>
       <find>searchu</find>
       <find>col-sm-6</find>
@@ -161,6 +371,7 @@
       <find>Working</find>
       <find>failed</find>
       <find>sure</find>
+      <find>userrecipes</find>
     </findStrings>
     <replaceStrings>
       <replace>a</replace>
@@ -189,9 +400,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/entity/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java.edu.matc/controller/SearchUser.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/results.jsp" />
         <option value="$PROJECT_DIR$/logs/mealprep.log" />
@@ -226,13 +434,9 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3978bd42-bd74-4e35-ba3a-7febc02ad0f5/users.sql" />
         <option value="$PROJECT_DIR$/src/test/resources/cleandb.sql" />
         <option value="$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/UserRecipes.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3978bd42-bd74-4e35-ba3a-7febc02ad0f5/userRecipes.sql" />
         <option value="src:table:/1b7b6d0c/3978bd42-bd74-4e35-ba3a-7febc02ad0f5/test_mealprep.userRecipes" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3978bd42-bd74-4e35-ba3a-7febc02ad0f5/mealPrepSetup.sql" />
         <option value="$PROJECT_DIR$/src/test/java/edu/matc/persistence/UserRecipesDaoTest.java" />
-        <option value="$PROJECT_DIR$/TimeLog.md" />
-        <option value="$PROJECT_DIR$/Journal.md" />
         <option value="$PROJECT_DIR$/src/test/resources/database.properties" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserRecipesDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
@@ -240,6 +444,13 @@
         <option value="$PROJECT_DIR$/src/test/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/matc/persistence/GenericDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/UserRecipes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/GroceryList.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/3978bd42-bd74-4e35-ba3a-7febc02ad0f5/mealPrepSetup.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/Ingredients.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/matc/entity/WeeklyMealPlan.java" />
+        <option value="$PROJECT_DIR$/Journal.md" />
+        <option value="$PROJECT_DIR$/TimeLog.md" />
       </list>
     </option>
   </component>
@@ -297,10 +508,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2099" />
-    <option name="y" value="24" />
-    <option name="width" value="1083" />
-    <option name="height" value="1002" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -340,8 +549,8 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -382,84 +591,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="matc" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mealprep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="matc" type="462c0819:PsiDirectoryNode" />
               <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mealprep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="matc" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mealprep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mealprep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mealprep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mealprep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="matc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mealprep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="matc" type="462c0819:PsiDirectoryNode" />
-              <item name="persistence" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mealprep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="matc" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mealprep" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mealprep" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -472,7 +610,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="SearchEverywhereHistoryKey" value="data&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/.idea/dataSources.local.xml&#10;databa&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/test/resources/database.properties&#10;user.j&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/entity/User.java&#10;userr&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/entity/UserRecipes.java&#10;userdaot&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/test/java/edu/matc/persistence/UserDaoTest.java&#10;userre&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/entity/UserRecipes.java&#10;user&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/test/java/edu/matc/persistence/UserDaoTest.java&#10;hib&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/test/resources/hibernate.cfg.xml&#10;ser&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/entity/User.java&#10;userd&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/persistence/UserDao.java&#10;test&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/test/java/edu/matc/persistence/UserDaoTest.java&#10;de&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/deleteUser.jsp&#10;sear&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/searchUser.jsp&#10;add&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/addUser.jsp&#10;delete&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/deletedUserResult.jsp&#10;sea&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/controller/SearchUserPage.java&#10;ad&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/addUser.jsp&#10;search&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/searchUser.jsp&#10;addus&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/addUser.jsp" />
+    <property name="SearchEverywhereHistoryKey" value="userre&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/entity/UserRecipes.java&#10;data&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/.idea/dataSources.local.xml&#10;databa&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/test/resources/database.properties&#10;user.j&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/entity/User.java&#10;userr&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/entity/UserRecipes.java&#10;userdaot&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/test/java/edu/matc/persistence/UserDaoTest.java&#10;user&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/test/java/edu/matc/persistence/UserDaoTest.java&#10;hib&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/test/resources/hibernate.cfg.xml&#10;ser&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/entity/User.java&#10;userd&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/persistence/UserDao.java&#10;test&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/test/java/edu/matc/persistence/UserDaoTest.java&#10;de&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/deleteUser.jsp&#10;sear&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/searchUser.jsp&#10;add&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/addUser.jsp&#10;delete&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/deletedUserResult.jsp&#10;sea&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/java/edu/matc/controller/SearchUserPage.java&#10;ad&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/addUser.jsp&#10;search&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/searchUser.jsp&#10;addus&#9;FILE&#9;file:///Users/andrewpark/IdeaProjects/mealprep/src/main/webapp/addUser.jsp" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -486,11 +624,11 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DesignDocuments/dbDiagram" />
       <recent name="$PROJECT_DIR$/DesignDocuments" />
       <recent name="$PROJECT_DIR$/imagesForExercises" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -858,7 +996,14 @@
       <workItem from="1552852420061" duration="2538000" />
       <workItem from="1552859117362" duration="374000" />
       <workItem from="1552862749679" duration="1673000" />
-      <workItem from="1552948240972" duration="1412000" />
+      <workItem from="1552948240972" duration="3489000" />
+      <workItem from="1553032375378" duration="1142000" />
+      <workItem from="1553033642562" duration="49000" />
+      <workItem from="1553033721874" duration="41000" />
+      <workItem from="1553037173623" duration="601000" />
+      <workItem from="1553119871591" duration="4808000" />
+      <workItem from="1553208139483" duration="2878000" />
+      <workItem from="1553286501502" duration="5784000" />
     </task>
     <servers />
   </component>
@@ -895,7 +1040,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160071000" />
+    <option name="totallyTimeSpent" value="177451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -907,7 +1052,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2099" y="24" width="1083" height="1002" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -917,24 +1062,25 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30353636" sideWeight="0.7247191" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17689823" sideWeight="0.7247191" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17224081" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3278496" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29142186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32897604" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7015276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.70121276" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18213867" sideWeight="0.49535602" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.57931846" sideWeight="0.49535602" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2612872" sideWeight="0.48414376" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.293617" sideWeight="0.49535602" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42695037" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24394184" sideWeight="0.48414376" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1898223" sideWeight="0.51585627" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19274808" sideWeight="0.50666666" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -942,10 +1088,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29142186" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1592775" sideWeight="0.2752809" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32771337" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32907802" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1024,55 +1169,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/searchUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="54" lean-forward="false" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/SearchUserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="40" column="66" lean-forward="false" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/DeleteUserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="39" selection-start-column="9" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3978bd42-bd74-4e35-ba3a-7febc02ad0f5/users.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="true" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/Database.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/SessionFactoryProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar!/javax/persistence/JoinColumn.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-121">
@@ -1105,16 +1201,6 @@
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DesignDocuments/userStories.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1205,51 +1291,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3978bd42-bd74-4e35-ba3a-7febc02ad0f5/mealPrepSetup.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TimeLog.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="142" lean-forward="false" selection-start-line="20" selection-start-column="142" selection-end-line="20" selection-end-column="142" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Journal.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="331">
-            <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/controller/AddUserPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1402">
-          <caret line="168" column="5" lean-forward="false" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/UserRecipes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="10" lean-forward="false" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1376,7 +1421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1384,7 +1428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,7 +1442,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1407,15 +1449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1018">
           <caret line="121" column="1" lean-forward="true" selection-start-line="121" selection-start-column="1" selection-end-line="121" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,7 +1456,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,9 +1463,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="132" lean-forward="false" selection-start-line="6" selection-start-column="132" selection-end-line="6" selection-end-column="132" />
-          <folding>
-            <element signature="e#382#387#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1441,10 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="23" column="26" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-          <folding>
-            <element signature="e#361#366#0" expanded="true" />
-            <element signature="e#377#382#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1456,34 +1481,228 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserRecipesDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/SessionFactoryProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1590">
-          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        <state relative-caret-position="165">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.12.Final/hibernate-core-5.2.12.Final.jar!/org/hibernate/Session.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="107" column="13" lean-forward="false" selection-start-line="107" selection-start-column="13" selection-end-line="107" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="36" column="19" lean-forward="false" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="120" column="49" lean-forward="false" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/GenericDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="29" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="540">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="method#getAll#0;class#GenericDao#0" expanded="false" />
+            <element signature="method#getUserByLastName#0;class#GenericDao#0" expanded="false" />
+            <element signature="method#saveOrUpdate#0;class#GenericDao#0" expanded="false" />
+            <element signature="method#insert#0;class#GenericDao#0" expanded="false" />
+            <element signature="method#delete#0;class#GenericDao#0" expanded="false" />
+            <element signature="e#4220#4221#0" expanded="true" />
+            <element signature="e#4299#4300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/UserRecipesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getAllUserRecipes#0;class#UserRecipesDao#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="38" column="5" lean-forward="false" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/persistence/GenericDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/UserRecipes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="107" column="17" lean-forward="false" selection-start-line="107" selection-start-column="17" selection-end-line="107" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DesignDocuments/userStories.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagesForExercises/exercise4.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3978bd42-bd74-4e35-ba3a-7febc02ad0f5/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/Ingredients.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2070">
+          <caret line="138" column="25" lean-forward="false" selection-start-line="138" selection-start-column="25" selection-end-line="138" selection-end-column="25" />
+          <folding>
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1327#1328#0" expanded="true" />
+            <element signature="e#1423#1424#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+            <element signature="e#1543#1544#0" expanded="true" />
+            <element signature="e#1580#1581#0" expanded="true" />
+            <element signature="e#1685#1686#0" expanded="true" />
+            <element signature="e#1737#1738#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#2091#2092#0" expanded="true" />
+            <element signature="e#2119#2120#0" expanded="true" />
+            <element signature="e#2194#2195#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+            <element signature="e#2306#2307#0" expanded="true" />
+            <element signature="e#2349#2350#0" expanded="true" />
+            <element signature="e#2599#2600#0" expanded="true" />
+            <element signature="e#2627#2628#0" expanded="true" />
+            <element signature="e#2705#2706#0" expanded="true" />
+            <element signature="e#2739#2740#0" expanded="true" />
+            <element signature="e#2813#2814#0" expanded="true" />
+            <element signature="e#2847#2848#0" expanded="true" />
+            <element signature="e#2948#2949#0" expanded="true" />
+            <element signature="e#2994#2995#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/WeeklyMealPlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1098">
+          <caret line="84" column="18" lean-forward="false" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+          <folding>
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#1064#1065#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+            <element signature="e#1196#1197#0" expanded="true" />
+            <element signature="e#1237#1238#0" expanded="true" />
+            <element signature="e#1354#1355#0" expanded="true" />
+            <element signature="e#1414#1415#0" expanded="true" />
+            <element signature="e#1488#1489#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1669#1670#0" expanded="true" />
+            <element signature="e#1729#1730#0" expanded="true" />
+            <element signature="e#1756#1757#0" expanded="true" />
+            <element signature="e#1829#1830#0" expanded="true" />
+            <element signature="e#1861#1862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/3978bd42-bd74-4e35-ba3a-7febc02ad0f5/mealPrepSetup.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/matc/entity/GroceryList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="56" selection-end-column="7" />
           <folding>
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#620#621#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
+            <element signature="method#GroceryList#0;class#GroceryList#0" expanded="false" />
+            <element signature="e#1197#1198#0" expanded="true" />
+            <element signature="e#1233#1234#0" expanded="true" />
+            <element signature="e#1332#1333#0" expanded="true" />
+            <element signature="e#1382#1383#0" expanded="true" />
+            <element signature="e#1455#1456#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1601#1602#0" expanded="true" />
+            <element signature="e#1655#1656#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1757#1758#0" expanded="true" />
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1901#1902#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2009#2010#0" expanded="true" />
+            <element signature="e#2110#2111#0" expanded="true" />
+            <element signature="e#2156#2157#0" expanded="true" />
+            <element signature="e#2216#2217#0" expanded="true" />
+            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="e#2316#2317#0" expanded="true" />
+            <element signature="e#2348#2349#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Journal.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="109">
+            <caret line="71" column="7" lean-forward="false" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TimeLog.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="103">
+            <caret line="25" column="57" lean-forward="false" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -3,9 +3,12 @@ package edu.matc.persistence;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
+
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
+import javax.persistence.criteria.Expression;
 import javax.persistence.criteria.Root;
 import java.util.List;
 
@@ -31,16 +34,117 @@ public class GenericDao<T> {
      * @return all of the entities
      */
     public List<T> getAll() {
+
+        logger.info("**********Starting Get All Query From Class Type: " + type);
         Session session = getSession();
-
         CriteriaBuilder builder = session.getCriteriaBuilder();
-
         CriteriaQuery<T> query = builder.createQuery(type);
         Root<T> root = query.from(type);
         List<T> list = session.createQuery(query).getResultList();
         session.close();
+        logger.info("**********Get All Query Found: " + list);
 
         return list;
     }
 
+    /**
+     * Gets entity by ID
+     * @param id entity ID to search by
+     * @return entity
+     */
+    public <T> T getById(int id) {
+
+        logger.info("**********Query Using ID: " + id + ", of Type: " + type);
+        Session session = getSession();
+        T entity = (T)session.get(type, id);
+        session.close();
+        logger.info("**********Query by ID Found: " + entity);
+
+        return entity;
+    }
+
+    /**
+     *
+     * @param lastName
+     * @return entity
+     */
+    private List<T> getUserByLastName(String lastName) {
+
+        logger.info("**********Query Using Last Name:  " + lastName + ", of Type: " + type);
+        Session session = getSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        Expression<String> propertyPath = root.get("lastName");
+        query.where(builder.like(propertyPath, "%" + lastName + "%"));
+        List<T> list = session.createQuery(query).getResultList();
+        session.close();
+        logger.info("**********Query by Last Name Found: " + list);
+
+        return list;
+    }
+
+    /**
+     *
+     * @param entity
+     * @return entity
+     * TODO: Create some sort of catch if nothing is saved or updated
+     */
+    public <T> T saveOrUpdate(T entity) {
+
+        logger.info("**********Attempting to Save|Update a Entity to the Database: " + entity);
+        Session session = getSession();
+        Transaction transaction = session.beginTransaction();
+        session.saveOrUpdate(entity);
+        transaction.commit();
+        logger.info("**********Saved|Updated entity: " + entity);
+        session.close();
+
+        return entity;
+    }
+
+    /**
+     *
+     * @param entity
+     * @return entity
+     * TODO: Create some sort of catch if nothing is inserted
+     */
+    public <T> T insert(T entity) {
+
+        logger.info("**********Attempting to insert a Entity: " + entity);
+        Session session = getSession();
+        Transaction transaction = session.beginTransaction();
+        session.save(entity);
+        transaction.commit();
+        session.close();
+        logger.info("**********Entity inserted: " + entity);
+
+        return entity;
+    }
+
+    /**
+     * Deletes the entity
+     *
+     * @param entity to be deleted
+     * TODO: Create some sort of catch if nothing is deleted
+     */
+    public void delete(T entity) {
+
+        logger.info("**********Attempting to Delete Entity: " + entity);
+        Session session = getSession();
+        Transaction transaction = session.beginTransaction();
+        session.delete(entity);
+        logger.info("**********Successfully deleted user: " + entity);
+
+        transaction.commit();
+        session.close();
+    }
+
+    /**
+     * Returns an open session from the Session Factory
+     * @return session
+     */
+    private Session getSession() {
+        return SessionFactoryProvider.getSessionFactory().openSession();
+    }
 }

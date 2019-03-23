@@ -1,7 +1,7 @@
 package edu.matc.entity;
 
 import javax.persistence.*;
-import java.util.Date; //Consider using Joda time when you have free time to look into it.
+import java.time.LocalDateTime;
 
 @Entity(name = "UserRecipes")
 @Table(name = "userRecipes")
@@ -20,7 +20,7 @@ public class UserRecipes {
     private String recipeTitle;
 
     @Column(name="date_created")
-    private Date dateTimeCreated;
+    private LocalDateTime dateTimeCreated;
 
 
     public UserRecipes() {
@@ -32,7 +32,7 @@ public class UserRecipes {
      * @param recipeTitle
      * @param dateTimeCreated
      */
-    public UserRecipes(User user, String recipeTitle, Date dateTimeCreated) {
+    public UserRecipes(User user, String recipeTitle, LocalDateTime dateTimeCreated) {
         this.user = user;
         this.recipeTitle = recipeTitle;
         this.dateTimeCreated = dateTimeCreated;
@@ -86,7 +86,7 @@ public class UserRecipes {
      *
      * @return
      */
-    public Date getDateTimeCreated() {
+    public LocalDateTime getDateTimeCreated() {
         return dateTimeCreated;
     }
 
@@ -94,7 +94,7 @@ public class UserRecipes {
      *
      * @param dateTimeCreated
      */
-    public void setDateTimeCreated(Date dateTimeCreated) {
+    public void setDateTimeCreated(LocalDateTime dateTimeCreated) {
         this.dateTimeCreated = dateTimeCreated;
     }
 
@@ -105,6 +105,6 @@ public class UserRecipes {
                 ", user=" + user +
                 ", recipeTitle='" + recipeTitle + '\'' +
                 ", dateTimeCreated=" + dateTimeCreated +
-                '}';
+                "}";
     }
 }

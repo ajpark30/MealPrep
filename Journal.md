@@ -65,3 +65,8 @@ Tasks Completed:
  *Was able to get week one launched to AWS.
  
  I ran into a problem and tried deploying my indie project which also ran into errors.  Side note, why cant I ssh when i'm not at home?
+ 
+### Week 7 & spring break 
+3/11 - 3/25 
+Tasks Completed:
+ * Working on creating generic Dao, setting up the database with all tables for the app

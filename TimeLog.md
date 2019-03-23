@@ -19,3 +19,8 @@
 |3/8/19|Worked on database structure, skimmed the week 6 docs and videos | 1.5 | No notes|
 |3/9/19|Set up AWS account, finished the delete method in userRecipeDaoTest, and created new tables for database.| 1.5 | About 30% complete|
 |3/10/19|Worked on getting deployed to AWS.  Forgot I blew up my week 1 with hibernate but I was able to get it deployed but didnt check DB| 3 | I'll need to use Gradle too |
+|3/14/19|Trying to figure out database errors created after trying to deploye to AWS | 2 | Couldn't find issue|
+|3/15/19|Connected back to database and running into errors based off of the time variables I chose| 1.5| Moving on for now|
+|3/21/19|Working on building generic Dao| .5 | No notes|
+|3/22/19|Working on building generic Dao| 1 | No notes|
+|3/23/19|Building classes for all entities| Still working | No notes|
