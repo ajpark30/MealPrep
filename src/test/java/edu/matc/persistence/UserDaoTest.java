@@ -7,8 +7,8 @@ import org.apache.logging.log4j.Logger;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.time.LocalDate;
-import java.util.Date;
+
+import java.time.LocalDateTime;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -16,7 +16,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class UserDaoTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
-    UserDao dao;
+    User user;
+    GenericDao genericDao;
 
     /**
      * Run set up tasks before each test:
@@ -25,11 +26,10 @@ class UserDaoTest {
      */
     @BeforeEach
     void setUp() {
-
         edu.matc.test.util.Database database = edu.matc.test.util.Database.getInstance();
         database.runSQL("cleandb.sql");
-
-        dao = new UserDao();
+        logger.info("----------Cleaning Database with sql script for User Testing----------");
+        genericDao = new GenericDao(User.class);
     }
 
     /**
@@ -37,8 +37,9 @@ class UserDaoTest {
      */
     @Test
     void deleteSuccess() {
-        dao.delete(dao.getUserById(4));
-        assertNull(dao.getUserById(4));
+        logger.info("^^^^^^^^^^Starting test to delete a user.");
+        genericDao.delete(genericDao.getById(4));
+        assertNull(genericDao.getById(4));
     }
 
     /**
@@ -46,7 +47,8 @@ class UserDaoTest {
      */
     @Test
     void getAllSuccess() {
-        List<User> users = dao.getAllUsers();
+        logger.info("^^^^^^^^^^Starting test to get all users.");
+        List<User> users = genericDao.getAll();
         assertEquals(6, users.size());
     }
 
@@ -55,10 +57,12 @@ class UserDaoTest {
      */
     @Test
     void getUserByLastName() {
-        List<User> retrievedUser = dao.getUserByLastName("Hulk");
+
+        logger.info("^^^^^^^^^^Starting test to get a user by last name.");
+        List<User> retrievedUser = genericDao.getByLastName("Hulk");
         assertEquals("Hulk", retrievedUser.get(0).getLastName());
 
-        List<User> retrievedUser2 = dao.getUserByLastName("ma");
+        List<User> retrievedUser2 = genericDao.getByLastName("ma");
         assertEquals(2, retrievedUser2.size());
         assertEquals("Man", retrievedUser2.get(0).getLastName());
         assertEquals("Marvel", retrievedUser2.get(1).getLastName());
@@ -68,8 +72,10 @@ class UserDaoTest {
      * Verify successful retrieval of a user
      */
     @Test
-    void getByIdSuccess() {
-        User retrievedUser = dao.getUserById(3);
+    void getUserByIdSuccess() {
+
+        logger.info("^^^^^^^^^^Starting test to get a user by ID.");
+        User retrievedUser = (User)genericDao.getById(3);
         assertEquals("Captain", retrievedUser.getFirstName());
         assertEquals("America", retrievedUser.getLastName());
         assertEquals("Tester3", retrievedUser.getUserName());
@@ -83,33 +89,34 @@ class UserDaoTest {
     @Test
     void insertSuccess() {
 
+        logger.info("^^^^^^^^^^Starting test to insert a user.");
         User newUser = new User("Thor", "Odinson", "Tester7", "test");
-        dao.insertUser(newUser);
+        genericDao.insert(newUser);
         int userId = newUser.getUserId();
-        User insertedUser = dao.getUserById(userId);
+        User insertedUser = (User)genericDao.getById(userId);
         assertEquals("Thor", insertedUser.getFirstName());
     }
 
     /**
-     * Verify successful insert of a user
+     * Verify successful insert of a user recipe
      */
     @Test
-    void insertWithUserRecipesSuccess() {
-
-        User newUser = new User("Ham", "Burgler", "CHzPlz", "test");
+    void insertUserRecipesSuccess() {
 
         logger.info("^^^^^^^^^^Starting test to check if a user recipe set is added to a user object.");
+        User newUser = new User("Ham", "Burgler", "CHzPlz", "test");
 
         String userRecipeTitle = "Cheese Burger";
-        Date recipeOriginDate = new Date();
+        LocalDateTime recipeOriginDate = LocalDateTime.now();
+        logger.info("-------Locale date time: " + recipeOriginDate.toString() + "----------");
 
         UserRecipes newUserRecipes = new UserRecipes(newUser, userRecipeTitle, recipeOriginDate);
         newUser.addUserRecipes(newUserRecipes);
 
-        dao.insertUser(newUser);
+        genericDao.insert(newUser);
         int userId = newUser.getUserId();
 
-        User insertedUser = dao.getUserById(userId);
+        User insertedUser = (User)genericDao.getById(userId);
         assertEquals("Ham", insertedUser.getFirstName());
     }
 
@@ -119,22 +126,22 @@ class UserDaoTest {
      */
     @Test
     void saveOrUpdate() {
-        User saveUser = new User("Thor1", "Odinson1", "HammerTime33", "test1");
         logger.info("^^^^^^^^^^Starting Test That Saves a new User");
-        dao.saveOrUpdate(saveUser);
+        User saveUser = new User("Thor1", "Odinson1", "HammerTime33", "test1");
+        genericDao.saveOrUpdate(saveUser);
         int saveUserId = saveUser.getUserId();
-        User insertedUser = dao.getUserById(saveUserId);
+        User insertedUser = (User) genericDao.getById(saveUserId);
         assertEquals("Thor1", insertedUser.getFirstName());
         assertEquals("Odinson1", insertedUser.getLastName());
         assertEquals("HammerTime33", insertedUser.getUserName());
         assertEquals("test1", insertedUser.getUserPassword());
 
-        User updateUser = dao.getUserById(6);
+        User updateUser = (User)genericDao.getById(6);
         updateUser.setUserName("CaptMarv33");
         logger.info("^^^^^^^^^^Starting Test That Updates an existing User");
-        dao.saveOrUpdate(updateUser);
+        genericDao.saveOrUpdate(updateUser);
         int updateUserId = updateUser.getUserId();
-        User updatedUser = dao.getUserById(updateUserId);
+        User updatedUser = (User)genericDao.getById(updateUserId);
         assertEquals("Captain", updatedUser.getFirstName());
         assertEquals("Marvel", updatedUser.getLastName());
         assertEquals("CaptMarv33", updatedUser.getUserName());

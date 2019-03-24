@@ -54,7 +54,7 @@ public class GenericDao<T> {
      */
     public <T> T getById(int id) {
 
-        logger.info("**********Query Using ID: " + id + ", of Type: " + type);
+        logger.info("**********Query database by using an ID: " + id + ", of Type: " + type);
         Session session = getSession();
         T entity = (T)session.get(type, id);
         session.close();
@@ -68,7 +68,7 @@ public class GenericDao<T> {
      * @param lastName
      * @return entity
      */
-    private List<T> getUserByLastName(String lastName) {
+    public List<T> getByLastName(String lastName) {
 
         logger.info("**********Query Using Last Name:  " + lastName + ", of Type: " + type);
         Session session = getSession();
@@ -130,14 +130,38 @@ public class GenericDao<T> {
      */
     public void delete(T entity) {
 
-        logger.info("**********Attempting to Delete Entity: " + entity);
+        logger.info("**********Attempting to delete: " + entity);
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
         session.delete(entity);
-        logger.info("**********Successfully deleted user: " + entity);
+        logger.info("**********Successfully deleted: " + entity);
 
         transaction.commit();
         session.close();
+    }
+
+    /**
+     * Gets userRecipes by userRecipes ID from the mealprep database
+     * @param userRecipesId
+     * @return userRecipes with the matching userRecipes id argument
+     */
+    public List<T> getRecipesByUserId(Integer userRecipesId) {
+
+        logger.info("**********Querying user recipes by ID: " + userRecipesId);
+
+        Session session = getSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        Expression<Integer> propertyPath = root.get("user");
+        query.where(builder.equal(propertyPath, userRecipesId));
+        List<T> userRecipes = session.createQuery(query).getResultList();
+
+        logger.info("**********Query found recipes by ID : " + userRecipes);
+
+        session.close();
+
+        return userRecipes;
     }
 
     /**

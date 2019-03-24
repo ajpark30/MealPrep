@@ -1,620 +1,317 @@
-[INFO ] 2019-03-07 19:33:01.023 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 19:33:03.452 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
-[INFO ] 2019-03-07 19:33:03.454 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:33:03.874 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:33:03.879 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:33:03.885 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:33:03.886 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 19:33:03.886 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:33:03.893 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:33:03.894 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 19:33:03 CST 2019}
-[INFO ] 2019-03-07 19:33:03.894 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 19:33:03 CST 2019}
-[INFO ] 2019-03-07 19:33:03.974 [main] UserRecipesDao - **********Saved|Updated a user recipe: Rib Eye Steak with ID: 25
-[INFO ] 2019-03-07 19:33:03.974 [main] UserRecipesDaoTest - ^^^^^^^^^^New recipe saved successfully!
-[INFO ] 2019-03-07 19:33:03.975 [main] UserRecipesDao - **********Querying user recipes by ID: 4
-[INFO ] 2019-03-07 19:33:04.359 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=25, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-07 19:33:03.0}]
-[INFO ] 2019-03-07 19:33:04.360 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting recipe update process
-[INFO ] 2019-03-07 19:33:04.360 [main] UserRecipesDao - **********Querying user recipes by ID: 6
-[INFO ] 2019-03-07 19:33:04.381 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 19:33:04.382 [main] UserRecipesDao - **********Querying user recipes by ID: 6
-[INFO ] 2019-03-07 19:33:04.400 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 19:33:04.401 [main] UserRecipesDaoTest - [UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 19:40:48.857 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 19:40:51.259 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
-[INFO ] 2019-03-07 19:40:51.262 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:40:51.721 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:40:51.725 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:40:51.732 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:40:51.732 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 19:40:51.732 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:40:51.739 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:40:51.739 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 19:40:51 CST 2019}
-[INFO ] 2019-03-07 19:40:51.740 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 19:40:51 CST 2019}
-[INFO ] 2019-03-07 19:40:51.809 [main] UserRecipesDao - **********Saved|Updated a user recipe: Rib Eye Steak with ID: 26
-[INFO ] 2019-03-07 19:40:51.809 [main] UserRecipesDaoTest - ^^^^^^^^^^New recipe saved successfully!
-[INFO ] 2019-03-07 19:40:51.809 [main] UserRecipesDao - **********Querying user recipes by ID: 4
-[INFO ] 2019-03-07 19:40:52.107 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=26, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-07 19:40:51.0}]
-[INFO ] 2019-03-07 19:40:52.108 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting recipe update process
-[INFO ] 2019-03-07 19:40:52.108 [main] UserRecipesDao - **********Querying user recipes by ID: 6
-[INFO ] 2019-03-07 19:40:52.131 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 19:43:21.973 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 19:43:25.469 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
-[INFO ] 2019-03-07 19:43:25.475 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:43:25.902 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:43:25.906 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:43:25.913 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:43:25.913 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 19:43:25.913 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:43:25.922 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:43:25.923 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 19:43:25 CST 2019}
-[INFO ] 2019-03-07 19:43:25.923 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 19:43:25 CST 2019}
-[INFO ] 2019-03-07 19:43:26.055 [main] UserRecipesDao - **********Saved|Updated a user recipe: Rib Eye Steak with ID: 27
-[INFO ] 2019-03-07 19:43:26.055 [main] UserRecipesDaoTest - ^^^^^^^^^^New recipe saved successfully!
-[INFO ] 2019-03-07 19:43:26.055 [main] UserRecipesDao - **********Querying user recipes by ID: 4
-[INFO ] 2019-03-07 19:43:26.416 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=27, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-07 19:43:25.0}]
-[INFO ] 2019-03-07 19:43:26.416 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting recipe update process
-[INFO ] 2019-03-07 19:43:26.416 [main] UserRecipesDao - **********Querying user recipes by ID: 6
-[INFO ] 2019-03-07 19:43:26.460 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 19:43:40.355 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 19:44:21.007 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 19:44:23.382 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
-[INFO ] 2019-03-07 19:44:23.384 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:44:23.770 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:44:23.776 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:44:23.783 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:44:23.783 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 19:44:23.783 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:44:23.790 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:44:23.790 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 19:44:23 CST 2019}
-[INFO ] 2019-03-07 19:44:23.790 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 19:44:23 CST 2019}
-[INFO ] 2019-03-07 19:44:23.843 [main] UserRecipesDao - **********Saved|Updated a user recipe: Rib Eye Steak with ID: 28
-[INFO ] 2019-03-07 19:44:23.844 [main] UserRecipesDaoTest - ^^^^^^^^^^New recipe saved successfully!
-[INFO ] 2019-03-07 19:44:23.844 [main] UserRecipesDao - **********Querying user recipes by ID: 4
-[INFO ] 2019-03-07 19:44:24.148 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=28, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-07 19:44:23.0}]
-[INFO ] 2019-03-07 19:44:24.148 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting recipe update process
-[INFO ] 2019-03-07 19:44:24.149 [main] UserRecipesDao - **********Querying user recipes by ID: 6
-[INFO ] 2019-03-07 19:44:24.172 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 19:48:09.592 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 19:48:12.091 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
-[INFO ] 2019-03-07 19:48:12.093 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:48:12.452 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:48:12.457 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:48:12.465 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:48:12.465 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 19:48:12.465 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 19:48:12.472 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 19:48:12.472 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 19:48:12 CST 2019}
-[INFO ] 2019-03-07 19:48:12.472 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 19:48:12 CST 2019}
-[INFO ] 2019-03-07 19:48:12.550 [main] UserRecipesDao - **********Saved|Updated a user recipe: Rib Eye Steak with ID: 29
-[INFO ] 2019-03-07 19:48:12.550 [main] UserRecipesDaoTest - ^^^^^^^^^^New recipe saved successfully!
-[INFO ] 2019-03-07 19:48:12.550 [main] UserRecipesDao - **********Querying user recipes by ID: 4
-[INFO ] 2019-03-07 19:48:12.877 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=29, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-07 19:48:12.0}]
-[INFO ] 2019-03-07 19:48:12.877 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting recipe update process
-[INFO ] 2019-03-07 19:48:12.877 [main] UserRecipesDao - **********Querying user recipes by ID: 6
-[INFO ] 2019-03-07 19:48:12.897 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 19:48:12.897 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Macaroni and Cheese', dateTimeCreated=2019-03-03 19:53:00.0}
-[INFO ] 2019-03-07 19:48:12.993 [main] UserRecipesDao - **********Saved|Updated a user recipe: Macaroni and Cheese with ID: 10
-[INFO ] 2019-03-07 20:24:55.365 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:24:58.016 [main] UserRecipesDaoTest - here: null
-[INFO ] 2019-03-07 20:39:20.186 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:39:22.631 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:39:23.012 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:39:23.017 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:39:23.023 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:39:23.024 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 20:39:23.024 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:39:23.030 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:39:23.030 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='El Pastor Tacos', dateTimeCreated=Thu Mar 07 20:39:22 CST 2019}
-[INFO ] 2019-03-07 20:39:23.149 [main] UserRecipesDao - **********User recipe inserted: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'} with ID: 30
-[INFO ] 2019-03-07 20:39:23.149 [main] UserRecipesDaoTest - ^^^^^^^^^^Inserted a new recipe: UserRecipes{recipeId=30, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='El Pastor Tacos', dateTimeCreated=Thu Mar 07 20:39:22 CST 2019}
-[INFO ] 2019-03-07 20:41:44.868 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:41:47.643 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:41:47.646 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-07 20:41:48.042 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-07 20:41:48.048 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:41:48.055 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:41:48.055 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 20:41:48.055 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:41:48.062 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:41:48.062 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Thu Mar 07 20:41:47 CST 2019}
-[INFO ] 2019-03-07 20:41:48.174 [main] UserRecipesDao - **********User recipe inserted: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'} with ID: 31
-[INFO ] 2019-03-07 20:41:48.175 [main] UserRecipesDaoTest - ^^^^^^^^^^Inserted a new recipe: UserRecipes{recipeId=31, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Thu Mar 07 20:41:47 CST 2019}
-[INFO ] 2019-03-07 20:41:48.246 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:41:48.247 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
-[INFO ] 2019-03-07 20:41:48.247 [main] UserRecipesDao - **********Querying all UserRecipes.
-[INFO ] 2019-03-07 20:41:48.604 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:41:48.607 [main] UserRecipesDao - **********Recieved lastname for recipe search: Hulk
-[INFO ] 2019-03-07 20:41:48.658 [main] UserRecipesDao - **********User Found by lastname: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
-[INFO ] 2019-03-07 20:41:48.658 [main] UserRecipesDao - **********Grabbing user ID to find users recipes in database: 1
-[INFO ] 2019-03-07 20:41:48.658 [main] UserRecipesDao - **********Querying user recipes by ID: 1
-[INFO ] 2019-03-07 20:41:48.693 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:41:48.694 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:41:48.782 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:41:48.782 [main] UserRecipesDao - **********Querying user recipes by ID: 1
-[INFO ] 2019-03-07 20:41:48.794 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:41:48.849 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:41:48.850 [main] UserRecipesDao - **********Querying all UserRecipes.
-[INFO ] 2019-03-07 20:41:48.911 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:41:48.970 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:41:48.970 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
-[INFO ] 2019-03-07 20:41:48.970 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:41:48.977 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:41:48.978 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:41:48.987 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:41:48.987 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 20:41:48.987 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:41:49.000 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:41:49.000 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 20:41:48 CST 2019}
-[INFO ] 2019-03-07 20:41:49.000 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 20:41:48 CST 2019}
-[INFO ] 2019-03-07 20:41:49.009 [main] UserRecipesDao - **********Saved|Updated a user recipe: Rib Eye Steak with ID: 32
-[INFO ] 2019-03-07 20:41:49.009 [main] UserRecipesDaoTest - ^^^^^^^^^^New recipe saved successfully!
-[INFO ] 2019-03-07 20:41:49.010 [main] UserRecipesDao - **********Querying user recipes by ID: 4
-[INFO ] 2019-03-07 20:41:49.027 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=32, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-07 20:41:49.0}]
-[INFO ] 2019-03-07 20:41:49.028 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting recipe update process
-[INFO ] 2019-03-07 20:41:49.028 [main] UserRecipesDao - **********Querying user recipes by ID: 6
-[INFO ] 2019-03-07 20:41:49.051 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:41:49.051 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Macaroni and Cheese', dateTimeCreated=2019-03-03 19:53:00.0}
-[INFO ] 2019-03-07 20:41:49.129 [main] UserRecipesDao - **********Saved|Updated a user recipe: Macaroni and Cheese with ID: 10
-[INFO ] 2019-03-07 20:43:45.352 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:43:47.971 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-07 20:43:48.352 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-07 20:43:48.356 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:43:48.363 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:43:48.363 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 20:43:48.364 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:43:48.370 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:43:48.370 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Thu Mar 07 20:43:47 CST 2019}
-[INFO ] 2019-03-07 20:43:48.424 [main] UserRecipesDao - **********User recipe inserted: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'} with ID: 33
-[INFO ] 2019-03-07 20:43:48.425 [main] UserRecipesDaoTest - ^^^^^^^^^^Inserted a new recipe: UserRecipes{recipeId=33, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Thu Mar 07 20:43:47 CST 2019}
-[INFO ] 2019-03-07 20:44:55.639 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:44:58.237 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-07 20:44:58.644 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-07 20:44:58.650 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:44:58.661 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:44:58.661 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 20:44:58.661 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:44:58.667 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:44:58.668 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Thu Mar 07 20:44:58 CST 2019}
-[INFO ] 2019-03-07 20:44:58.709 [main] UserRecipesDao - **********User recipe inserted: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'} with ID: 34
-[INFO ] 2019-03-07 20:44:58.709 [main] UserRecipesDaoTest - ^^^^^^^^^^Inserted a new recipe: UserRecipes{recipeId=34, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Thu Mar 07 20:44:58 CST 2019}
-[INFO ] 2019-03-07 20:45:38.778 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:45:41.532 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:45:41.534 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-07 20:45:41.885 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-07 20:45:41.889 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:45:41.897 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:45:41.897 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 20:45:41.897 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:45:41.904 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:45:41.904 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Thu Mar 07 20:45:41 CST 2019}
-[INFO ] 2019-03-07 20:45:41.988 [main] UserRecipesDao - **********User recipe inserted: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'} with ID: 35
-[INFO ] 2019-03-07 20:45:41.989 [main] UserRecipesDaoTest - ^^^^^^^^^^Inserted a new recipe: UserRecipes{recipeId=35, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Thu Mar 07 20:45:41 CST 2019}
-[INFO ] 2019-03-07 20:45:42.049 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:45:42.051 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
-[INFO ] 2019-03-07 20:45:42.052 [main] UserRecipesDao - **********Querying all UserRecipes.
-[INFO ] 2019-03-07 20:45:42.365 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:45:42.366 [main] UserRecipesDao - **********Recieved lastname for recipe search: Hulk
-[INFO ] 2019-03-07 20:45:42.423 [main] UserRecipesDao - **********User Found by lastname: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
-[INFO ] 2019-03-07 20:45:42.423 [main] UserRecipesDao - **********Grabbing user ID to find users recipes in database: 1
-[INFO ] 2019-03-07 20:45:42.423 [main] UserRecipesDao - **********Querying user recipes by ID: 1
-[INFO ] 2019-03-07 20:45:42.450 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:45:42.451 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:45:42.505 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:45:42.505 [main] UserRecipesDao - **********Querying user recipes by ID: 1
-[INFO ] 2019-03-07 20:45:42.520 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:45:42.593 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:45:42.597 [main] UserRecipesDao - **********Querying all UserRecipes.
-[INFO ] 2019-03-07 20:45:42.635 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:45:42.695 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:45:42.696 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
-[INFO ] 2019-03-07 20:45:42.696 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:45:42.701 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:45:42.702 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:45:42.709 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:45:42.710 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 20:45:42.710 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:45:42.714 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:45:42.714 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 20:45:42 CST 2019}
-[INFO ] 2019-03-07 20:45:42.715 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 20:45:42 CST 2019}
-[INFO ] 2019-03-07 20:45:42.723 [main] UserRecipesDao - **********Saved|Updated a user recipe: Rib Eye Steak with ID: 36
-[INFO ] 2019-03-07 20:45:42.723 [main] UserRecipesDaoTest - ^^^^^^^^^^New recipe saved successfully!
-[INFO ] 2019-03-07 20:45:42.723 [main] UserRecipesDao - **********Querying user recipes by ID: 4
-[INFO ] 2019-03-07 20:45:42.738 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=36, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-07 20:45:43.0}]
-[INFO ] 2019-03-07 20:45:42.738 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting recipe update process
-[INFO ] 2019-03-07 20:45:42.738 [main] UserRecipesDao - **********Querying user recipes by ID: 6
-[INFO ] 2019-03-07 20:45:42.752 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:45:42.752 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Macaroni and Cheese', dateTimeCreated=2019-03-03 19:53:00.0}
-[INFO ] 2019-03-07 20:45:42.793 [main] UserRecipesDao - **********Saved|Updated a user recipe: Macaroni and Cheese with ID: 10
-[INFO ] 2019-03-07 20:48:10.164 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:48:13.127 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:48:13.132 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-07 20:48:13.486 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-07 20:48:13.492 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:48:13.498 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:48:13.499 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 20:48:13.499 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-07 20:48:13.507 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-07 20:48:13.507 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Thu Mar 07 20:48:13 CST 2019}
-[INFO ] 2019-03-07 20:48:13.552 [main] UserRecipesDao - **********User recipe inserted: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'} with ID: 37
-[INFO ] 2019-03-07 20:48:13.552 [main] UserRecipesDaoTest - ^^^^^^^^^^Inserted a new recipe: UserRecipes{recipeId=37, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Thu Mar 07 20:48:13 CST 2019}
-[INFO ] 2019-03-07 20:48:13.620 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:48:13.620 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
-[INFO ] 2019-03-07 20:48:13.620 [main] UserRecipesDao - **********Querying all UserRecipes.
-[INFO ] 2019-03-07 20:48:13.985 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:48:13.987 [main] UserRecipesDao - **********Recieved lastname for recipe search: Hulk
-[INFO ] 2019-03-07 20:48:14.050 [main] UserRecipesDao - **********User Found by lastname: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
-[INFO ] 2019-03-07 20:48:14.051 [main] UserRecipesDao - **********Grabbing user ID to find users recipes in database: 1
-[INFO ] 2019-03-07 20:48:14.051 [main] UserRecipesDao - **********Querying user recipes by ID: 1
-[INFO ] 2019-03-07 20:48:14.075 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:48:14.076 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:48:14.165 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:48:14.165 [main] UserRecipesDao - **********Querying user recipes by ID: 1
-[INFO ] 2019-03-07 20:48:14.181 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:48:14.224 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:48:14.224 [main] UserRecipesDao - **********Querying all UserRecipes.
-[INFO ] 2019-03-07 20:48:14.285 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:48:14.354 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:48:14.354 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
-[INFO ] 2019-03-07 20:48:14.355 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:48:14.359 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:48:14.360 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:48:14.364 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:48:14.365 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
-[INFO ] 2019-03-07 20:48:14.365 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-07 20:48:14.369 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-07 20:48:14.369 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 20:48:14 CST 2019}
-[INFO ] 2019-03-07 20:48:14.369 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=Thu Mar 07 20:48:14 CST 2019}
-[INFO ] 2019-03-07 20:48:14.377 [main] UserRecipesDao - **********Saved|Updated a user recipe: Rib Eye Steak with ID: 38
-[INFO ] 2019-03-07 20:48:14.377 [main] UserRecipesDaoTest - ^^^^^^^^^^New recipe saved successfully!
-[INFO ] 2019-03-07 20:48:14.378 [main] UserRecipesDao - **********Querying user recipes by ID: 4
-[INFO ] 2019-03-07 20:48:14.390 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=38, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-07 20:48:14.0}]
-[INFO ] 2019-03-07 20:48:14.390 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting recipe update process
-[INFO ] 2019-03-07 20:48:14.390 [main] UserRecipesDao - **********Querying user recipes by ID: 6
-[INFO ] 2019-03-07 20:48:14.412 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 19:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 19:53:00.0}]
-[INFO ] 2019-03-07 20:48:14.412 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Macaroni and Cheese', dateTimeCreated=2019-03-03 19:53:00.0}
-[INFO ] 2019-03-07 20:48:14.437 [main] UserRecipesDao - **********Saved|Updated a user recipe: Macaroni and Cheese with ID: 10
-[INFO ] 2019-03-07 20:53:27.018 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-07 20:53:29.913 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-07 20:53:30.340 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-07 20:53:30.344 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-07 20:53:30.353 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-07 20:53:30.353 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
-[INFO ] 2019-03-07 20:53:30.353 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-07 20:53:30.361 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-07 20:53:30.361 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Thu Mar 07 20:53:29 CST 2019}
-[INFO ] 2019-03-07 20:53:30.402 [main] UserRecipesDao - **********User recipe inserted: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'} with ID: 39
-[INFO ] 2019-03-07 20:53:30.403 [main] UserRecipesDaoTest - ^^^^^^^^^^Inserted a new recipe: UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Thu Mar 07 20:53:29 CST 2019}
-[ERROR] 2019-03-11 16:05:51.158 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-11 16:06:22.894 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-11 16:06:54.094 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[ERROR] 2019-03-11 16:06:57.667 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-11 16:07:24.930 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-11 16:07:55.569 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-11 16:08:17.618 [main] Database - java.sql.SQLException: Access denied for user 'ubuntu'@'localhost' (using password: YES)
-[ERROR] 2019-03-11 16:08:26.160 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-11 16:08:49.345 [main] Database - java.sql.SQLException: Access denied for user 'ubuntu'@'localhost' (using password: YES)
-[ERROR] 2019-03-11 16:08:56.833 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-11 16:09:20.009 [main] Database - java.sql.SQLException: Access denied for user 'ubuntu'@'localhost' (using password: YES)
-[ERROR] 2019-03-11 16:09:27.417 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-11 16:09:27.419 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 16:09:58.017 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-11 16:09:58.017 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 16:10:28.552 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-11 16:10:28.552 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 16:10:59.061 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-11 16:10:59.061 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 16:11:29.613 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-11 16:11:29.613 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 18:32:56.942 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-11 18:33:28.363 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-11 18:33:58.718 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-11 18:34:29.184 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-11 18:34:59.438 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-11 18:35:29.708 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-11 18:35:59.963 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-11 18:36:30.215 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[INFO ] 2019-03-11 18:36:30.216 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 18:37:00.494 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[INFO ] 2019-03-11 18:37:00.496 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 18:37:30.737 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[INFO ] 2019-03-11 18:37:30.740 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 18:38:00.967 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[INFO ] 2019-03-11 18:38:00.967 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 18:38:31.204 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[INFO ] 2019-03-11 18:38:31.204 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 19:48:55.999 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-11 19:48:56.008 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 19:52:11.373 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-11 19:52:11.383 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 19:53:16.434 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-11 19:53:16.446 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-11 19:54:41.983 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-11 19:54:42.003 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 13:36:44.574 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-17 13:37:15.970 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-17 13:37:46.334 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-17 13:38:16.670 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-17 13:38:46.988 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-17 13:39:17.299 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-17 13:41:47.272 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-17 13:42:18.420 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-17 13:42:48.760 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-17 15:05:06.954 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[ERROR] 2019-03-17 15:05:39.327 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:06:24.427 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:15:07.992 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[ERROR] 2019-03-17 15:15:39.998 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:16:11.055 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:16:41.735 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:17:12.360 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:17:42.983 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:18:13.684 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:18:44.810 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-17 15:18:44.811 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 15:19:15.436 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-17 15:19:15.439 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 15:19:46.051 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-17 15:19:46.053 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 15:20:16.685 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-17 15:20:16.686 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 15:20:24.868 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:20:56.826 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:21:27.833 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:22:28.558 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[ERROR] 2019-03-17 15:23:00.318 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:23:31.070 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:24:01.864 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:24:32.487 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:25:03.102 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:25:33.695 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 15:26:04.347 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-17 15:26:04.349 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 15:26:35.138 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-17 15:26:35.140 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 15:27:05.697 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-17 15:27:05.699 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 15:27:36.334 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-17 15:27:36.337 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 15:28:06.944 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-17 15:28:06.946 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 16:46:42.993 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[ERROR] 2019-03-17 16:47:15.126 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 16:47:46.121 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 16:48:16.846 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 16:48:47.520 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 16:49:18.157 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 16:49:48.775 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[ERROR] 2019-03-17 16:50:19.392 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-17 16:50:19.393 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 16:50:50.031 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-17 16:50:50.031 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 16:51:20.635 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 50)
-[INFO ] 2019-03-17 16:51:20.637 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 17:46:28.737 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[ERROR] 2019-03-17 17:47:00.609 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[ERROR] 2019-03-17 17:47:31.704 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 200)
-[ERROR] 2019-03-17 17:48:02.433 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 200)
-[ERROR] 2019-03-17 17:48:33.148 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 200)
-[ERROR] 2019-03-17 17:49:03.734 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 200)
-[ERROR] 2019-03-17 17:49:34.322 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 200)
-[ERROR] 2019-03-17 17:50:04.925 [main] Database - java.sql.SQLSyntaxErrorException: User 'root' has exceeded the 'max_connections_per_hour' resource (current value: 200)
-[INFO ] 2019-03-17 17:50:04.927 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-17 18:04:53.874 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:04:57.465 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-17 18:04:57.895 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-17 18:04:57.899 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-17 18:04:57.906 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-17 18:04:57.907 [main] UserDao - **********Attempting to delete user from database: Tester4 with ID: 4
-[INFO ] 2019-03-17 18:04:58.045 [main] UserDao - **********Successfully deleted user: Tester4 with ID: 4
-[INFO ] 2019-03-17 18:04:58.046 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-17 18:04:58.055 [main] UserDao - **********Query Found ID : 4
-[ERROR] 2019-03-17 18:04:58.094 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:04:58.095 [main] UserDaoTest - ^^^^^^^^^^Starting test to check if a user recipe set is added to a user object.
-[INFO ] 2019-03-17 18:04:58.095 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}
-[INFO ] 2019-03-17 18:04:58.145 [main] UserDao - **********User inserted: CHzPlz with user ID: 94
-[INFO ] 2019-03-17 18:04:58.149 [main] UserDao - **********Querying User by ID: 94
-[INFO ] 2019-03-17 18:04:58.171 [main] UserDao - **********Query Found ID : 94
-[ERROR] 2019-03-17 18:04:58.206 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:04:58.207 [main] UserDao - **********Querying all Users.
-[INFO ] 2019-03-17 18:04:58.526 [main] UserDao - **********Query Found Users: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}]
-[ERROR] 2019-03-17 18:04:58.548 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:04:58.548 [main] UserDao - **********Querying User by ID: 3
-[INFO ] 2019-03-17 18:04:58.559 [main] UserDao - **********Query Found ID : 3
-[ERROR] 2019-03-17 18:04:58.582 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:04:58.582 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Saves a new User
-[INFO ] 2019-03-17 18:04:58.582 [main] UserDao - **********Attempting to save|update user into the database: User{userId='0', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
-[INFO ] 2019-03-17 18:04:58.669 [main] UserDao - **********Saved|Updated user: HammerTime33 With ID: 95
-[INFO ] 2019-03-17 18:04:58.669 [main] UserDao - **********Querying User by ID: 95
-[INFO ] 2019-03-17 18:04:58.676 [main] UserDao - **********Query Found ID : 95
-[INFO ] 2019-03-17 18:04:58.677 [main] UserDao - **********Querying User by ID: 6
-[INFO ] 2019-03-17 18:04:58.688 [main] UserDao - **********Query Found ID : 6
-[INFO ] 2019-03-17 18:04:58.689 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Updates an existing User
-[INFO ] 2019-03-17 18:04:58.689 [main] UserDao - **********Attempting to save|update user into the database: User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}
-[INFO ] 2019-03-17 18:04:58.716 [main] UserDao - **********Saved|Updated user: CaptMarv33 With ID: 6
-[INFO ] 2019-03-17 18:04:58.716 [main] UserDao - **********Querying User by ID: 6
-[INFO ] 2019-03-17 18:04:58.730 [main] UserDao - **********Query Found ID : 6
-[ERROR] 2019-03-17 18:04:58.749 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:04:58.750 [main] UserDao - **********Querying User by Last Name: Hulk
-[INFO ] 2019-03-17 18:04:58.798 [main] UserDao - **********Querying Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
-[INFO ] 2019-03-17 18:04:58.798 [main] UserDao - **********Querying User by Last Name: ma
-[INFO ] 2019-03-17 18:04:58.822 [main] UserDao - **********Querying Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}]
-[ERROR] 2019-03-17 18:04:58.845 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:04:58.846 [main] UserDao - **********Attempting to insert a user into the database: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
-[INFO ] 2019-03-17 18:04:58.859 [main] UserDao - **********User inserted: Tester7 with user ID: 96
-[INFO ] 2019-03-17 18:04:58.859 [main] UserDao - **********Querying User by ID: 96
-[INFO ] 2019-03-17 18:04:58.865 [main] UserDao - **********Query Found ID : 96
-[ERROR] 2019-03-17 18:04:58.965 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:04:58.965 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-17 18:04:58.968 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-17 18:04:58.983 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-17 18:04:58.983 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-17 18:04:58.999 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-17 18:04:59.000 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
-[INFO ] 2019-03-17 18:04:59.000 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-17 18:04:59.016 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-17 18:04:59.016 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Sun Mar 17 18:04:58 CDT 2019}
-[ERROR] 2019-03-17 18:04:59.250 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:04:59.250 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-17 18:04:59.251 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
-[INFO ] 2019-03-17 18:04:59.251 [main] UserRecipesDao - **********Querying all UserRecipes.
-[INFO ] 2019-03-17 18:04:59.339 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-07 14:53:30.0}, UserRecipes{recipeId=40, user=User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, recipeTitle='Cheese Burger', dateTimeCreated=2019-03-17 18:04:58.0}]
-[INFO ] 2019-03-17 18:04:59.339 [main] UserRecipesDao - **********Recieved lastname for recipe search: Hulk
-[INFO ] 2019-03-17 18:04:59.349 [main] UserRecipesDao - **********User Found by lastname: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
-[INFO ] 2019-03-17 18:04:59.349 [main] UserRecipesDao - **********Grabbing user ID to find users recipes in database: 1
-[INFO ] 2019-03-17 18:04:59.349 [main] UserRecipesDao - **********Querying user recipes by ID: 1
-[INFO ] 2019-03-17 18:04:59.379 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
-[INFO ] 2019-03-17 18:04:59.380 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
-[ERROR] 2019-03-17 18:04:59.499 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:04:59.499 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-17 18:04:59.499 [main] UserRecipesDao - **********Querying user recipes by ID: 1
-[INFO ] 2019-03-17 18:04:59.531 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
-[ERROR] 2019-03-17 18:04:59.555 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:04:59.555 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-17 18:04:59.556 [main] UserRecipesDao - **********Querying all UserRecipes.
-[INFO ] 2019-03-17 18:04:59.590 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-07 14:53:30.0}, UserRecipes{recipeId=40, user=User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, recipeTitle='Cheese Burger', dateTimeCreated=2019-03-17 18:04:58.0}]
-[ERROR] 2019-03-17 18:04:59.611 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:04:59.611 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-17 18:04:59.611 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
-[INFO ] 2019-03-17 18:04:59.611 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-17 18:04:59.617 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-17 18:04:59.617 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-17 18:04:59.621 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-17 18:04:59.622 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: null
-[INFO ] 2019-03-17 18:04:59.622 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-17 18:04:59.630 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-17 18:04:59.630 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=null, recipeTitle='Rib Eye Steak', dateTimeCreated=Sun Mar 17 18:04:59 CDT 2019}
-[INFO ] 2019-03-17 18:04:59.630 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=null, recipeTitle='Rib Eye Steak', dateTimeCreated=Sun Mar 17 18:04:59 CDT 2019}
-[ERROR] 2019-03-17 18:06:27.146 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:06:27.159 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-17 18:06:31.300 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-17 18:06:31.782 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-17 18:06:31.787 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-17 18:06:31.797 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-17 18:06:31.797 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
-[INFO ] 2019-03-17 18:06:31.797 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-17 18:06:31.808 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-17 18:06:31.809 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Sun Mar 17 18:06:31 CDT 2019}
-[ERROR] 2019-03-17 18:06:31.942 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:06:31.942 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-17 18:06:31.942 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
-[INFO ] 2019-03-17 18:06:31.942 [main] UserRecipesDao - **********Querying all UserRecipes.
-[INFO ] 2019-03-17 18:06:32.430 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-07 14:53:30.0}, UserRecipes{recipeId=40, user=User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, recipeTitle='Cheese Burger', dateTimeCreated=2019-03-17 18:04:58.0}]
-[INFO ] 2019-03-17 18:06:32.431 [main] UserRecipesDao - **********Recieved lastname for recipe search: Hulk
-[INFO ] 2019-03-17 18:06:32.516 [main] UserRecipesDao - **********User Found by lastname: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
-[INFO ] 2019-03-17 18:06:32.516 [main] UserRecipesDao - **********Grabbing user ID to find users recipes in database: 1
-[INFO ] 2019-03-17 18:06:32.516 [main] UserRecipesDao - **********Querying user recipes by ID: 1
-[INFO ] 2019-03-17 18:06:32.590 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
-[INFO ] 2019-03-17 18:06:32.592 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
-[ERROR] 2019-03-17 18:06:32.637 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:06:32.638 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-17 18:06:32.638 [main] UserRecipesDao - **********Querying user recipes by ID: 1
-[INFO ] 2019-03-17 18:06:32.649 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
-[ERROR] 2019-03-17 18:06:32.691 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:06:32.691 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-17 18:06:32.692 [main] UserRecipesDao - **********Querying all UserRecipes.
-[INFO ] 2019-03-17 18:06:32.747 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-07 14:53:30.0}, UserRecipes{recipeId=40, user=User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, recipeTitle='Cheese Burger', dateTimeCreated=2019-03-17 18:04:58.0}]
-[ERROR] 2019-03-17 18:06:32.779 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-17 18:06:32.780 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-17 18:06:32.780 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
-[INFO ] 2019-03-17 18:06:32.780 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-17 18:06:32.786 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-17 18:06:32.786 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-17 18:06:32.790 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-17 18:06:32.791 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: null
-[INFO ] 2019-03-17 18:06:32.791 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-17 18:06:32.801 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-17 18:06:32.801 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=null, recipeTitle='Rib Eye Steak', dateTimeCreated=Sun Mar 17 18:06:32 CDT 2019}
-[INFO ] 2019-03-17 18:06:32.801 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=null, recipeTitle='Rib Eye Steak', dateTimeCreated=Sun Mar 17 18:06:32 CDT 2019}
-[ERROR] 2019-03-18 17:32:38.673 [main] Database - com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
-
-The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
-[INFO ] 2019-03-18 17:32:38.711 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[ERROR] 2019-03-18 17:33:29.329 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-18 17:33:29.341 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-18 17:33:32.902 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-18 17:33:33.391 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-18 17:33:33.396 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-18 17:33:33.410 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-18 17:33:33.410 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
-[INFO ] 2019-03-18 17:33:33.410 [main] UserDao - **********Querying User by ID: 5
-[INFO ] 2019-03-18 17:33:33.422 [main] UserDao - **********Query Found ID : 5
-[INFO ] 2019-03-18 17:33:33.423 [main] UserRecipesDao - **********Attempting to insert a user recipe into the database: UserRecipes{recipeId=0, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=Mon Mar 18 17:33:32 CDT 2019}
-[ERROR] 2019-03-18 17:33:33.604 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-18 17:33:33.604 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-18 17:33:33.604 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
-[INFO ] 2019-03-18 17:33:33.604 [main] UserRecipesDao - **********Querying all UserRecipes.
-[INFO ] 2019-03-18 17:33:34.078 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-07 14:53:30.0}, UserRecipes{recipeId=40, user=User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, recipeTitle='Cheese Burger', dateTimeCreated=2019-03-17 18:04:58.0}]
-[INFO ] 2019-03-18 17:33:34.078 [main] UserRecipesDao - **********Recieved lastname for recipe search: Hulk
-[INFO ] 2019-03-18 17:33:34.128 [main] UserRecipesDao - **********User Found by lastname: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
-[INFO ] 2019-03-18 17:33:34.128 [main] UserRecipesDao - **********Grabbing user ID to find users recipes in database: 1
-[INFO ] 2019-03-18 17:33:34.128 [main] UserRecipesDao - **********Querying user recipes by ID: 1
-[INFO ] 2019-03-18 17:33:34.154 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
-[INFO ] 2019-03-18 17:33:34.155 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
-[ERROR] 2019-03-18 17:33:34.245 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-18 17:33:34.245 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-18 17:33:34.245 [main] UserRecipesDao - **********Querying user recipes by ID: 1
-[INFO ] 2019-03-18 17:33:34.275 [main] UserRecipesDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}]
-[ERROR] 2019-03-18 17:33:34.319 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-18 17:33:34.320 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-18 17:33:34.321 [main] UserRecipesDao - **********Querying all UserRecipes.
-[INFO ] 2019-03-18 17:33:34.384 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03 13:53:00.0}, UserRecipes{recipeId=39, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-07 14:53:30.0}, UserRecipes{recipeId=40, user=User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, recipeTitle='Cheese Burger', dateTimeCreated=2019-03-17 18:04:58.0}]
-[ERROR] 2019-03-18 17:33:34.411 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
-[INFO ] 2019-03-18 17:33:34.411 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script----------
-[INFO ] 2019-03-18 17:33:34.411 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting saveOrUpate Test
-[INFO ] 2019-03-18 17:33:34.411 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-18 17:33:34.417 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-18 17:33:34.418 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-18 17:33:34.423 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-18 17:33:34.423 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: null
-[INFO ] 2019-03-18 17:33:34.423 [main] UserDao - **********Querying User by ID: 4
-[INFO ] 2019-03-18 17:33:34.456 [main] UserDao - **********Query Found ID : 4
-[INFO ] 2019-03-18 17:33:34.456 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=null, recipeTitle='Rib Eye Steak', dateTimeCreated=Mon Mar 18 17:33:34 CDT 2019}
-[INFO ] 2019-03-18 17:33:34.457 [main] UserRecipesDao - **********Attempting to save|update a user recipe into the database: UserRecipes{recipeId=0, user=null, recipeTitle='Rib Eye Steak', dateTimeCreated=Mon Mar 18 17:33:34 CDT 2019}
+[ERROR] 2019-03-23 09:47:34.070 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-23 09:47:34.079 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-23 09:47:34.083 [main] UserDaoTest - ^^^^^^^^^^Starting test to get all users.
+[INFO ] 2019-03-23 09:47:34.083 [main] GenericDao - **********Query Using ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 09:47:37.474 [main] GenericDao - **********Query by ID Found: null
+[INFO ] 2019-03-23 09:47:37.475 [main] GenericDao - **********Attempting to Delete Entity: null
+[ERROR] 2019-03-23 09:47:37.526 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-23 09:47:37.526 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-23 09:47:37.526 [main] GenericDao - **********Starting Get All Query From Class Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 09:47:37.975 [main] GenericDao - **********Get All Query Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, User{userId='95', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}, User{userId='96', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}]
+[ERROR] 2019-03-23 13:03:56.687 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-23 13:03:56.697 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-23 13:03:56.706 [main] UserDaoTest - ^^^^^^^^^^Starting test to get all users.
+[INFO ] 2019-03-23 13:03:56.706 [main] GenericDao - **********Query Using ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 13:04:00.287 [main] GenericDao - **********Query by ID Found: null
+[INFO ] 2019-03-23 13:04:00.287 [main] GenericDao - **********Attempting to Delete Entity: null
+[ERROR] 2019-03-23 13:04:00.333 [main] Database - java.sql.SQLException: The server time zone value 'CDT' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the serverTimezone configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+[INFO ] 2019-03-23 13:04:00.334 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-23 13:04:00.334 [main] GenericDao - **********Starting Get All Query From Class Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 13:04:00.983 [main] GenericDao - **********Get All Query Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}, User{userId='94', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}, User{userId='95', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}, User{userId='96', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}]
+[INFO ] 2019-03-23 13:06:20.237 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-23 13:06:20.250 [main] UserDaoTest - ^^^^^^^^^^Starting test to get all users.
+[INFO ] 2019-03-23 13:06:20.250 [main] GenericDao - **********Query Using ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 13:06:23.617 [main] GenericDao - **********Query by ID Found: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-23 13:06:23.617 [main] GenericDao - **********Attempting to Delete Entity: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-23 13:06:23.637 [main] GenericDao - **********Successfully deleted user: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-23 13:06:23.692 [main] GenericDao - **********Query Using ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 13:06:23.698 [main] GenericDao - **********Query by ID Found: null
+[INFO ] 2019-03-23 13:06:23.778 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-23 13:06:23.779 [main] GenericDao - **********Starting Get All Query From Class Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 13:06:24.261 [main] GenericDao - **********Get All Query Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[INFO ] 2019-03-23 16:11:40.888 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-23 16:11:40.898 [main] UserDaoTest - ^^^^^^^^^^Starting test to get all users.
+[INFO ] 2019-03-23 16:11:40.899 [main] GenericDao - **********Query Using ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 16:11:44.652 [main] GenericDao - **********Query by ID Found: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-23 16:11:44.652 [main] GenericDao - **********Attempting to Delete Entity: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-23 16:11:44.675 [main] GenericDao - **********Successfully deleted user: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-23 16:11:44.791 [main] GenericDao - **********Query Using ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 16:11:44.798 [main] GenericDao - **********Query by ID Found: null
+[INFO ] 2019-03-23 16:11:44.873 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-23 16:11:44.876 [main] GenericDao - **********Starting Get All Query From Class Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 16:11:45.299 [main] GenericDao - **********Get All Query Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[INFO ] 2019-03-23 16:29:41.733 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-23 16:29:41.743 [main] UserDaoTest - ^^^^^^^^^^Starting test to get a user by last name.
+[INFO ] 2019-03-23 16:29:41.743 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 16:29:44.991 [main] GenericDao - **********Query by Last Name Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-23 16:29:44.999 [main] GenericDao - **********Query Using Last Name:  ma, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 16:29:45.032 [main] GenericDao - **********Query by Last Name Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[INFO ] 2019-03-23 16:35:08.330 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-23 16:35:08.341 [main] GenericDao - **********Query Using ID: 3, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 16:35:11.386 [main] GenericDao - **********Query by ID Found: User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}
+[INFO ] 2019-03-23 16:40:07.221 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-23 16:40:07.234 [main] GenericDao - **********Attempting to insert a Entity: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-23 16:40:09.998 [main] GenericDao - **********Entity inserted: User{userId='97', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-23 16:40:09.998 [main] GenericDao - **********Query Using ID: 97, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-23 16:40:10.036 [main] GenericDao - **********Query by ID Found: User{userId='97', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-24 09:10:55.907 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-24 09:10:55.922 [main] UserDaoTest - ^^^^^^^^^^Starting test to check if a user recipe set is added to a user object.
+[INFO ] 2019-03-24 09:10:55.952 [main] UserDaoTest - -------Locale date time: 2019-03-24T09:10:55.944----------
+[INFO ] 2019-03-24 09:10:55.953 [main] GenericDao - **********Attempting to insert a Entity: User{userId='0', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}
+[INFO ] 2019-03-24 09:10:59.781 [main] GenericDao - **********Entity inserted: User{userId='98', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}
+[INFO ] 2019-03-24 09:10:59.782 [main] GenericDao - **********Query Using ID: 98, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 09:10:59.824 [main] GenericDao - **********Query by ID Found: User{userId='98', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}
+[INFO ] 2019-03-24 09:22:05.866 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-24 09:22:05.896 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Saves a new User
+[INFO ] 2019-03-24 09:22:05.897 [main] GenericDao - **********Attempting to Save|Update a Entity to the Database: User{userId='0', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-24 09:22:10.095 [main] GenericDao - **********Saved|Updated entity: User{userId='99', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-24 09:22:10.098 [main] GenericDao - **********Query Using ID: 99, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 09:22:10.137 [main] GenericDao - **********Query by ID Found: User{userId='99', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-24 09:22:10.143 [main] GenericDao - **********Query Using ID: 6, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 09:22:10.166 [main] GenericDao - **********Query by ID Found: User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}
+[INFO ] 2019-03-24 09:22:10.167 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Updates an existing User
+[INFO ] 2019-03-24 09:22:10.167 [main] GenericDao - **********Attempting to Save|Update a Entity to the Database: User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}
+[INFO ] 2019-03-24 09:22:10.227 [main] GenericDao - **********Saved|Updated entity: User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}
+[INFO ] 2019-03-24 09:22:10.228 [main] GenericDao - **********Query Using ID: 6, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 09:22:10.270 [main] GenericDao - **********Query by ID Found: User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}
+[INFO ] 2019-03-24 10:20:00.674 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 10:20:03.319 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get all user recipes.
+[INFO ] 2019-03-24 10:20:03.319 [main] UserRecipesDao - **********Querying all UserRecipes.
+[INFO ] 2019-03-24 10:20:04.160 [main] UserRecipesDao - **********Query Found UserRecipes: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03T13:53}]
+[INFO ] 2019-03-24 10:23:51.090 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 10:23:51.101 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get all user recipes.
+[INFO ] 2019-03-24 10:23:51.102 [main] GenericDao - **********Starting Get All Query From Class Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 10:23:54.663 [main] GenericDao - **********Get All Query Found: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03T13:53}]
+[INFO ] 2019-03-24 10:24:11.838 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 10:24:11.852 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 10:24:11.853 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 10:59:33.632 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 10:59:33.642 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 10:59:33.643 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 11:08:21.314 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 11:08:21.331 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 11:08:21.331 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 11:14:11.553 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 11:14:11.563 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 11:14:11.564 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 11:14:14.907 [main] GenericDao - **********Query by Last Name Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 11:14:14.909 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 11:17:05.000 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 11:17:05.011 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 11:17:05.012 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 11:17:08.285 [main] GenericDao - **********Query by Last Name Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 11:17:08.285 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 11:28:10.018 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 11:28:10.028 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 11:28:10.029 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 11:28:13.375 [main] GenericDao - **********Query by Last Name Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 11:28:13.375 [main] GenericDao - **********Query Using ID: 1, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 11:28:13.410 [main] GenericDao - **********Query by ID Found: UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 11:28:13.410 [main] UserRecipesDaoTest - Found user recipes: UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 11:28:13.411 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 11:31:48.196 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 11:31:48.206 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 11:31:48.207 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 11:31:51.585 [main] GenericDao - **********Query by Last Name Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 11:31:51.586 [main] GenericDao - **********Query Using ID: 1, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 11:31:51.607 [main] GenericDao - **********Query by ID Found: User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}
+[INFO ] 2019-03-24 11:31:51.608 [main] UserRecipesDaoTest - Found user recipes: User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}
+[INFO ] 2019-03-24 11:31:51.608 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found last name: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 11:33:44.075 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 11:33:44.087 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 11:33:44.088 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 11:33:47.608 [main] GenericDao - **********Query by Last Name Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 11:33:47.611 [main] GenericDao - **********Query Using ID: 1, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 11:33:47.621 [main] GenericDao - **********Query by ID Found: User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}
+[INFO ] 2019-03-24 11:35:27.832 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 11:35:27.848 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 11:35:27.849 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 11:35:31.336 [main] GenericDao - **********Query by Last Name Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 11:35:31.337 [main] GenericDao - **********Query Using ID: 1, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 11:35:31.354 [main] GenericDao - **********Query by ID Found: User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}
+[INFO ] 2019-03-24 11:38:51.182 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 11:38:51.195 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 11:38:51.196 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 11:38:54.727 [main] GenericDao - **********Query by Last Name Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 11:38:54.731 [main] GenericDao - **********Query Using ID: 1, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 11:38:54.768 [main] GenericDao - **********Query by ID Found: User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}
+[INFO ] 2019-03-24 16:42:01.672 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 16:42:01.684 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 16:42:01.685 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 16:42:06.130 [main] GenericDao - **********Query by Last Name Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 16:43:08.219 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 16:43:08.230 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 16:43:08.230 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 16:43:11.726 [main] GenericDao - **********Query by Last Name Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 16:43:11.727 [main] GenericDao - **********Querying user recipes by ID: 1
+[INFO ] 2019-03-24 16:43:11.785 [main] GenericDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03T13:53}]
+[INFO ] 2019-03-24 16:43:11.786 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found recipes by user last name: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03T13:53}]
+[INFO ] 2019-03-24 17:02:58.015 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:02:58.026 [main] GenericDao - **********Querying user recipes by ID: 1
+[INFO ] 2019-03-24 17:03:01.114 [main] GenericDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03T13:53}]
+[INFO ] 2019-03-24 17:03:45.070 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:03:45.084 [main] GenericDao - **********Querying user recipes by ID: 1
+[INFO ] 2019-03-24 17:03:48.145 [main] GenericDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03T13:53}]
+[INFO ] 2019-03-24 17:09:00.617 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:09:00.628 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting save or update Test
+[INFO ] 2019-03-24 17:09:00.650 [main] GenericDao - **********Query User Using ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:09:03.347 [main] GenericDao - **********Query by ID Found: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-24 17:09:03.347 [main] GenericDao - **********Query User Using ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:09:03.354 [main] GenericDao - **********Query by ID Found: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-24 17:09:03.354 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-24 17:09:03.354 [main] GenericDao - **********Query User Using ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:09:03.360 [main] GenericDao - **********Query by ID Found: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-24 17:09:03.361 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-24T17:09:00.641}
+[INFO ] 2019-03-24 17:09:03.361 [main] GenericDao - **********Attempting to Save|Update a Entity to the Database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-24T17:09:00.641}
+[INFO ] 2019-03-24 17:09:03.451 [main] GenericDao - **********Saved|Updated entity: UserRecipes{recipeId=45, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-24T17:09:00.641}
+[INFO ] 2019-03-24 17:09:03.452 [main] UserRecipesDaoTest - ^^^^^^^^^^New recipe saved successfully!
+[INFO ] 2019-03-24 17:09:03.452 [main] GenericDao - **********Querying user recipes by ID: 4
+[INFO ] 2019-03-24 17:09:03.769 [main] GenericDao - **********Query found recipes by ID : [UserRecipes{recipeId=45, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-24T17:09:01}]
+[INFO ] 2019-03-24 17:09:03.769 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting recipe update process
+[INFO ] 2019-03-24 17:09:03.769 [main] GenericDao - **********Querying user recipes by ID: 6
+[INFO ] 2019-03-24 17:09:03.791 [main] GenericDao - **********Query found recipes by ID : [UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03T13:53}]
+[INFO ] 2019-03-24 17:09:03.791 [main] GenericDao - **********Attempting to Save|Update a Entity to the Database: UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Macaroni and Cheese', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:09:03.822 [main] GenericDao - **********Saved|Updated entity: UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Macaroni and Cheese', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:12:51.161 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:12:51.195 [main] GenericDao - **********Query User Using ID: 5, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:12:54.003 [main] GenericDao - **********Query by ID Found: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
+[INFO ] 2019-03-24 17:12:54.003 [main] GenericDao - **********Query User Using ID: 5, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:12:54.011 [main] GenericDao - **********Query by ID Found: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
+[INFO ] 2019-03-24 17:12:54.011 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
+[INFO ] 2019-03-24 17:12:54.011 [main] GenericDao - **********Query User Using ID: 5, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:12:54.018 [main] GenericDao - **********Query by ID Found: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
+[INFO ] 2019-03-24 17:12:54.019 [main] GenericDao - **********Attempting to insert a Entity: UserRecipes{recipeId=0, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-24T17:12:51.185}
+[INFO ] 2019-03-24 17:12:54.115 [main] GenericDao - **********Entity inserted: UserRecipes{recipeId=46, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-24T17:12:51.185}
+[INFO ] 2019-03-24 17:12:54.115 [main] UserRecipesDaoTest - ^^^^^^^^^^Inserted a new recipe: UserRecipes{recipeId=46, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-24T17:12:51.185}
+[INFO ] 2019-03-24 17:20:53.110 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:20:53.121 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get a user by ID.
+[INFO ] 2019-03-24 17:20:53.121 [main] GenericDao - **********Query User Using ID: 3, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 17:20:55.987 [main] GenericDao - **********Query by ID Found: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:21:34.059 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:21:34.070 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get a user by ID.
+[INFO ] 2019-03-24 17:21:34.071 [main] GenericDao - **********Query User Using ID: 3, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 17:21:36.956 [main] GenericDao - **********Query by ID Found: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:21:54.936 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:21:54.947 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get a user by ID.
+[INFO ] 2019-03-24 17:21:54.947 [main] GenericDao - **********Query User Using ID: 3, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 17:21:57.808 [main] GenericDao - **********Query by ID Found: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:26:29.489 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:26:29.504 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting delete recipe process
+[INFO ] 2019-03-24 17:26:29.504 [main] GenericDao - **********Query User Using ID: 3, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 17:26:32.429 [main] GenericDao - **********Query by ID Found: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:26:32.429 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed recipe ID to delete a recipe: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:26:32.429 [main] GenericDao - **********Query User Using ID: 3, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 17:26:32.443 [main] GenericDao - **********Query by ID Found: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:26:32.443 [main] GenericDao - **********Attempting to Delete Entity: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:26:32.462 [main] GenericDao - **********Successfully deleted user: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:26:32.568 [main] GenericDao - **********Query User Using ID: 3, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 17:26:32.575 [main] GenericDao - **********Query by ID Found: null
+[INFO ] 2019-03-24 17:31:02.731 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:31:02.743 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting delete recipe process
+[INFO ] 2019-03-24 17:31:02.743 [main] GenericDao - **********Query database by using an ID: 3, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 17:31:05.641 [main] GenericDao - **********Query by ID Found: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:31:05.642 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed recipe ID to delete a recipe: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:31:05.642 [main] GenericDao - **********Query database by using an ID: 3, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 17:31:05.659 [main] GenericDao - **********Query by ID Found: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:31:05.659 [main] GenericDao - **********Attempting to delete: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:31:05.675 [main] GenericDao - **********Successfully deleted: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:31:05.795 [main] GenericDao - **********Query database by using an ID: 3, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 17:31:05.804 [main] GenericDao - **********Query by ID Found: null
+[INFO ] 2019-03-24 17:31:05.870 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:31:05.871 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get a user by ID.
+[INFO ] 2019-03-24 17:31:05.871 [main] GenericDao - **********Query database by using an ID: 3, of Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 17:31:05.888 [main] GenericDao - **********Query by ID Found: UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:31:05.926 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:31:05.927 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting insert recipe process
+[INFO ] 2019-03-24 17:31:05.927 [main] GenericDao - **********Query database by using an ID: 5, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:05.942 [main] GenericDao - **********Query by ID Found: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
+[INFO ] 2019-03-24 17:31:05.943 [main] GenericDao - **********Query database by using an ID: 5, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:05.952 [main] GenericDao - **********Query by ID Found: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
+[INFO ] 2019-03-24 17:31:05.952 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to insert a new recipe: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
+[INFO ] 2019-03-24 17:31:05.952 [main] GenericDao - **********Query database by using an ID: 5, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:05.960 [main] GenericDao - **********Query by ID Found: User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}
+[INFO ] 2019-03-24 17:31:05.960 [main] GenericDao - **********Attempting to insert a Entity: UserRecipes{recipeId=0, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-24T17:31:05.927}
+[INFO ] 2019-03-24 17:31:05.984 [main] GenericDao - **********Entity inserted: UserRecipes{recipeId=47, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-24T17:31:05.927}
+[INFO ] 2019-03-24 17:31:05.985 [main] UserRecipesDaoTest - ^^^^^^^^^^Inserted a new recipe: UserRecipes{recipeId=47, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pepperoni Pizza', dateTimeCreated=2019-03-24T17:31:05.927}
+[INFO ] 2019-03-24 17:31:06.024 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:31:06.024 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get user recipes by last name.
+[INFO ] 2019-03-24 17:31:06.024 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:06.262 [main] GenericDao - **********Query by Last Name Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 17:31:06.262 [main] GenericDao - **********Querying user recipes by ID: 1
+[INFO ] 2019-03-24 17:31:06.294 [main] GenericDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03T13:53}]
+[INFO ] 2019-03-24 17:31:06.296 [main] UserRecipesDaoTest - ^^^^^^^^^^Test found recipes by user last name: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03T13:53}]
+[INFO ] 2019-03-24 17:31:06.356 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:31:06.356 [main] GenericDao - **********Querying user recipes by ID: 1
+[INFO ] 2019-03-24 17:31:06.370 [main] GenericDao - **********Query found recipes by ID : [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03T13:53}]
+[INFO ] 2019-03-24 17:31:06.413 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:31:06.413 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting test to get all user recipes.
+[INFO ] 2019-03-24 17:31:06.413 [main] GenericDao - **********Starting Get All Query From Class Type: class edu.matc.entity.UserRecipes
+[INFO ] 2019-03-24 17:31:06.458 [main] GenericDao - **********Get All Query Found: [UserRecipes{recipeId=1, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Tacos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=2, user=User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, recipeTitle='Shrimp Larb', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=3, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Nachos', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=4, user=User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, recipeTitle='Swedish Meatballs', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=6, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Lamb Shank', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=7, user=User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, recipeTitle='Braised Pork Belly', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=8, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Beef Wellington', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=9, user=User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, recipeTitle='Pad Thai', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03T13:53}]
+[INFO ] 2019-03-24 17:31:06.505 [main] UserRecipesDaoTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-24 17:31:06.505 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting save or update Test
+[INFO ] 2019-03-24 17:31:06.505 [main] GenericDao - **********Query database by using an ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:06.512 [main] GenericDao - **********Query by ID Found: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-24 17:31:06.512 [main] GenericDao - **********Query database by using an ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:06.520 [main] GenericDao - **********Query by ID Found: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-24 17:31:06.520 [main] UserRecipesDaoTest - ^^^^^^^^^^Grabbed user ID to save using save/update method: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-24 17:31:06.521 [main] GenericDao - **********Query database by using an ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:06.526 [main] GenericDao - **********Query by ID Found: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-24 17:31:06.527 [main] UserRecipesDaoTest - ^^^^^^^^^^Created user to save using save/update method: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-24T17:31:06.505}
+[INFO ] 2019-03-24 17:31:06.527 [main] GenericDao - **********Attempting to Save|Update a Entity to the Database: UserRecipes{recipeId=0, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-24T17:31:06.505}
+[INFO ] 2019-03-24 17:31:06.536 [main] GenericDao - **********Saved|Updated entity: UserRecipes{recipeId=48, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-24T17:31:06.505}
+[INFO ] 2019-03-24 17:31:06.536 [main] UserRecipesDaoTest - ^^^^^^^^^^New recipe saved successfully!
+[INFO ] 2019-03-24 17:31:06.536 [main] GenericDao - **********Querying user recipes by ID: 4
+[INFO ] 2019-03-24 17:31:06.549 [main] GenericDao - **********Query found recipes by ID : [UserRecipes{recipeId=48, user=User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, recipeTitle='Rib Eye Steak', dateTimeCreated=2019-03-24T17:31:07}]
+[INFO ] 2019-03-24 17:31:06.549 [main] UserRecipesDaoTest - ^^^^^^^^^^Starting recipe update process
+[INFO ] 2019-03-24 17:31:06.549 [main] GenericDao - **********Querying user recipes by ID: 6
+[INFO ] 2019-03-24 17:31:06.565 [main] GenericDao - **********Query found recipes by ID : [UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Bibimbap', dateTimeCreated=2019-03-03T13:53}, UserRecipes{recipeId=11, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Fried Chicken', dateTimeCreated=2019-03-03T13:53}]
+[INFO ] 2019-03-24 17:31:06.565 [main] GenericDao - **********Attempting to Save|Update a Entity to the Database: UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Macaroni and Cheese', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:31:06.575 [main] GenericDao - **********Saved|Updated entity: UserRecipes{recipeId=10, user=User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}, recipeTitle='Macaroni and Cheese', dateTimeCreated=2019-03-03T13:53}
+[INFO ] 2019-03-24 17:31:23.134 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-24 17:31:23.145 [main] UserDaoTest - ^^^^^^^^^^Starting test to delete a user.
+[INFO ] 2019-03-24 17:31:23.146 [main] GenericDao - **********Query database by using an ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:25.923 [main] GenericDao - **********Query by ID Found: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-24 17:31:25.924 [main] GenericDao - **********Attempting to delete: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-24 17:31:25.941 [main] GenericDao - **********Successfully deleted: User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}
+[INFO ] 2019-03-24 17:31:26.007 [main] GenericDao - **********Query database by using an ID: 4, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:26.015 [main] GenericDao - **********Query by ID Found: null
+[INFO ] 2019-03-24 17:31:26.079 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-24 17:31:26.079 [main] UserDaoTest - ^^^^^^^^^^Starting test to get a user by ID.
+[INFO ] 2019-03-24 17:31:26.079 [main] GenericDao - **********Query database by using an ID: 3, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:26.110 [main] GenericDao - **********Query by ID Found: User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}
+[INFO ] 2019-03-24 17:31:26.159 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-24 17:31:26.160 [main] UserDaoTest - ^^^^^^^^^^Starting test to get all users.
+[INFO ] 2019-03-24 17:31:26.160 [main] GenericDao - **********Starting Get All Query From Class Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:26.467 [main] GenericDao - **********Get All Query Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}, User{userId='2', firstName='Peter', lastName='Parker', userName='Tester2', userPassword='Test2'}, User{userId='3', firstName='Captain', lastName='America', userName='Tester3', userPassword='Test3'}, User{userId='4', firstName='Black', lastName='Widow', userName='Tester4', userPassword='Test4'}, User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[INFO ] 2019-03-24 17:31:26.533 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-24 17:31:26.533 [main] UserDaoTest - ^^^^^^^^^^Starting test to check if a user recipe set is added to a user object.
+[INFO ] 2019-03-24 17:31:26.534 [main] UserDaoTest - -------Locale date time: 2019-03-24T17:31:26.534----------
+[INFO ] 2019-03-24 17:31:26.534 [main] GenericDao - **********Attempting to insert a Entity: User{userId='0', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}
+[INFO ] 2019-03-24 17:31:26.560 [main] GenericDao - **********Entity inserted: User{userId='100', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}
+[INFO ] 2019-03-24 17:31:26.561 [main] GenericDao - **********Query database by using an ID: 100, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:26.567 [main] GenericDao - **********Query by ID Found: User{userId='100', firstName='Ham', lastName='Burgler', userName='CHzPlz', userPassword='test'}
+[INFO ] 2019-03-24 17:31:26.622 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-24 17:31:26.622 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Saves a new User
+[INFO ] 2019-03-24 17:31:26.623 [main] GenericDao - **********Attempting to Save|Update a Entity to the Database: User{userId='0', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-24 17:31:26.635 [main] GenericDao - **********Saved|Updated entity: User{userId='101', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-24 17:31:26.635 [main] GenericDao - **********Query database by using an ID: 101, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:26.641 [main] GenericDao - **********Query by ID Found: User{userId='101', firstName='Thor1', lastName='Odinson1', userName='HammerTime33', userPassword='test1'}
+[INFO ] 2019-03-24 17:31:26.641 [main] GenericDao - **********Query database by using an ID: 6, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:26.648 [main] GenericDao - **********Query by ID Found: User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}
+[INFO ] 2019-03-24 17:31:26.648 [main] UserDaoTest - ^^^^^^^^^^Starting Test That Updates an existing User
+[INFO ] 2019-03-24 17:31:26.648 [main] GenericDao - **********Attempting to Save|Update a Entity to the Database: User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}
+[INFO ] 2019-03-24 17:31:26.662 [main] GenericDao - **********Saved|Updated entity: User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}
+[INFO ] 2019-03-24 17:31:26.662 [main] GenericDao - **********Query database by using an ID: 6, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:26.668 [main] GenericDao - **********Query by ID Found: User{userId='6', firstName='Captain', lastName='Marvel', userName='CaptMarv33', userPassword='Test6'}
+[INFO ] 2019-03-24 17:31:26.714 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-24 17:31:26.714 [main] UserDaoTest - ^^^^^^^^^^Starting test to get a user by last name.
+[INFO ] 2019-03-24 17:31:26.715 [main] GenericDao - **********Query Using Last Name:  Hulk, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:26.744 [main] GenericDao - **********Query by Last Name Found: [User{userId='1', firstName='Incredible', lastName='Hulk', userName='Tester1', userPassword='Test1'}]
+[INFO ] 2019-03-24 17:31:26.744 [main] GenericDao - **********Query Using Last Name:  ma, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:26.758 [main] GenericDao - **********Query by Last Name Found: [User{userId='5', firstName='Ant', lastName='Man', userName='Tester5', userPassword='Test5'}, User{userId='6', firstName='Captain', lastName='Marvel', userName='Tester6', userPassword='Test6'}]
+[INFO ] 2019-03-24 17:31:26.807 [main] UserDaoTest - ----------Cleaning Database with sql script for User Testing----------
+[INFO ] 2019-03-24 17:31:26.808 [main] UserDaoTest - ^^^^^^^^^^Starting test to insert a user.
+[INFO ] 2019-03-24 17:31:26.808 [main] GenericDao - **********Attempting to insert a Entity: User{userId='0', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-24 17:31:26.815 [main] GenericDao - **********Entity inserted: User{userId='102', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[INFO ] 2019-03-24 17:31:26.815 [main] GenericDao - **********Query database by using an ID: 102, of Type: class edu.matc.entity.User
+[INFO ] 2019-03-24 17:31:26.820 [main] GenericDao - **********Query by ID Found: User{userId='102', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}

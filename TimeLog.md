@@ -23,4 +23,5 @@
 |3/15/19|Connected back to database and running into errors based off of the time variables I chose| 1.5| Moving on for now|
 |3/21/19|Working on building generic Dao| .5 | No notes|
 |3/22/19|Working on building generic Dao| 1 | No notes|
-|3/23/19|Building classes for all entities| Still working | No notes|
+|3/23/19|Building classes for all entities| 1 | No notes|
+|3/24/19|Updated old dao tests to use the generic dao.  All test passing.| 3 | Big problem with having to set the mySQL server time each time I log into Mysql.  Tried step by step to fix but running into problems.  I found a bypass for now.|

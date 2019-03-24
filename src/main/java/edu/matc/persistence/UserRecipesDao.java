@@ -49,7 +49,7 @@ public class UserRecipesDao {
      * @param userRecipesId
      * @return userRecipes with the matching userRecipes id argument
      */
-    public List<UserRecipes> getUserRecipesById(Integer userRecipesId) {
+    public List<UserRecipes> getRecipesByUserId(Integer userRecipesId) {
 
         logger.info("**********Querying user recipes by ID: " + userRecipesId);
 
@@ -87,7 +87,7 @@ public class UserRecipesDao {
 
         logger.info("**********User Found by lastname: " + users);
         logger.info("**********Grabbing user ID to find users recipes in database: " + users.get(0).getUserId());
-        List<UserRecipes> recipesByLastName = getUserRecipesById(users.get(0).getUserId());
+        List<UserRecipes> recipesByLastName = getRecipesByUserId(users.get(0).getUserId());
 
         session.close();
 
@@ -141,7 +141,7 @@ public class UserRecipesDao {
      */
     public String delete(UserRecipes userRecipes) {
 
-        List<UserRecipes> userRecipesToDelete = getUserRecipesById(userRecipes.getRecipeId());
+        List<UserRecipes> userRecipesToDelete = getRecipesByUserId(userRecipes.getRecipeId());
 
         logger.info("**********Attempting to delete a user recipe from database: " + userRecipesToDelete + " with ID: " + userRecipesToDelete);
 
