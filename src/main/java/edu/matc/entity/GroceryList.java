@@ -14,8 +14,9 @@ public class GroceryList {
     @Column(name="groceryListName")
     private String groceryListName;
 
-    @Column(name="ingredientId")
-    private int ingredientId;
+    @ManyToMany
+    @JoinColumn(name="ingredientId")
+    private Ingredients ingredients;
 
     @ManyToMany
     @JoinColumn(name="recipe_id")
@@ -33,14 +34,14 @@ public class GroceryList {
      * Constructor that builds a grocery list object
      * @param groceryListId
      * @param groceryListName
-     * @param ingredientId
+     * @param ingredients
      * @param userRecipes
      * @param user
      */
-    public GroceryList(int groceryListId, String groceryListName, int ingredientId, UserRecipes userRecipes, User user) {
+    public GroceryList(int groceryListId, String groceryListName, Ingredients ingredients, UserRecipes userRecipes, User user) {
         this.groceryListId = groceryListId;
         this.groceryListName = groceryListName;
-        this.ingredientId = ingredientId;
+        this.ingredients = ingredients;
         this.userRecipes = userRecipes;
         this.user = user;
     }
@@ -76,15 +77,15 @@ public class GroceryList {
     /**
      * @return
      */
-    public int getIngredientId() {
-        return ingredientId;
+    public Ingredients getIngredients() {
+        return ingredients;
     }
 
     /**
-     * @param ingredientId
+     * @param ingredients
      */
-    public void setIngredientId(int ingredientId) {
-        this.ingredientId = ingredientId;
+    public void setIngredients(Ingredients ingredients) {
+        this.ingredients = ingredients;
     }
 
     /**
@@ -120,7 +121,7 @@ public class GroceryList {
         return "GroceryLists{" +
                 "groceryListId=" + groceryListId +
                 "groceryListName=" + groceryListName +
-                "ingredientId=" + ingredientId +
+                "ingredients=" + ingredients +
                 "recipeId=" + userRecipes +
                 "userId=" + user +
                 "}";

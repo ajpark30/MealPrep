@@ -315,3 +315,11 @@
 [INFO ] 2019-03-24 17:31:26.815 [main] GenericDao - **********Entity inserted: User{userId='102', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
 [INFO ] 2019-03-24 17:31:26.815 [main] GenericDao - **********Query database by using an ID: 102, of Type: class edu.matc.entity.User
 [INFO ] 2019-03-24 17:31:26.820 [main] GenericDao - **********Query by ID Found: User{userId='102', firstName='Thor', lastName='Odinson', userName='Tester7', userPassword='test'}
+[ERROR] 2019-03-25 08:00:05.120 [main] Database - java.sql.SQLSyntaxErrorException: Table 'test_mealprep.grocerylist' doesn't exist
+[INFO ] 2019-03-25 08:00:05.137 [main] GroceryList - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-25 08:00:05.141 [main] GroceryList - ^^^^^^^^^^Starting test to get all user recipes.
+[INFO ] 2019-03-25 08:00:05.141 [main] GenericDao - **********Starting Get All Query From Class Type: class edu.matc.persistence.GroceryList
+[ERROR] 2019-03-25 08:03:13.466 [main] Database - java.sql.SQLSyntaxErrorException: Table 'test_mealprep.grocerylist' doesn't exist
+[INFO ] 2019-03-25 08:03:13.481 [main] GroceryListTest - ----------Cleaning Database with sql script for User Recipe Testing----------
+[INFO ] 2019-03-25 08:03:13.485 [main] GroceryListTest - ^^^^^^^^^^Starting test to get all user recipes.
+[INFO ] 2019-03-25 08:03:13.485 [main] GenericDao - **********Starting Get All Query From Class Type: class edu.matc.entity.GroceryList

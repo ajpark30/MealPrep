@@ -8,17 +8,16 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 import java.util.List;
-import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class UserRecipesDaoTest {
+class UserRecipesTest {
 
     private final Logger logger = LogManager.getLogger(this.getClass());
     GenericDao genericDao;
+
     /**
      * Run set up tasks before each test:
      * 1. execute sql which deletes everything from the table and inserts records)
