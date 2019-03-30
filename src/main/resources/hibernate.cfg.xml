@@ -20,7 +20,7 @@
         <mapping class="edu.matc.entity.UserRecipes"/>
         <mapping class="edu.matc.entity.GroceryList"/>
         <mapping class="edu.matc.entity.Ingredients"/>
-        <mapping class="edu.matc.entity.WeeklyMealPlan"/>
+        <!--<mapping class="edu.matc.entity.WeeklyMealPlan"/>-->
 
     </session-factory>
 
