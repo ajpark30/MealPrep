@@ -29,4 +29,4 @@
 |3/27/19|Building test classes, trying to get all classes working with generic dao, building database tables(many to many)| 2 | No notes|
 |3/28/19|Building test classes, trying to get all classes working with generic dao, building database tables(many to many)| 2 | Finally getting tests to work many to many|
 |3/29/19|Building test classes, trying to get all classes working with generic dao, building database tables(many to many)| 2 | All tests finally pass|
-|3/30/19|Deploying project to AWS :( for week 6 work| 1 | No notes|
+|3/30/19|Deploying project to AWS :( for week 6 work, Working on week 7 security work| 5 | Stuck on getting Role Name being red in web.xml|
