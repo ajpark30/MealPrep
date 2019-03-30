@@ -1,5 +1,7 @@
 package edu.matc.persistence;
 
+import edu.matc.entity.GroceryList;
+import edu.matc.entity.Ingredients;
 import edu.matc.entity.User;
 import edu.matc.entity.UserRecipes;
 import org.apache.logging.log4j.LogManager;
@@ -9,7 +11,9 @@ import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -85,9 +89,9 @@ class UserRecipesTest {
     void getRecipeByRecipeId() {
 
         logger.info("^^^^^^^^^^Starting test to get a user by ID.");
-        UserRecipes retrievedUser = (UserRecipes)genericDao.getById(3);
-        assertEquals("Peter", retrievedUser.getUser().getFirstName());
-        assertEquals("Nachos", retrievedUser.getRecipeTitle());
+        UserRecipes retrievedRecipe = (UserRecipes)genericDao.getById(7);
+        assertEquals("Captain", retrievedRecipe.getUser().getFirstName());
+        assertEquals("Braised Pork Belly", retrievedRecipe.getRecipeTitle());
     }
 
     /**
@@ -100,16 +104,19 @@ class UserRecipesTest {
 
         //Grab a user and add a new recipe to the database under their user id
         LocalDateTime localDateTime = LocalDateTime.now();
+
         GenericDao userDao = new GenericDao(User.class);
-        userDao.getById(4);
-        logger.info("^^^^^^^^^^Grabbed user ID to save using save/update method: " + userDao.getById(4));
-        UserRecipes saveUserRecipes = new UserRecipes((User)userDao.getById(4), "Rib Eye Steak", localDateTime);
+
+        Set<GroceryList> groceryListSet = new HashSet<GroceryList>(0);
+        Set<Ingredients> ingredientsSet = new HashSet<Ingredients>(0);
+
+        UserRecipes saveUserRecipes = new UserRecipes((User)userDao.getById(5), "Rib Eye Steak", localDateTime, groceryListSet, ingredientsSet);
         logger.info("^^^^^^^^^^Created user to save using save/update method: " + saveUserRecipes);
         genericDao.saveOrUpdate(saveUserRecipes);
         logger.info("^^^^^^^^^^New recipe saved successfully!");
 
         //Create a list of all the recipes that user id 4 has in the database.
-        List<UserRecipes> userRecipes = genericDao.getRecipesByUserId(4);
+        List<UserRecipes> userRecipes = genericDao.getRecipesByUserId(5);
         int count = 0;
         for (int i = 0; i < userRecipes.size(); i++ ){
             count++;
@@ -123,7 +130,7 @@ class UserRecipesTest {
 
         //Check to see if a new recipe was added to a user.
         assertEquals("Rib Eye Steak", saveUserRecipes.getRecipeTitle());
-        assertEquals(1, count);
+        assertEquals(3, count);
 
         //Check to see if an existing recipe was updated.
         assertEquals("Macaroni and Cheese", updateUserRecipe.get(0).getRecipeTitle());
@@ -140,8 +147,11 @@ class UserRecipesTest {
         LocalDateTime localDateTime = LocalDateTime.now();
         GenericDao userDao = new GenericDao(User.class);
         userDao.getById(5);
+        Set<GroceryList> groceryListSet = new HashSet<GroceryList>(0);
+        Set<Ingredients> ingredientsSet = new HashSet<Ingredients>(0);
+
         logger.info("^^^^^^^^^^Grabbed user ID to insert a new recipe: " + userDao.getById(5));
-        UserRecipes insertUserRecipes = new UserRecipes((User)userDao.getById(5), "Pepperoni Pizza", localDateTime);
+        UserRecipes insertUserRecipes = new UserRecipes((User)userDao.getById(5), "Pepperoni Pizza", localDateTime, groceryListSet, ingredientsSet);
         genericDao.insert(insertUserRecipes);
         logger.info("^^^^^^^^^^Inserted a new recipe: " + insertUserRecipes);
 

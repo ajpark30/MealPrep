@@ -11,7 +11,7 @@ import java.util.Set;
  * @author apark 2/23/19
  */
 @Entity(name = "User")
-@Table(name = "users")
+@Table(name = "user")
 public class User {
 
     @Id
@@ -34,6 +34,11 @@ public class User {
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true, fetch = FetchType.EAGER) //You'll prob want to use LAZY later on
     private Set<UserRecipes> userRecipesSet = new HashSet<>();
 
+    @ManyToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+    @JoinTable(name="user_groceryList",
+            joinColumns = { @JoinColumn(name="userId")},
+            inverseJoinColumns = {@JoinColumn(name="groceryListId")})
+    private Set<GroceryList> groceryLists = new HashSet<GroceryList>(0);
 
     public User() {
     }

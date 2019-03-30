@@ -1,5 +1,7 @@
 package edu.matc.persistence;
 
+import edu.matc.entity.GroceryList;
+import edu.matc.entity.Ingredients;
 import edu.matc.entity.User;
 import edu.matc.entity.UserRecipes;
 import org.apache.logging.log4j.LogManager;
@@ -9,7 +11,9 @@ import org.junit.jupiter.api.Test;
 
 
 import java.time.LocalDateTime;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -109,8 +113,9 @@ class UserTest {
         String userRecipeTitle = "Cheese Burger";
         LocalDateTime recipeOriginDate = LocalDateTime.now();
         logger.info("-------Locale date time: " + recipeOriginDate.toString() + "----------");
-
-        UserRecipes newUserRecipes = new UserRecipes(newUser, userRecipeTitle, recipeOriginDate);
+        Set<GroceryList> groceryListSet = new HashSet<GroceryList>(0);
+        Set<Ingredients> ingredientsSet = new HashSet<Ingredients>(0);
+        UserRecipes newUserRecipes = new UserRecipes(newUser, userRecipeTitle, recipeOriginDate, groceryListSet, ingredientsSet);
         newUser.addUserRecipes(newUserRecipes);
 
         genericDao.insert(newUser);
@@ -127,14 +132,14 @@ class UserTest {
     @Test
     void saveOrUpdate() {
         logger.info("^^^^^^^^^^Starting Test That Saves a new User");
-        User saveUser = new User("Thor1", "Odinson1", "HammerTime33", "test1");
+        User saveUser = new User("Black", "Widow", "WidowMaker", "test33");
         genericDao.saveOrUpdate(saveUser);
         int saveUserId = saveUser.getUserId();
         User insertedUser = (User) genericDao.getById(saveUserId);
-        assertEquals("Thor1", insertedUser.getFirstName());
-        assertEquals("Odinson1", insertedUser.getLastName());
-        assertEquals("HammerTime33", insertedUser.getUserName());
-        assertEquals("test1", insertedUser.getUserPassword());
+        assertEquals("Black", insertedUser.getFirstName());
+        assertEquals("Widow", insertedUser.getLastName());
+        assertEquals("WidowMaker", insertedUser.getUserName());
+        assertEquals("test33", insertedUser.getUserPassword());
 
         User updateUser = (User)genericDao.getById(6);
         updateUser.setUserName("CaptMarv33");

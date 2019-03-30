@@ -1,6 +1,8 @@
 package edu.matc.entity;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity(name = "Ingredients")
 @Table(name = "ingredients")
@@ -26,14 +28,16 @@ public class Ingredients {
     @Column(name="brand")
     private String brand;
 
-    @ManyToMany
-    @JoinColumn(name="recipe_id")
-    private UserRecipes userRecipes;
+    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "ingredients")
+    private Set<UserRecipes> userRecipes = new HashSet<UserRecipes>(0);
+
+    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "ingredients")
+    private Set<GroceryList> groceryLists = new HashSet<GroceryList>(0);
 
     public Ingredients() {}
 
     public Ingredients (int ingredientId, String ingredientName, String ingredientCategory, int price,
-                            String priceMeasurementUnit, String brand, UserRecipes userRecipes) {
+                            String priceMeasurementUnit, String brand, Set<UserRecipes> userRecipes, Set<GroceryList> groceryLists) {
 
         this.ingredientId = ingredientId;
         this.ingredientName = ingredientName;
@@ -42,6 +46,7 @@ public class Ingredients {
         this.priceMeasurementUnit = priceMeasurementUnit;
         this.brand = brand;
         this.userRecipes = userRecipes;
+        this.groceryLists = groceryLists;
     }
 
     /**
@@ -131,14 +136,45 @@ public class Ingredients {
     /**
      * @return
      */
-    public UserRecipes getUserRecipes() {
+    public Set<UserRecipes> getUserRecipes() {
         return userRecipes;
     }
 
     /**
      * @param userRecipes
      */
-    public void setUserRecipes(UserRecipes userRecipes) {
+    public void setUserRecipes(Set<UserRecipes> userRecipes) {
         this.userRecipes = userRecipes;
     }
+
+    /**
+     *
+     * @return
+     */
+    public Set<GroceryList> getGroceryLists() {
+        return groceryLists;
+    }
+
+    /**
+     *
+     * @param groceryLists
+     */
+    public void setGroceryLists(Set<GroceryList> groceryLists) {
+        this.groceryLists = groceryLists;
+    }
+
+    @Override
+    public String toString() {
+        return "Ingredients{" +
+                ", ingredientId=" + ingredientId +
+                ", ingredientName=" + ingredientName +
+                ", ingredientCategory=" + ingredientCategory +
+                ", price=" + price +
+                ", priceMeasurementUnit=" + priceMeasurementUnit +
+                ", brand=" + brand +
+                ", userRecipes=" + userRecipes +
+                ", groceryLists=" + groceryLists +
+                "}";
+    }
+
 }

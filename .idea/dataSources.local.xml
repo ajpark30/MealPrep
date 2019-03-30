@@ -2,11 +2,12 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="mealprep@localhost" uuid="3978bd42-bd74-4e35-ba3a-7febc02ad0f5">
-      <database-info product="MySQL" version="8.0.12" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.46 ( Revision: 9cc87a48e75c2d2e87c1a293b2862ce651cb256e )">
+      <database-info product="MySQL" version="8.0.12" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.13 (Revision: 66459e9d39c8fd09767992bc592acd2053279be6)">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
       </database-info>
       <case-sensitivity plain-identifiers="mixed" quoted-identifiers="upper" />
+      <secret-storage>master_key</secret-storage>
       <user-name>root</user-name>
       <introspection-schemas>*:mealprep,test_mealprep</introspection-schemas>
       <ssl-config>

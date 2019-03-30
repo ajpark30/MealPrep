@@ -8,7 +8,7 @@
         <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
 
         <property name="connection.username">root</property>
-        <property name="connection.password">JHarris33</property>
+        <property name="connection.password">RedBadger</property>
 
         <property name="hibernate.c3p0.min_size">5</property>
         <property name="hibernate.c3p0.max_size">20</property>
@@ -18,6 +18,9 @@
 
         <mapping class="edu.matc.entity.User"/>
         <mapping class="edu.matc.entity.UserRecipes"/>
+        <mapping class="edu.matc.entity.GroceryList"/>
+        <mapping class="edu.matc.entity.Ingredients"/>
+        <mapping class="edu.matc.entity.WeeklyMealPlan"/>
 
     </session-factory>
 

@@ -25,3 +25,8 @@
 |3/22/19|Working on building generic Dao| 1 | No notes|
 |3/23/19|Building classes for all entities| 1 | No notes|
 |3/24/19|Updated old dao tests to use the generic dao.  All test passing.| 3 | Big problem with having to set the mySQL server time each time I log into Mysql.  Tried step by step to fix but running into problems.  I found a bypass for now.|
+|3/26/19|Building test classes, trying to get all classes working with generic dao, building database tables(many to many)| 2 | working on hibernate problems|
+|3/27/19|Building test classes, trying to get all classes working with generic dao, building database tables(many to many)| 2 | No notes|
+|3/28/19|Building test classes, trying to get all classes working with generic dao, building database tables(many to many)| 2 | Finally getting tests to work many to many|
+|3/29/19|Building test classes, trying to get all classes working with generic dao, building database tables(many to many)| 2 | All tests finally pass|
+|3/30/19|Deploying project to AWS :( for week 6 work| 1 | No notes|

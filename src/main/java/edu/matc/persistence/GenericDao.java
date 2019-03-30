@@ -35,7 +35,7 @@ public class GenericDao<T> {
      */
     public List<T> getAll() {
 
-        logger.info("**********Starting Get All Query From Class Type: " + type);
+        logger.info("**********Starting The Get All Query From Class Type: " + type);
         Session session = getSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(type);

@@ -1,7 +1,14 @@
 package edu.matc.entity;
 
 import javax.persistence.*;
+import java.util.HashSet;
+import java.util.Set;
 
+/**
+ * A class to represent a user.
+ *
+ * @author apark 3/23/19
+ */
 @Entity(name = "GroceryList")
 @Table(name = "groceryList")
 public class GroceryList {
@@ -14,17 +21,17 @@ public class GroceryList {
     @Column(name="groceryListName")
     private String groceryListName;
 
-    @ManyToMany
-    @JoinColumn(name="ingredientId")
-    private Ingredients ingredients;
+    @ManyToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+    @JoinTable(name="groceryList_ingredients",
+            joinColumns = { @JoinColumn(name="groceryListId")},
+            inverseJoinColumns = {@JoinColumn(name="ingredientId")})
+    private Set<Ingredients> ingredients = new HashSet<Ingredients>(0);
 
-    @ManyToMany
-    @JoinColumn(name="recipe_id")
-    private UserRecipes userRecipes;
+    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "groceryLists")
+    private Set<UserRecipes> userRecipes = new HashSet<UserRecipes>(0);
 
-    @ManyToMany
-    @JoinColumn(name="user_id")
-    private User user;
+    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "groceryLists")
+    private Set<User> users = new HashSet<User>(0);
 
     public GroceryList() {
 
@@ -36,14 +43,14 @@ public class GroceryList {
      * @param groceryListName
      * @param ingredients
      * @param userRecipes
-     * @param user
+     * @param users
      */
-    public GroceryList(int groceryListId, String groceryListName, Ingredients ingredients, UserRecipes userRecipes, User user) {
+    public GroceryList(int groceryListId, String groceryListName, Set<Ingredients> ingredients, Set<UserRecipes> userRecipes, Set<User> users) {
         this.groceryListId = groceryListId;
         this.groceryListName = groceryListName;
         this.ingredients = ingredients;
         this.userRecipes = userRecipes;
-        this.user = user;
+        this.users = users;
     }
 
     /**
@@ -75,45 +82,47 @@ public class GroceryList {
     }
 
     /**
+     *
      * @return
      */
-    public Ingredients getIngredients() {
+    public Set<Ingredients> getIngredients() {
         return ingredients;
     }
 
     /**
+     *
      * @param ingredients
      */
-    public void setIngredients(Ingredients ingredients) {
+    public void setIngredients(Set<Ingredients> ingredients) {
         this.ingredients = ingredients;
     }
 
     /**
      * @return
      */
-    public UserRecipes getUserRecipes() {
+    public Set <UserRecipes> getUserRecipes() {
         return userRecipes;
     }
 
     /**
      * @param userRecipes
      */
-    public void setUserRecipes(UserRecipes userRecipes) {
+    public void setUserRecipes(Set<UserRecipes> userRecipes) {
         this.userRecipes = userRecipes;
     }
 
     /**
      * @return
      */
-    public User getUser() {
-        return user;
+    public Set<User> getUsers() {
+        return users;
     }
 
     /**
-     * @param user
+     * @param users
      */
-    public void setUser(User user) {
-        this.user = user;
+    public void setUser(Set<User> users) {
+        this.users = users;
     }
 
     @Override
@@ -123,7 +132,7 @@ public class GroceryList {
                 "groceryListName=" + groceryListName +
                 "ingredients=" + ingredients +
                 "recipeId=" + userRecipes +
-                "userId=" + user +
+                "userId=" + users +
                 "}";
     }
 }
