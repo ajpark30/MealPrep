@@ -10,7 +10,7 @@
 <%@include file="header.jsp"%>
 <html>
 <head>
-  <h1>Delete User Page</h1>
+  <h1 class="text-center">Delete User Page</h1>
     <br />
     <div class="container col-md-8 col-md-offset-2">
         <div class="row">
@@ -23,8 +23,8 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="col-sm-offset-2 col-sm-6">
-                            <button type="submit" name="submitDelete" value="submitDelete" class="btn btn-primary">Submit</button>
+                        <div class="col-sm-offset-5 col-sm-6">
+                            <button type="submit" name="submitDelete" value="submitDelete" class="btn btn-warning">Submit</button>
                         </div>
                     </div>
                 </form>

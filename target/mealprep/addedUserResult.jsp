@@ -9,15 +9,22 @@
 <c:set var="title" value="Added User Result"/>
 <%@include file="header.jsp"%>
 
-<html><body>
+<html>
+<body>
 
-    <div class="container-fluid">
-        <h2>Congrats you Added a User</h2>
-        <div class="container col-md-8 col-md-offset-2">
-            <div class="row">
-                <div class="well" id="userWell">
-                    <h2>${addedUserName.getUserName()} With User Id: ${addedUserName.getUserId()}</h2>
-                </div>
+        <div class="container">
+            <h2 class="text-center">Congrats you Added a User</h2>
+                <table class="table table-striped">
+                    <tr>
+                        <td>User Name: ${addedUserName.getUserName()} </td>
+                    </tr>
+                    <tr>
+                        <td>User Id: ${addedUserName.getUserId()}</td>
+                    </tr>
+                    <tr>
+                        <td>Name: ${addedUserName.getFirstName()} ${addedUserName.getLastName()}</td>
+                    </tr>
+                </table>
             </div>
         </div>
     </div>

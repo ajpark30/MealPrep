@@ -9,13 +9,18 @@
 <c:set var="title" value = "Home Page"/>
 <%@include file="header.jsp"%>
 <html>
-<body>
-  <h1>Meal Prep Home Page</h1>
-  <br />
-  <br />
-  <h2 id="searchUser"><a href="searchUser.jsp"/>Go to Search User Page</h2>
-  <h2 id="addUser"> <a href="addUser.jsp"/>Go to Add New User Page</h2>
-  <h2 id="deleteUser"><a href="deleteUser.jsp"/>Go to Delete User Page</h2>
-
+<div>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="text-center">Meal Prep Home Page</h1>
+    </div>
+    <br />
+    <br />
+    <div class="btn-group-vertical">
+      <a id="searchUser" type="button" class="btn btn-primary btn-lg" href="searchUser.jsp"/>Go to Search User Page</a>
+      <a id="addUser" type="button" class="btn btn-success btn-lg" href="addUser.jsp"/>Go to Add New User Page</a>
+      <a id="deleteUser" type="button" class="btn btn-info btn-lg" href="deleteUser.jsp"/>Go to Delete User Page</a>
+    </div>
+</div>
 </body>
 </html>

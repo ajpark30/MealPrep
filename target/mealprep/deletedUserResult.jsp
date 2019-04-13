@@ -11,16 +11,13 @@
 
 <html><body>
 
-<div class="container-fluid">
-    <h2>Congrats you Deleted a User</h2>
-    <div class="container col-md-8 col-md-offset-2">
-        <div class="row">
-            <div class="well" id="userWell">
-                <h2>${deletedUserName}</h2>
-            </div>
-        </div>
-    </div>
+<div class="container">
+    <h2 class="text-center">Congrats you Deleted a User</h2>
+      <table class="table table-striped">
+        <tr>
+          <td>User Name: ${deletedUserName}</td>
+        </tr>
+      </table>
 </div>
-
 </body>
 </html>

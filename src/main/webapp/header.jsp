@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="detectify-verification" content="5cbaad45c1e4270878df6be4c1ddc1e4" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../Main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="Main.css" />
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 

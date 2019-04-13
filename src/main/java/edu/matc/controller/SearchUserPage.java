@@ -38,7 +38,7 @@ public class SearchUserPage extends HttpServlet {
             req.setAttribute("userInfo", userDao.getAllUsers());
         }
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/results.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/userResults.jsp");
         dispatcher.forward(req, resp);
 
     }
