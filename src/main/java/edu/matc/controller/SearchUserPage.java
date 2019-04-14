@@ -1,5 +1,7 @@
 package edu.matc.controller;
 
+import edu.matc.entity.User;
+import edu.matc.persistence.GenericDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import edu.matc.persistence.UserDao;
@@ -29,13 +31,13 @@ public class SearchUserPage extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
-        UserDao userDao = new UserDao();
+        GenericDao genericDao = new GenericDao(User.class);
 
         if (req.getParameter("submit").equals("search")) {
-            req.setAttribute("userInfo", userDao.getUserByLastName(req.getParameter("searchTerm")));
+            req.setAttribute("userInfo", genericDao.getByLastName(req.getParameter("searchTerm")));
         }
         if (req.getParameter("submit").equals("viewAll")) {
-            req.setAttribute("userInfo", userDao.getAllUsers());
+            req.setAttribute("userInfo", genericDao.getAll());
         }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/userResults.jsp");
