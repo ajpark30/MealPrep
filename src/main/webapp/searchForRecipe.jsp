@@ -9,12 +9,13 @@
 <c:set var="title" value = "Search Recipes"/>
 <%@include file="header.jsp"%>
 <html>
-<head>
-    <div class="container col-md-8 col-md-offset-2">
-        <h1 class="text-center">Search For Recipes</h1>
+<head></head>
+<body>
+<div class="container col-md-8 col-md-offset-2">
         <div class="row">
             <div class="well" id="userWell">
-                <form class="form-horizontal" action="searchUser">
+                <h1 class="text-center">Search For Recipes</h1>
+                <form class="form-horizontal" action="searchRecipes">
                     <div class="form-group">
                         <label class="control-label col-sm-5" for="searchTerm">Search for Recipe by Last Name</label>
                         <div class="col-sm-5">
@@ -31,10 +32,10 @@
         </div>
     </div>
     <div class="container col-md-8 col-md-offset-2">
-        <h1 class="text-center">Search for all Recipes</h1>
         <div class="row">
             <div class="well" id="userWell">
-                <form class="form-horizontal" action="searchUser">
+                <h1 class="text-center">Search for all Recipes</h1>
+                <form class="form-horizontal" action="searchRecipes">
                     <div class="form-group">
                         <div class="col-sm-offset-5 col-sm-6">
                             <button type="submit" name="submit" value="viewAll" class="btn btn-success">View All Users</button>
@@ -45,10 +46,10 @@
         </div>
     </div>
     <div class="container col-md-8 col-md-offset-2">
-        <h1 class="text-center">Search for Recipes by ID</h1>
         <div class="row">
             <div class="well" id="userWell">
-                <form class="form-horizontal" action="searchUser">
+                <h1 class="text-center">Search for Recipes by ID</h1>
+                <form class="form-horizontal" action="searchRecipes">
                     <div class="form-group">
                         <div class="col-sm-offset-5 col-sm-6">
                             <button type="submit" name="submit" value="viewById" class="btn btn-success">Search</button>
@@ -58,9 +59,6 @@
             </div>
         </div>
     </div>
-</head>
-<body>
-
 </body>
 </html>
 

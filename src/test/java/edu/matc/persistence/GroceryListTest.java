@@ -1,5 +1,6 @@
 package edu.matc.persistence;
 
+import edu.matc.entity.Ingredients;
 import edu.matc.entity.User;
 import edu.matc.entity.UserRecipes;
 import edu.matc.entity.GroceryList;
@@ -10,7 +11,9 @@ import org.junit.jupiter.api.Test;
 
 import java.time.LocalDateTime;
 
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -42,4 +45,22 @@ class GroceryListTest {
         List<GroceryList> groceryLists = genericDao.getAll();
         assertEquals(9, groceryLists.size());
     }
+
+    @Test
+    void getGrocerylistByItsName() {
+        Integer integer = 1;
+        logger.info("^^^^^^^^^Starting test to get all grocery lists by grocery list name.");
+        GenericDao groceryListDao = new GenericDao(GroceryList.class);
+        List<GroceryList> groceryLists = groceryListDao.getGrocerylistByItsName("Week 1");
+        logger.info("^^^^^^^^^^Test found grocery lists using grocery list name: " + groceryLists);
+
+//        Set<Ingredients> ingredientsSet= new HashSet<>();
+//        for (int i = 0; i < groceryLists.size(); i++) {
+//            ingredientsSet.add(groceryLists.ge);
+//        }
+        assertEquals(5, groceryLists.size());
+        assertEquals("Week 1", groceryLists.get(0).getGrocerylistName());
+        assertEquals(integer, groceryLists.get(4).getIngredientId());
+    }
+
 }

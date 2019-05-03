@@ -96,7 +96,7 @@ class UserTest {
         logger.info("^^^^^^^^^^Starting test to insert a user.");
         User newUser = new User("Thor", "Odinson", "Tester7", "test");
         genericDao.insert(newUser);
-        int userId = newUser.getUserId();
+        Integer userId = newUser.getUserId();
         User insertedUser = (User)genericDao.getById(userId);
         assertEquals("Thor", insertedUser.getFirstName());
     }
@@ -119,7 +119,7 @@ class UserTest {
         newUser.addUserRecipes(newUserRecipes);
 
         genericDao.insert(newUser);
-        int userId = newUser.getUserId();
+        Integer userId = newUser.getUserId();
 
         User insertedUser = (User)genericDao.getById(userId);
         assertEquals("Ham", insertedUser.getFirstName());
@@ -134,7 +134,7 @@ class UserTest {
         logger.info("^^^^^^^^^^Starting Test That Saves a new User");
         User saveUser = new User("Black", "Widow", "WidowMaker", "test33");
         genericDao.saveOrUpdate(saveUser);
-        int saveUserId = saveUser.getUserId();
+        Integer saveUserId = saveUser.getUserId();
         User insertedUser = (User) genericDao.getById(saveUserId);
         assertEquals("Black", insertedUser.getFirstName());
         assertEquals("Widow", insertedUser.getLastName());
@@ -145,7 +145,7 @@ class UserTest {
         updateUser.setUserName("CaptMarv33");
         logger.info("^^^^^^^^^^Starting Test That Updates an existing User");
         genericDao.saveOrUpdate(updateUser);
-        int updateUserId = updateUser.getUserId();
+        Integer updateUserId = updateUser.getUserId();
         User updatedUser = (User)genericDao.getById(updateUserId);
         assertEquals("Captain", updatedUser.getFirstName());
         assertEquals("Marvel", updatedUser.getLastName());

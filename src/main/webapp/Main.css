@@ -1,4 +1,17 @@
+body {
+    background-image: url("images/foodBackground.jpg");
+    background-size: 100%;
+}
+
 .btn-group-vertical {
     margin-left: 35%;
     margin-right: 35%;
+}
+
+h1 {
+    color: #158A11;
+}
+
+#results {
+    background-color: blanchedalmond;
 }

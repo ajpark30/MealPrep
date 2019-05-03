@@ -30,3 +30,6 @@
 |3/28/19|Building test classes, trying to get all classes working with generic dao, building database tables(many to many)| 2 | Finally getting tests to work many to many|
 |3/29/19|Building test classes, trying to get all classes working with generic dao, building database tables(many to many)| 2 | All tests finally pass|
 |3/30/19|Deploying project to AWS :( for week 6 work, Working on week 7 security work| 5.5 | Running security role on search page now|
+|5/2/19|I missed a lot of logs to be specific about my work.  In a nut shell I've mainly worked on my database tables and being able to request all the data.  | 10 | |
+| |  |  | |
+

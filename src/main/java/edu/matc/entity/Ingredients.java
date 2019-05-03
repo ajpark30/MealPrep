@@ -11,7 +11,7 @@ public class Ingredients {
     @Id
     @Column(name="ingredientId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int ingredientId;
+    private Integer ingredientId;
 
     @Column(name="ingredientName")
     private String ingredientName;
@@ -20,7 +20,7 @@ public class Ingredients {
     private String ingredientCategory;
 
     @Column(name="price")
-    private int price;
+    private Integer price;
 
     @Column(name="priceMeasurementUnit")
     private String priceMeasurementUnit;
@@ -28,16 +28,16 @@ public class Ingredients {
     @Column(name="brand")
     private String brand;
 
-    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "ingredients")
-    private Set<UserRecipes> userRecipes = new HashSet<UserRecipes>(0);
+//    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "ingredients")
+//    private Set<UserRecipes> userRecipes = new HashSet<UserRecipes>(0);
 
     @ManyToMany(fetch = FetchType.EAGER, mappedBy = "ingredients")
     private Set<GroceryList> groceryLists = new HashSet<GroceryList>(0);
 
     public Ingredients() {}
 
-    public Ingredients (int ingredientId, String ingredientName, String ingredientCategory, int price,
-                            String priceMeasurementUnit, String brand, Set<UserRecipes> userRecipes, Set<GroceryList> groceryLists) {
+    public Ingredients (Integer ingredientId, String ingredientName, String ingredientCategory, Integer price,
+                            String priceMeasurementUnit, String brand, Set<GroceryList> groceryLists) {
 
         this.ingredientId = ingredientId;
         this.ingredientName = ingredientName;
@@ -45,21 +45,20 @@ public class Ingredients {
         this.price = price;
         this.priceMeasurementUnit = priceMeasurementUnit;
         this.brand = brand;
-        this.userRecipes = userRecipes;
         this.groceryLists = groceryLists;
     }
 
     /**
      * @return
      */
-    public int getIngredientId() {
+    public Integer getIngredientId() {
         return ingredientId;
     }
 
     /**
      * @param ingredientId
      */
-    public void setIngredientId(int ingredientId) {
+    public void setIngredientId(Integer ingredientId) {
         this.ingredientId = ingredientId;
     }
 
@@ -94,14 +93,14 @@ public class Ingredients {
     /**
      * @return
      */
-    public int getPrice() {
+    public Integer getPrice() {
         return price;
     }
 
     /**
      * @param price
      */
-    public void setPrice(int price) {
+    public void setPrice(Integer price) {
         this.price = price;
     }
 
@@ -133,19 +132,19 @@ public class Ingredients {
         this.brand = brand;
     }
 
-    /**
-     * @return
-     */
-    public Set<UserRecipes> getUserRecipes() {
-        return userRecipes;
-    }
-
-    /**
-     * @param userRecipes
-     */
-    public void setUserRecipes(Set<UserRecipes> userRecipes) {
-        this.userRecipes = userRecipes;
-    }
+//    /**
+//     * @return
+//     */
+//    public Set<UserRecipes> getUserRecipes() {
+//        return userRecipes;
+//    }
+//
+//    /**
+//     * @param userRecipes
+//     */
+//    public void setUserRecipes(Set<UserRecipes> userRecipes) {
+//        this.userRecipes = userRecipes;
+//    }
 
     /**
      *
@@ -166,14 +165,13 @@ public class Ingredients {
     @Override
     public String toString() {
         return "Ingredients{" +
-                ", ingredientId=" + ingredientId +
-                ", ingredientName=" + ingredientName +
-                ", ingredientCategory=" + ingredientCategory +
-                ", price=" + price +
-                ", priceMeasurementUnit=" + priceMeasurementUnit +
-                ", brand=" + brand +
-                ", userRecipes=" + userRecipes +
-                ", groceryLists=" + groceryLists +
+                "ingredientId = " + ingredientId +
+                ", ingredientName = " + ingredientName +
+                ", ingredientCategory = " + ingredientCategory +
+                ", price = " + price +
+                ", priceMeasurementUnit = " + priceMeasurementUnit +
+                ", brand = " + brand +
+                ", groceryLists = " + groceryLists +
                 "}";
     }
 

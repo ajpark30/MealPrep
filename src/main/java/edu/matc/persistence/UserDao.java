@@ -46,7 +46,7 @@ public class UserDao {
      * @param userId
      * @return user with the matching user id argument
      */
-    public User getUserById(int userId) {
+    public User getUserById(Integer userId) {
 
         logger.info("**********Querying User by ID: " + userId);
 

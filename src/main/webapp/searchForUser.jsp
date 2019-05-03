@@ -9,11 +9,12 @@
 <c:set var="title" value = "Home Page"/>
 <%@include file="header.jsp"%>
 <html>
-<head>
+<head></head>
+<body>
     <div class="container col-md-8 col-md-offset-2">
-        <h1 class="text-center">Search User by Last Name</h1>
         <div class="row">
             <div class="well" id="userWell">
+                <h1 class="text-center">Search User by Last Name</h1>
                 <form class="form-horizontal" action="searchUser">
                     <div class="form-group">
                       <label class="control-label col-sm-5" for="searchTerm">Search User by Last Name</label>
@@ -31,9 +32,9 @@
         </div>
     </div>
     <div class="container col-md-8 col-md-offset-2">
-        <h1 class="text-center">Search for all Users in Database</h1>
         <div class="row">
             <div class="well" id="userWell">
+                <h1 class="text-center">Search for all Users in Database</h1>
                 <form class="form-horizontal" action="searchUser">
                     <div class="form-group">
                         <div class="col-sm-offset-5 col-sm-6">
@@ -44,8 +45,5 @@
             </div>
         </div>
     </div>
-</head>
-<body>
-
 </body>
 </html>

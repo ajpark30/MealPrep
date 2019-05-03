@@ -1,5 +1,6 @@
 package edu.matc.controller;
 
+import edu.matc.entity.Ingredients;
 import edu.matc.entity.User;
 import edu.matc.entity.UserRecipes;
 import edu.matc.persistence.GenericDao;
@@ -15,6 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
+import java.util.Set;
 
 @WebServlet(
         name = "SearchRecipes",
@@ -34,7 +36,11 @@ public class SearchRecipes extends HttpServlet {
             String lastname = req.getParameter("searchTerm");
             List<User> user = genericUserDao.getByLastName(lastname);
             List<UserRecipes> userRecipes = genericRecipeDao.getRecipesByUserId(user.get(0).getUserId());
+            Set<Ingredients> ingredientsList = userRecipes.get(0).getIngredients();
+            logger.info("Recipe Info: " + userRecipes);
+            logger.info("$$$$$$$$$ Working on finding the ingredients: " + ingredientsList);
             req.setAttribute("recipeInfo", userRecipes);
+            req.setAttribute("ingredientsList", ingredientsList);
         }
         if (req.getParameter("submit").equals("viewAll")) {
             req.setAttribute("recipeInfo", genericRecipeDao.getAll());
@@ -44,7 +50,7 @@ public class SearchRecipes extends HttpServlet {
             req.setAttribute("recipeInfo", genericRecipeDao.getRecipesByUserId(id));
         }
 
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/recipeResults.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/searchForRecipeResults.jsp");
         dispatcher.forward(req, resp);
 
     }

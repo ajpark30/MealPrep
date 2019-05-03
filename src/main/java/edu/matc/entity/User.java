@@ -17,7 +17,7 @@ public class User {
     @Id
     @Column(name="user_id")
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private int userId;
+    private Integer userId;
 
     @Column(name = "firstname")
     private String firstName;
@@ -63,7 +63,7 @@ public class User {
      *
      * @return the UserId
      */
-    public int getUserId() {
+    public Integer getUserId() {
         return userId;
     }
 
@@ -72,7 +72,7 @@ public class User {
      *
      * @param userId the id
      */
-    public void setUserId(int userId) {
+    public void setUserId(Integer userId) {
         this.userId = userId;
     }
 
@@ -185,11 +185,11 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "userId='" + userId + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", userName='" + userName + '\'' +
-                ", userPassword='" + userPassword + '\'' +
+                "userId = '" + userId + '\'' +
+                ", firstName = '" + firstName + '\'' +
+                ", lastName = '" + lastName + '\'' +
+                ", userName = '" + userName + '\'' +
+                ", userPassword = '" + userPassword + '\'' +
                 '}';
     }
 

@@ -16,10 +16,19 @@ public class GroceryList {
     @Id
     @Column(name="groceryListId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int groceryListId;
+    private Integer groceryListId;
 
-    @Column(name="groceryListName")
-    private String groceryListName;
+    @Column(name="grocerylistName")
+    private String grocerylistName;
+
+    @Column(name="ingredientId")
+    private Integer ingredientId;
+
+    @Column(name="user_id")
+    private Integer user_id;
+
+    @Column(name="recipe_id")
+    private Integer recipe_id;
 
     @ManyToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
     @JoinTable(name="groceryList_ingredients",
@@ -40,14 +49,17 @@ public class GroceryList {
     /**
      * Constructor that builds a grocery list object
      * @param groceryListId
-     * @param groceryListName
+     * @param grocerylistName
      * @param ingredients
      * @param userRecipes
      * @param users
      */
-    public GroceryList(int groceryListId, String groceryListName, Set<Ingredients> ingredients, Set<UserRecipes> userRecipes, Set<User> users) {
+    public GroceryList(Integer groceryListId, String grocerylistName, Integer ingredientId, Integer user_id, Integer recipe_id, Set<Ingredients> ingredients, Set<UserRecipes> userRecipes, Set<User> users) {
         this.groceryListId = groceryListId;
-        this.groceryListName = groceryListName;
+        this.grocerylistName = grocerylistName;
+        this.ingredientId = ingredientId;
+        this.user_id = user_id;
+        this.recipe_id = recipe_id;
         this.ingredients = ingredients;
         this.userRecipes = userRecipes;
         this.users = users;
@@ -56,30 +68,64 @@ public class GroceryList {
     /**
      * @return
      */
-    public int getGroceryListId() {
+    public Integer getGroceryListId() {
         return groceryListId;
     }
 
     /**
      * @param groceryListId
      */
-    public void setGroceryListId(int groceryListId) {
+    public void setGroceryListId(Integer groceryListId) {
         this.groceryListId = groceryListId;
     }
 
     /**
      * @return
      */
-    public String getGroceryListName() {
-        return groceryListName;
+    public String getGrocerylistName() {
+        return grocerylistName;
     }
 
     /**
-     * @param groceryListName
+     * @param grocerylistName
      */
-    public void setGroceryListName(String groceryListName) {
-        this.groceryListName = groceryListName;
+    public void setGrocerylistName(String grocerylistName) {
+        this.grocerylistName = grocerylistName;
     }
+
+    /**
+     * @return
+     */
+    public Integer getIngredientId(){ return ingredientId;}
+
+    /**
+     *
+     * @param ingredientId
+     */
+    public void setIngredientId(Integer ingredientId) { this.ingredientId = ingredientId; }
+
+    /**
+     * @return
+     */
+    public Integer getUser_id(){ return user_id;}
+
+    /**
+     *
+     * @param user_id
+     */
+    public void setUser_id(Integer user_id) { this.user_id = user_id;}
+
+    /**
+     *
+     * @return
+     */
+    public Integer getRecipe_id() { return recipe_id;}
+
+    /**
+     *
+     * @param recipe_id
+     */
+    public void setRecipe_id(Integer recipe_id) { this.recipe_id = recipe_id;}
 
     /**
      *
@@ -128,11 +174,14 @@ public class GroceryList {
     @Override
     public String toString() {
         return "GroceryLists{" +
-                "groceryListId=" + groceryListId +
-                "groceryListName=" + groceryListName +
-                "ingredients=" + ingredients +
-                "recipeId=" + userRecipes +
-                "userId=" + users +
-                "}";
+                " groceryListId = " + groceryListId +
+                ", grocerylistName = " + grocerylistName +
+                ", ingredientId = " + ingredientId +
+                ", user_id = " + user_id +
+                ", recipe_id = " + recipe_id +
+                ", ingredients = {" + ingredients +
+                "}, userRecipes = {" + userRecipes +
+                "}, user = {" + users +
+                "} }";
     }
 }

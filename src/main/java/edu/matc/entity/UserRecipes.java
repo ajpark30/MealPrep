@@ -165,10 +165,11 @@ public class UserRecipes {
     @Override
     public String toString() {
         return "UserRecipes{" +
-                "recipeId=" + recipeId +
-                ", user=" + user +
-                ", recipeTitle='" + recipeTitle + '\'' +
-                ", dateTimeCreated=" + dateTimeCreated +
+                "recipeId = " + recipeId +
+                ", user = " + user +
+                ", recipeTitle = '" + recipeTitle + '\'' +
+                ", dateTimeCreated = " + dateTimeCreated +
+                ", ingredients = " + ingredients +
                 "}";
     }
 }

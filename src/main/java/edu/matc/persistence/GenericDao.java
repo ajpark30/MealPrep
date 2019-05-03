@@ -1,5 +1,6 @@
 package edu.matc.persistence;
 
+import edu.matc.entity.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.hibernate.Session;
@@ -52,7 +53,7 @@ public class GenericDao<T> {
      * @param id entity ID to search by
      * @return entity
      */
-    public <T> T getById(int id) {
+    public <T> T getById(Integer id) {
 
         logger.info("**********Query database by using an ID: " + id + ", of Type: " + type);
         Session session = getSession();
@@ -142,19 +143,19 @@ public class GenericDao<T> {
 
     /**
      * Gets userRecipes by userRecipes ID from the mealprep database
-     * @param userRecipesId
+     * @param userId
      * @return userRecipes with the matching userRecipes id argument
      */
-    public List<T> getRecipesByUserId(Integer userRecipesId) {
+    public List<T> getRecipesByUserId(Integer userId) {
 
-        logger.info("**********Querying user recipes by ID: " + userRecipesId);
+        logger.info("**********Querying user recipes by ID: " + userId);
 
         Session session = getSession();
         CriteriaBuilder builder = session.getCriteriaBuilder();
         CriteriaQuery<T> query = builder.createQuery(type);
         Root<T> root = query.from(type);
         Expression<Integer> propertyPath = root.get("user");
-        query.where(builder.equal(propertyPath, userRecipesId));
+        query.where(builder.equal(propertyPath, userId));
         List<T> userRecipes = session.createQuery(query).getResultList();
 
         logger.info("**********Query found recipes by ID : " + userRecipes);
@@ -162,6 +163,38 @@ public class GenericDao<T> {
         session.close();
 
         return userRecipes;
+    }
+
+    public List<T> getGrocerylistsByUserId(Integer userId) {
+        logger.info("**********Querying grocery list by user id: " + userId);
+
+        Session session = getSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        Expression<Integer> propertyPath = root.get("user_id");
+        query.where(builder.equal(propertyPath, userId));
+        List<T> grocerylists = session.createQuery(query).getResultList();
+
+        logger.info("*********Query found grocery lists by ID: " + grocerylists);
+        session.close();
+
+        return grocerylists;
+    }
+
+    public List<T> getGrocerylistByItsName(String nameOfGroceryList) {
+        logger.info("**********Querying grocery list by grocery list name: " + nameOfGroceryList);
+
+        Session session = getSession();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        Expression<Integer> propertyPath = root.get("grocerylistName");
+        query.where(builder.equal(propertyPath, nameOfGroceryList));
+        List<T> grocerylists = session.createQuery(query).getResultList();
+        logger.info("**********Query found grocery lists by grocery list name: " + grocerylists);
+
+        return grocerylists;
     }
 
     /**
