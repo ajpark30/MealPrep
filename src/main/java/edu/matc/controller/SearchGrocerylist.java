@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.security.Principal;
 import java.util.List;
 
 @WebServlet(
@@ -39,16 +40,28 @@ public class SearchGrocerylist extends HttpServlet {
             logger.info("Grocery List Object Results from Search by Last Name: " + groceryListsByLastName);
             req.setAttribute("grocerylistInfo", groceryListsByLastName);
         }
+
         if (req.getParameter("submit").equals("viewByGroceryListName")) {
             String groceryListName = req.getParameter("searchGroceryListName");
             List<GroceryList> groceryListsByName = genericGroceryListDao.getGrocerylistByItsName(groceryListName);
             logger.info("Grocery List Object Results from Search by Grocery List Name: " + groceryListsByName);
             req.setAttribute("grocerylistInfo", groceryListsByName);
         }
+
         //This is pulling all grocery lists, I need to scope it to just the user
         if (req.getParameter("submit").equals("viewAll")) {
-            req.setAttribute("grocerylistInfo", genericGroceryListDao.getAll());
+
+            //Get the logged in user name
+            String remoteUser = req.getRemoteUser();
+            logger.info("********** Remote User: " + remoteUser);
+
+            //Get the user_id based of the logged in user name
+            List<User> user = genericUserDao.getByUserName(remoteUser);
+            List<GroceryList> allGroceryListsByUserName = genericGroceryListDao.getGrocerylistsByUserId(user.get(0).getUserId());
+            logger.info("********** Grocery List Object by User Name Results: " + allGroceryListsByUserName);
+            req.setAttribute("grocerylistInfo", allGroceryListsByUserName);
         }
+
         if (req.getParameter("submit").equals("viewByGrocerylistName")) {
             String grocerylistName = req.getParameter("searchTerm");
             req.setAttribute("grocerylistInfo", genericGroceryListDao.getGrocerylistByItsName(grocerylistName));

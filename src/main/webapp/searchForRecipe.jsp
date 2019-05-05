@@ -12,26 +12,44 @@
 <head></head>
 <body>
 <div class="container col-md-8 col-md-offset-2">
-        <div class="row">
-            <div class="well" id="userWell">
-                <h1 class="text-center">Search For Recipes</h1>
-                <form class="form-horizontal" action="searchRecipes">
-                    <div class="form-group">
-                        <label class="control-label col-sm-5" for="searchTerm">Search for Recipe by Last Name</label>
+    <div class="row">
+        <div class="well" id="userWell">
+          <h1 class="text-center">Search For Your Recipes</h1>
+            <form class="form-horizontal" action="searchRecipes">
+                <div class="form-group">
+                    <label class="control-label col-sm-5" for="searchTerm">Search for Recipe by Last Name</label>
                         <div class="col-sm-5">
                             <input type="text" class="form-control" id="searchTerm" name="searchTerm" aria-describedby="searchTermHelp" placeholder="Last Name" required/>
                         </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-5 col-sm-6">
+                        <button type="submit" name="submit" value="searchUserRecipes" class="btn btn-primary">Search</button>
                     </div>
-                    <div class="form-group">
-                        <div class="col-sm-offset-5 col-sm-6">
-                            <button type="submit" name="submit" value="search" class="btn btn-primary">Search</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+                </div>
+            </form>
         </div>
     </div>
-    <div class="container col-md-8 col-md-offset-2">
+
+    <div class="row">
+        <div class="well" id="userWell">
+            <h1 class="text-center">Search For New Recipes</h1>
+            <form class="form-horizontal" action="searchRecipes">
+                <div class="form-group">
+                    <label class="control-label col-sm-5" for="searchTerm">Enter a Recipe Name</label>
+                    <div class="col-sm-5">
+                        <input type="text" class="form-control" id="newRecipeSearch" name="newRecipeSearch" aria-describedby="searchTermHelp" placeholder="New Recipe Search" required/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-5 col-sm-6">
+                        <button type="submit" name="submit" value="newRecipeSearch" class="btn btn-primary">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
         <div class="row">
             <div class="well" id="userWell">
                 <h1 class="text-center">Search for all Recipes</h1>
@@ -44,8 +62,7 @@
                 </form>
             </div>
         </div>
-    </div>
-    <div class="container col-md-8 col-md-offset-2">
+
         <div class="row">
             <div class="well" id="userWell">
                 <h1 class="text-center">Search for Recipes by ID</h1>
@@ -58,7 +75,8 @@
                 </form>
             </div>
         </div>
-    </div>
+
+</div>
 </body>
 </html>
 

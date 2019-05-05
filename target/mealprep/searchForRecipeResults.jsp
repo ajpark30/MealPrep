@@ -14,16 +14,28 @@
     <div class="container">
         <div class="list-group">
             <h2 class="text-center">Results for Recipes</h2>
-            <c:forEach items="${recipeInfo}" var="recipe">
-                <table class="table table-striped">
-                    <tr>
-                        <th>Recipe Name: ${recipe.recipeTitle}</th>
-                    </tr>
-                    <tr id="results">
-                        <td><c:forEach items="${ingredientsList}" var="ingredients">Ingredients: ${ingredients.ingredientName}</c:forEach></td>
-                    </tr>
-                </table>
-            </c:forEach>
+                <c:forEach items="${recipeInfo}" var="recipeList">
+                    <table class="table table-striped">
+                        <tr>
+                            <th>Recipe Name: ${recipeList.recipeTitle}</th>
+                        </tr>
+
+                        <c:forEach items="${ingredientsList}" var="ingredients">
+                        <tr id="results">
+                            <td>Ingredients: ${ingredients}</td>
+                        </tr>
+                        </c:forEach>
+                    </table>
+                </c:forEach>
+
+                <c:forEach items="${newRecipeInfo}" var="newRecipeList">
+                    <table class="table table-striped">
+                        <tr>
+                            <th id="results">Recipe Name: ${newRecipeList}</th>
+                        </tr>
+                    </table>
+                </c:forEach>
+
         </div>
     </div>
 </body>

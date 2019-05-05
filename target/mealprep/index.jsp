@@ -22,6 +22,7 @@
       <a id="searchRecipes" type="button" class="btn btn-warning btn-lg" href="searchForRecipe.jsp"/>Go to Recipe Search Page</a>
       <a id="searchGrocerylist" type="button" class="btn btn-danger btn-lg" href="searchForGrocerylist.jsp"/>Go to Grocery List Search Page</a>
       <a id="searchMenu" type="button" class="btn btn-primary btn-lg" href="searchForMenu.jsp"/>Go to Menu Search Page</a>
+      <a id="logout" type="button" class="btn btn-success btn-lg" href="logout.jsp"/>Log Out</a>
     </div>
   </div>
 </body>

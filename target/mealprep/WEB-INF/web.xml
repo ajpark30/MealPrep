@@ -14,7 +14,7 @@
   <security-constraint>
     <web-resource-collection>
       <web-resource-name>Admin</web-resource-name>
-      <url-pattern>/searchUser.jsp</url-pattern>
+      <url-pattern>/searchForUser.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
       <role-name>AdminMan</role-name>

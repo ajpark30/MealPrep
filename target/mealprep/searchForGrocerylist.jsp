@@ -53,7 +53,7 @@
     <div class="container col-md-8 col-md-offset-2">
         <div class="row">
             <div class="well" id="userWell">
-                <h1 class="text-center">Search for all Grocery Lists</h1>
+                <h1 class="text-center">Search for Logged in Users Grocery Lists</h1>
                 <form class="form-horizontal" action="searchGrocerylist">
                     <div class="form-group">
                         <div class="col-sm-offset-5 col-sm-6">
