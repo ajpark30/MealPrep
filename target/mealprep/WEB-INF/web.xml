@@ -13,10 +13,22 @@
   </login-config>
   <security-constraint>
     <web-resource-collection>
-      <web-resource-name>Admin</web-resource-name>
+      <web-resource-name>General Users and AdminMan</web-resource-name>
+      <url-pattern>/index.jsp</url-pattern>
+      <url-pattern>/addUser.jsp</url-pattern>
+      <url-pattern>/createRecipe.jsp</url-pattern>
+      <url-pattern>/deletedUserResults.jsp</url-pattern>
+      <url-pattern>/logout.jsp</url-pattern>
+      <url-pattern>/searchForGrocerylist.jsp</url-pattern>
+      <url-pattern>/searchForGroceryListResults.jsp</url-pattern>
+      <url-pattern>/searchForMenu.jsp</url-pattern>
+      <url-pattern>/searchForRecipe.jsp</url-pattern>
+      <url-pattern>/searchForRecipeResults.jsp</url-pattern>
       <url-pattern>/searchForUser.jsp</url-pattern>
+      <url-pattern>/searchForUserResults.jsp</url-pattern>
     </web-resource-collection>
     <auth-constraint>
+      <role-name>General</role-name>
       <role-name>AdminMan</role-name>
     </auth-constraint>
   </security-constraint>

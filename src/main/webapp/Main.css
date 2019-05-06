@@ -15,3 +15,18 @@ h1 {
 #results {
     background-color: blanchedalmond;
 }
+
+#login {
+    margin-top: -2%;
+    margin-left: 17%;
+    margin-right: 17%;
+    padding-bottom: .5em;
+    background-color: #dbf9d8;
+    padding-top: 2em;
+}
+
+#loginButton {
+    background-color: #124975;
+    margin-left: 30%;
+    margin-right: 30%;
+}

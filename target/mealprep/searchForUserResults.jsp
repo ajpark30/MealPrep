@@ -9,7 +9,8 @@
 <c:set var="title" value="User Results"/>
 <%@include file="header.jsp"%>
 
-<html><body>
+<html>
+<body>
 
   <div class="container">
     <div class="list-group">
