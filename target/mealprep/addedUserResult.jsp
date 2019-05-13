@@ -12,22 +12,25 @@
 <html>
 <body>
 
-        <div class="container">
-            <h2 class="text-center">Congrats you Added a User</h2>
-                <table class="table table-striped">
-                    <tr>
-                        <td>User Name: ${addedUserName.getUserName()} </td>
-                    </tr>
-                    <tr>
-                        <td>User Id: ${addedUserName.getUserId()}</td>
-                    </tr>
-                    <tr>
-                        <td>Name: ${addedUserName.getFirstName()} ${addedUserName.getLastName()}</td>
-                    </tr>
-                </table>
-            </div>
-        </div>
+<div class="container">
+    <div class="jumbotron">
+        <h2 class="text-center">Congrats you Added a User</h2>
     </div>
+    <div class="list-group">
+        <table class="table" id="results">
+            <tr>
+                <td>User Name: ${addedUserName.getUserName()} </td>
+            </tr>
+            <tr>
+                <td>User Id: ${addedUserName.getUserId()}</td>
+            </tr>
+            <tr>
+                <td>Name: ${addedUserName.getFirstName()} ${addedUserName.getLastName()}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
 
 </body>
 </html>

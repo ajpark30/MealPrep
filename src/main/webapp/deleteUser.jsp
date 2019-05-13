@@ -10,7 +10,12 @@
 <%@include file="header.jsp"%>
 <html>
 <head>
-  <h1 class="text-center">Delete User Page</h1>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="text-center">Delete User Page</h1>
+    </div>
     <br />
     <div class="container col-md-8 col-md-offset-2">
         <div class="row">
@@ -31,8 +36,6 @@
             </div>
         </div>
     </div>
-</head>
-<body>
-
+</div>
 </body>
 </html>

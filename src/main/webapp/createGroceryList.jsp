@@ -39,7 +39,7 @@
             <div class="form-group">
                 <label class="control-label col-sm-5" for="thirdIngredient">Third Ingredient Name</label>
                 <div class="col-sm-5">
-                    <input type="password" class="form-control" id="thirdIngredient" name="thirdIngredient" placeholder="Third Ingredient" required>
+                    <input type="text" class="form-control" id="thirdIngredient" name="thirdIngredient" placeholder="Third Ingredient" required>
                 </div>
             </div>
             <div class="form-group">

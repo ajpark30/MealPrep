@@ -2,11 +2,9 @@ package edu.matc.controller;
 
 import edu.matc.entity.GroceryList;
 import edu.matc.entity.User;
-import edu.matc.entity.UserRecipes;
 import edu.matc.persistence.GenericDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import edu.matc.persistence.UserDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -15,7 +13,6 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import java.security.Principal;
 import java.util.List;
 
 @WebServlet(
@@ -48,16 +45,17 @@ public class SearchGrocerylist extends HttpServlet {
             req.setAttribute("grocerylistInfo", groceryListsByName);
         }
 
-        //This is pulling all grocery lists, I need to scope it to just the user
+        //Pulling grocery lists for the user that is logged in
         if (req.getParameter("submit").equals("viewAll")) {
 
             //Get the logged in user name
             String remoteUser = req.getRemoteUser();
-            logger.info("********** Remote User: " + remoteUser);
+            logger.info("********** Grabbing User Name to get all the users Grocery Lists: " + remoteUser);
 
             //Get the user_id based of the logged in user name
             List<User> user = genericUserDao.getByUserName(remoteUser);
             List<GroceryList> allGroceryListsByUserName = genericGroceryListDao.getGrocerylistsByUserId(user.get(0).getUserId());
+
             logger.info("********** Grocery List Object by User Name Results: " + allGroceryListsByUserName);
             req.setAttribute("grocerylistInfo", allGroceryListsByUserName);
         }

@@ -13,10 +13,12 @@
 <body>
 
   <div class="container">
+      <div class="jumbotron">
+          <h2 class="text-center">Results for all Users</h2>
+      </div>
     <div class="list-group">
-      <h2 class="text-center">Results for all Users</h2>
           <c:forEach items="${userInfo}" var="user">
-              <table class="table table-striped">
+              <table class="table" id="results">
                   <tr>
                       <th>Employee ID: ${user.userId}</th>
                   </tr>
@@ -28,6 +30,14 @@
                   </tr>
               </table>
           </c:forEach>
+        <c:if test="${empty userInfo}">
+            <div class="well" id="errorResults">
+                <h2>Could Not Find User With Last Name: ${errorName}</h2>
+            </div>
+            <div class="btn-group-vertical">
+            <a id="searchUser" type="button" class="btn btn-primary btn-lg" href="searchForUser.jsp"/>Go Back Search User Page</a>
+            </div>
+        </c:if>
     </div>
   </div>
 

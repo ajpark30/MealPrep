@@ -1,9 +1,9 @@
 package edu.matc.controller;
 
 import edu.matc.entity.User;
+import edu.matc.persistence.GenericDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import edu.matc.persistence.UserDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -31,12 +31,15 @@ public class DeleteUserPage extends HttpServlet{
 
         if (req.getParameter("submitDelete").equals("submitDelete")) {
 
-            UserDao userDao = new UserDao();
-
-            User userToDelete = userDao.getUserById(Integer.parseInt(req.getParameter("userId")));
-
-            logger.info("User ID requested to delete: " + userToDelete);
-            req.setAttribute("deletedUserName", userDao.delete(userToDelete));
+            GenericDao<User> userGenericDao = new GenericDao(User.class);
+            User userToDelete = userGenericDao.getById(Integer.parseInt(req.getParameter("userId")));
+            if(userToDelete != null) {
+                userGenericDao.delete(userToDelete);
+                logger.info("User ID requested to delete: " + userToDelete);
+                req.setAttribute("deletedUserName", userToDelete.getUserName());
+            } else {
+                req.setAttribute("errorId", req.getParameter("userId"));
+            }
         }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/deletedUserResult.jsp");

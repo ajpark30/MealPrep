@@ -52,24 +52,11 @@
 
         <div class="row">
             <div class="well" id="userWell">
-                <h1 class="text-center">Search for all Recipes</h1>
+                <h1 class="text-center">Search for all My Recipes</h1>
                 <form class="form-horizontal" action="searchRecipes">
                     <div class="form-group">
                         <div class="col-sm-offset-5 col-sm-6">
                             <button type="submit" name="submit" value="viewAll" class="btn btn-success">View All Users</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="well" id="userWell">
-                <h1 class="text-center">Search for Recipes by ID</h1>
-                <form class="form-horizontal" action="searchRecipes">
-                    <div class="form-group">
-                        <div class="col-sm-offset-5 col-sm-6">
-                            <button type="submit" name="submit" value="viewById" class="btn btn-success">Search</button>
                         </div>
                     </div>
                 </form>

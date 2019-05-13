@@ -15,7 +15,9 @@
 </head>
 <body>
 <c:set var="userName" value="${userName}"/>
-    <h1>Successfully Logged Out ${userName} $userName</h1>
+    <div class="well" id="results">
+        <h1>Successfully Logged Out ${userName} $userName</h1>
+    </div>
 </body>
 </html>
 

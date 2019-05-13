@@ -14,6 +14,10 @@
     <title>Title</title>
 </head>
 <body>
-
+    <div class="container">
+        <div class="well" id="results">
+            <h2>Hey ${userName}, you have added a new grocery list named: ${groceryListName}</h2>
+        </div>
+    </div>
 </body>
 </html>

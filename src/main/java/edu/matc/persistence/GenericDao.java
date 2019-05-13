@@ -64,6 +64,49 @@ public class GenericDao<T> {
         return entity;
     }
 
+    /**
+     *
+     * @param exactName
+     * @return
+     */
+    public T getByExactName(String exactName) {
+        logger.info("**********Querying Exact Name: " + exactName);
+
+        Session session = getSession();
+        session.clear();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        Expression<String> propertyPath = root.get("ingredientName");
+        query.where(builder.equal(propertyPath, exactName));
+        T foundObject = session.createQuery(query).getSingleResult();
+        logger.info("**********Query Found Object by Exact Name: " + foundObject);
+        session.close();
+
+        return foundObject;
+    }
+
+    /**
+     *
+     * @param approximateName
+     * @return
+     */
+    public T getByApproximateName(String columnName, String approximateName) {
+        logger.info("**********Querying Approximate Name: " + approximateName);
+
+        Session session = getSession();
+        session.clear();
+        CriteriaBuilder builder = session.getCriteriaBuilder();
+        CriteriaQuery<T> query = builder.createQuery(type);
+        Root<T> root = query.from(type);
+        Expression<String> propertyPath = root.get(columnName);
+        query.where(builder.like(propertyPath, "%" + approximateName + "%"));
+        T foundObject = session.createQuery(query).getSingleResult();
+        logger.info("**********Query Found Object by Approximate Name: " + foundObject);
+        session.close();
+        return foundObject;
+    }
+
     public List<T> getByUserName(String userName) {
 
         logger.info("**********Query database using the User Name: " + userName);
@@ -75,6 +118,7 @@ public class GenericDao<T> {
         query.where(builder.like(propertyPath, "%" + userName + "%"));
         List<T> list = session.createQuery(query).getResultList();
         logger.info("Found User Name: " + list);
+        session.close();
         return list;
     }
 
@@ -108,6 +152,7 @@ public class GenericDao<T> {
     public <T> T saveOrUpdate(T entity) {
 
         logger.info("**********Attempting to Save|Update a Entity to the Database: " + entity);
+
         Session session = getSession();
         Transaction transaction = session.beginTransaction();
         session.saveOrUpdate(entity);
@@ -137,6 +182,8 @@ public class GenericDao<T> {
         return entity;
     }
 
+
+
     /**
      * Deletes the entity
      *
@@ -145,14 +192,19 @@ public class GenericDao<T> {
      */
     public void delete(T entity) {
 
-        logger.info("**********Attempting to delete: " + entity);
-        Session session = getSession();
-        Transaction transaction = session.beginTransaction();
-        session.delete(entity);
-        logger.info("**********Successfully deleted: " + entity);
-
-        transaction.commit();
-        session.close();
+        try {
+            logger.info("**********Attempting to delete: " + entity);
+            Session session = getSession();
+            Transaction transaction = session.beginTransaction();
+            session.delete(entity);
+            logger.info("**********Successfully deleted: " + entity);
+            transaction.commit();
+            session.close();
+        }catch (IllegalArgumentException i) {
+            logger.error("**********Error while trying to delete entity: " + entity + " - " + i);
+        }catch (Exception e) {
+            logger.error("**********Error while trying to delete entity: " + entity + " - " + e);
+        }
     }
 
     /**
@@ -171,9 +223,7 @@ public class GenericDao<T> {
         Expression<Integer> propertyPath = root.get("user");
         query.where(builder.equal(propertyPath, userId));
         List<T> userRecipes = session.createQuery(query).getResultList();
-
         logger.info("**********Query found recipes by ID : " + userRecipes);
-
         session.close();
 
         return userRecipes;
@@ -189,13 +239,17 @@ public class GenericDao<T> {
         Expression<Integer> propertyPath = root.get("user_id");
         query.where(builder.equal(propertyPath, userId));
         List<T> grocerylists = session.createQuery(query).getResultList();
-
         logger.info("*********Query found grocery lists by ID: " + grocerylists);
         session.close();
 
         return grocerylists;
     }
 
+    /**
+     *
+     * @param nameOfGroceryList
+     * @return
+     */
     public List<T> getGrocerylistByItsName(String nameOfGroceryList) {
         logger.info("**********Querying grocery list by grocery list name: " + nameOfGroceryList);
 
@@ -207,9 +261,11 @@ public class GenericDao<T> {
         query.where(builder.equal(propertyPath, nameOfGroceryList));
         List<T> grocerylists = session.createQuery(query).getResultList();
         logger.info("**********Query found grocery lists by grocery list name: " + grocerylists);
+        session.close();
 
         return grocerylists;
     }
+
 
     /**
      * Returns an open session from the Session Factory

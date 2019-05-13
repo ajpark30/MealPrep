@@ -4,7 +4,6 @@ import edu.matc.entity.User;
 import edu.matc.persistence.GenericDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import edu.matc.persistence.UserDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -35,6 +34,7 @@ public class SearchUserPage extends HttpServlet {
 
         if (req.getParameter("submit").equals("search")) {
             req.setAttribute("userInfo", genericDao.getByLastName(req.getParameter("searchTerm")));
+            req.setAttribute("errorName", req.getParameter("searchTerm"));
         }
         if (req.getParameter("submit").equals("viewAll")) {
             req.setAttribute("userInfo", genericDao.getAll());

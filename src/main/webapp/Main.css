@@ -12,8 +12,16 @@ h1 {
     color: #158A11;
 }
 
+#headerResults {
+    background-color: aliceblue;
+ }
+
 #results {
     background-color: blanchedalmond;
+}
+#errorResults{
+    color: white;
+    background-color: #f75739;
 }
 
 #login {

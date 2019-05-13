@@ -12,12 +12,14 @@
 <html>
 <body>
     <div class="container">
-        <div class="list-group">
+        <div class="jumbotron">
             <h2 class="text-center">Results for Recipes</h2>
+        </div>
+        <div class="list-group">
                 <c:forEach items="${recipeInfo}" var="recipeList">
                     <table class="table table-striped">
                         <tr>
-                            <th>Recipe Name: ${recipeList.recipeTitle}</th>
+                            <th id="results">Recipe Name: ${recipeList.recipeTitle}</th>
                         </tr>
 
                         <c:forEach items="${ingredientsList}" var="ingredients">

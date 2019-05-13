@@ -22,11 +22,11 @@
       <a id="searchRecipes" type="button" class="btn btn-warning btn-lg" href="searchForRecipe.jsp"/>Go to Recipe Search Page</a>
       <a id="createRecipe" type="button" class="btn btn-danger btn-lg" href="createRecipe.jsp"/>Go to Create Recipe Page</a>
       <a id="searchGrocerylist" type="button" class="btn btn-primary btn-lg" href="searchForGrocerylist.jsp"/>Go to Grocery List Search Page</a>
-      <a id="createGroceryList" type="button" class="btn btn-success btn-lg" href="createGrocerylist.jsp"/>Go to Create Grocery List Page</a>
+      <a id="createGroceryList" type="button" class="btn btn-success btn-lg" href="createGroceryList.jsp"/>Go to Create Grocery List Page</a>
       <a id="searchMenu" type="button" class="btn btn-info btn-lg" href="searchForMenu.jsp"/>Go to Menu Search Page</a>
       <a id="createMenu" type="button" class="btn btn-warning btn-lg" href="createMenu.jsp"/>Go to Create Menu Page</a>
       <form action="logout">
-        <button type="submit" name="submit" value="submit" class="btn btn-danger">Log Out</button>
+        <button type="submit" name="submit" value="submit" class="btn btn-danger btn-lg">Log Out</button>
       </form>
     </div>
   </div>

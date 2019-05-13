@@ -20,7 +20,7 @@ public class Ingredients {
     private String ingredientCategory;
 
     @Column(name="price")
-    private Integer price;
+    private Double price;
 
     @Column(name="priceMeasurementUnit")
     private String priceMeasurementUnit;
@@ -28,24 +28,36 @@ public class Ingredients {
     @Column(name="brand")
     private String brand;
 
-//    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "ingredients")
-//    private Set<UserRecipes> userRecipes = new HashSet<UserRecipes>(0);
+    @ManyToMany(fetch=FetchType.EAGER, cascade=CascadeType.MERGE)
+    @JoinTable(name="groceryList_ingredients",
+            joinColumns = { @JoinColumn(name="ingredientId")},
+            inverseJoinColumns = {@JoinColumn(name="groceryListId")})
+    private Set<GroceryList> groceryList = new HashSet<GroceryList>();
 
-    @ManyToMany(fetch = FetchType.EAGER, mappedBy = "ingredients")
-    private Set<GroceryList> groceryLists = new HashSet<GroceryList>(0);
+    @ManyToMany(fetch=FetchType.EAGER, cascade=CascadeType.ALL)
+    @JoinTable(name="userRecipes_ingredients",
+            joinColumns = { @JoinColumn(name="ingredientId")},
+            inverseJoinColumns = {@JoinColumn(name="recipeId")})
+    private Set<UserRecipes> userRecipes = new HashSet<UserRecipes>(0);
 
     public Ingredients() {}
 
-    public Ingredients (Integer ingredientId, String ingredientName, String ingredientCategory, Integer price,
-                            String priceMeasurementUnit, String brand, Set<GroceryList> groceryLists) {
+    /**
+     *
+     * @param ingredientName
+     * @param ingredientCategory
+     * @param price
+     * @param priceMeasurementUnit
+     * @param brand
+     */
+    public Ingredients (String ingredientName, String ingredientCategory, Double price,
+                            String priceMeasurementUnit, String brand) {
 
-        this.ingredientId = ingredientId;
         this.ingredientName = ingredientName;
         this.ingredientCategory = ingredientCategory;
         this.price = price;
         this.priceMeasurementUnit = priceMeasurementUnit;
         this.brand = brand;
-        this.groceryLists = groceryLists;
     }
 
     /**
@@ -93,14 +105,14 @@ public class Ingredients {
     /**
      * @return
      */
-    public Integer getPrice() {
+    public Double getPrice() {
         return price;
     }
 
     /**
      * @param price
      */
-    public void setPrice(Integer price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 
@@ -132,35 +144,29 @@ public class Ingredients {
         this.brand = brand;
     }
 
-//    /**
-//     * @return
-//     */
-//    public Set<UserRecipes> getUserRecipes() {
-//        return userRecipes;
-//    }
-//
-//    /**
-//     * @param userRecipes
-//     */
-//    public void setUserRecipes(Set<UserRecipes> userRecipes) {
-//        this.userRecipes = userRecipes;
-//    }
+    /**
+     *
+     * @return
+     */
+    public Set<GroceryList> getGroceryList() {return groceryList;}
+
+    /**
+     *
+     * @param groceryList
+     */
+    public void setGroceryList(Set<GroceryList> groceryList) { this.groceryList = groceryList;}
 
     /**
      *
      * @return
      */
-    public Set<GroceryList> getGroceryLists() {
-        return groceryLists;
-    }
+    public Set<UserRecipes> getUserRecipes() { return userRecipes;}
 
     /**
      *
-     * @param groceryLists
+     * @param userRecipes
      */
-    public void setGroceryLists(Set<GroceryList> groceryLists) {
-        this.groceryLists = groceryLists;
-    }
+    public void setUserRecipes(Set<UserRecipes> userRecipes) { this.userRecipes = userRecipes; }
 
     @Override
     public String toString() {
@@ -171,7 +177,6 @@ public class Ingredients {
                 ", price = " + price +
                 ", priceMeasurementUnit = " + priceMeasurementUnit +
                 ", brand = " + brand +
-                ", groceryLists = " + groceryLists +
                 "}";
     }
 

@@ -32,4 +32,11 @@
       <role-name>AdminMan</role-name>
     </auth-constraint>
   </security-constraint>
+
+  <security-role>
+      <role-name>General</role-name>
+  </security-role>
+  <security-role>
+    <role-name>AdminMan</role-name>
+  </security-role>
 </web-app>

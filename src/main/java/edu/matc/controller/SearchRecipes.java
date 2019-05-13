@@ -8,7 +8,6 @@ import edu.matc.persistence.GenericDao;
 import edu.matc.yummly.recipes.Criteria;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import edu.matc.persistence.UserDao;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -80,7 +79,9 @@ public class SearchRecipes extends HttpServlet {
 
         if (req.getParameter("submit").equals("viewAll")) {
 
-            List<UserRecipes> userRecipesList = genericRecipeDao.getAll();
+            String remoteUser = req.getRemoteUser();
+            List<User> user = genericUserDao.getByUserName(remoteUser);
+            List<UserRecipes> userRecipesList = genericRecipeDao.getRecipesByUserId(user.get(0).getUserId());
             Set<Ingredients> ingredientsSet = userRecipesList.get(0).getIngredients();
 
             List<String> ingredientsList = new ArrayList<>();
@@ -93,11 +94,6 @@ public class SearchRecipes extends HttpServlet {
 
             req.setAttribute("recipeInfo", userRecipesList);
             req.setAttribute("ingredientsList", ingredientsList);
-        }
-
-        if (req.getParameter("submit").equals("viewById")) {
-            Integer id = Integer.parseInt(req.getParameter("searchTerm"));
-            req.setAttribute("recipeInfo", genericRecipeDao.getRecipesByUserId(id));
         }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/searchForRecipeResults.jsp");

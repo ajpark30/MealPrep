@@ -17,9 +17,9 @@
     <div class="container col-md-8" id="login">
         <form class="form-horizontal" action="createRecipe">
             <div class="form-group">
-                <label class="control-label col-sm-5" for="firstName">Recipe Name</label>
+                <label class="control-label col-sm-5" for="recipeName">Recipe Name</label>
                 <div class="col-sm-5">
-                    <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter Recipe Name" required>
+                    <input type="text" class="form-control" id="recipeName" name="recipeName" placeholder="Enter Recipe Name" required>
                 </div>
             </div>
             <div class="form-group">
