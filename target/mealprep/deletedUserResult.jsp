@@ -18,15 +18,15 @@
       </div>
     <c:if test="${!empty deletedUserName}">
       <div class="list-group">
-          <table class="table" id="errorResults">
+          <table class="table" id="results">
             <tr>
               <td>User Name: ${deletedUserName}</td>
             </tr>
           </table>
       </div>
     </c:if>
-    <c:if test="${empty deleteUserName}">
-        <div class="well" id="results">
+    <c:if test="${!empty errorId}">
+        <div class="well" id="errorResults">
             <h2>Could Not Find User With ID: ${errorId}</h2>
             <h2>No User was deleted</h2>
         </div>

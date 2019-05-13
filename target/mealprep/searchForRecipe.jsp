@@ -33,7 +33,7 @@
 
     <div class="row">
         <div class="well" id="userWell">
-            <h1 class="text-center">Search For New Recipes</h1>
+            <h1 class="text-center">Search For New Recipes </h1>
             <form class="form-horizontal" action="searchRecipes">
                 <div class="form-group">
                     <label class="control-label col-sm-5" for="searchTerm">Enter a Recipe Name</label>

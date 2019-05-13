@@ -8,6 +8,7 @@ import edu.matc.persistence.GenericDao;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import javax.persistence.NoResultException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -55,27 +56,41 @@ public class CreateGroceryList extends HttpServlet {
             String secondInputIngredient = req.getParameter("secondIngredient");
             String thirdInputIngredient = req.getParameter("thirdIngredient");
 
+            req.setAttribute("ingredient", firstInputIngredient);
+            req.setAttribute("ingredient1", secondInputIngredient);
+            req.setAttribute("ingredient2", thirdInputIngredient);
+
             //Create sets for grocery list object.
             Set<UserRecipes> userRecipesSet = new HashSet<UserRecipes>();
             Set<Ingredients> ingredientsSet = new HashSet<Ingredients>();
             Set<User> usersSet = new HashSet<User>();
 
-            ingredientsSet.add(ingredientsGenericDao.getByExactName(firstInputIngredient));
-            ingredientsSet.add(ingredientsGenericDao.getByExactName(secondInputIngredient));
-            ingredientsSet.add(ingredientsGenericDao.getByExactName(thirdInputIngredient));
+            try {
+                Ingredients ingredients = ingredientsGenericDao.getByExactName(firstInputIngredient);
+                Ingredients ingredients1 = ingredientsGenericDao.getByExactName(secondInputIngredient);
+                Ingredients ingredients2 = ingredientsGenericDao.getByExactName(thirdInputIngredient);
 
-            logger.info("**********Adding ingredients " + firstInputIngredient + ", " + secondInputIngredient + ", "
-                        + thirdInputIngredient + " to the new/updated grocery list: " + req.getParameter("groceryListName"));
+                if(!ingredients.getIngredientName().isEmpty() && !ingredients1.getIngredientName().isEmpty() && !ingredients2.getIngredientName().isEmpty()) {
+                    ingredientsSet.add(ingredients);
+                    ingredientsSet.add(ingredients1);
+                    ingredientsSet.add(ingredients2);
 
-            //Grab a user and add a new grocery list to the database under their user id
-            GroceryList groceryList = new GroceryList(req.getParameter("groceryListName"), userId, ingredientsSet, userRecipesSet, usersSet);
-            logger.info("**********Saving/Updating a Grocerylist: " + groceryList + "----- For User: " + user);
-            groceryListGenericDao.saveOrUpdate(groceryList);
+                    logger.info("**********Adding ingredients " + firstInputIngredient + ", " + secondInputIngredient + ", "
+                            + thirdInputIngredient + " to the new/updated grocery list: " + req.getParameter("groceryListName"));
 
-            logger.info("**********Grocery list with added Ingredient: " + groceryList);
+                    //Grab a user and add a new grocery list to the database under their user id
+                    GroceryList groceryList = new GroceryList(req.getParameter("groceryListName"), userId, ingredientsSet, userRecipesSet, usersSet);
+                    logger.info("**********Saving/Updating a Grocerylist: " + groceryList + "----- For User: " + user);
+                    groceryListGenericDao.saveOrUpdate(groceryList);
 
-            req.setAttribute("userName", user.get(0).getFirstName());
-            req.setAttribute("groceryListName", groceryList.getGrocerylistName());
+                    logger.info("**********Grocery list with added Ingredient: " + groceryList);
+
+                    req.setAttribute("userName", user.get(0).getFirstName());
+                    req.setAttribute("groceryListName", groceryList.getGrocerylistName());
+                }
+            } catch (NoResultException n) {
+                logger.error("Error looking for ingredients: " + n);
+            }
         }
 
         RequestDispatcher dispatcher = req.getRequestDispatcher("/createGroceryListConfirmation.jsp");

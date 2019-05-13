@@ -33,7 +33,7 @@ public class DeleteUserPage extends HttpServlet{
 
             GenericDao<User> userGenericDao = new GenericDao(User.class);
             User userToDelete = userGenericDao.getById(Integer.parseInt(req.getParameter("userId")));
-            if(userToDelete != null) {
+            if(!userToDelete.getUserName().isEmpty()) {
                 userGenericDao.delete(userToDelete);
                 logger.info("User ID requested to delete: " + userToDelete);
                 req.setAttribute("deletedUserName", userToDelete.getUserName());
